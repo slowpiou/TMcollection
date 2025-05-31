@@ -15,6 +15,7 @@ const GAMES = [
 			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
 		},
 		support: 'PC',
+		own: true
 	},
 	{
 		ean: '9332985000241',
@@ -43,7 +44,6 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1NytbRdBn0BoQ3v2Y9SZvrXRKInwAX7In=w200',
 				'https://lh3.googleusercontent.com/d/1NytbRdBn0BoQ3v2Y9SZvrXRKInwAX7In=w200',
 			],
 			alt: 'PC Turbo False Common 3307215913499 Australia',
