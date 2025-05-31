@@ -1,31 +1,45 @@
 <template>
 	<div class="container my-5">
-		<div class="columns is-multiline">
+		<div class="columns is-multiline is-justify-content-center">
 			<template v-for="(c, i) in countries" :key="i">
-				<div class="column is-1 m-1 country-flag" :style="{ 'background-image': `url(${c.flag})` }">
+				<div class="column is-1 m-1 country-flag" :style="{ 'background-image': `url(${c.flag})` }" @click="filterGamesByCountry(c.name)">
 					<div class="country-name">{{ c.name }}</div>
 				</div>
 			</template>
 		</div>
 	</div>
-	<div class="container">
-		<div class="columns is-multiline is-align-items-center">
-			<template v-for="(g, j) in games" :key="j">
-				<div class="column is-2">
-					<figure class="image is-2by3">
-						<img :src="g.image.src" :alt="g.image.alt" />
-					</figure>
-				</div>
-				<div class="column is-4">
-					<h3 class="title is-size-5">{{ g.title }}</h3>
-					<ul class="has-text-white p-3">
-						<li><strong>Publisher:</strong> {{ g.publisher }}</li>
-						<li><strong>Country:</strong> {{ g.country }}</li>
-						<li><strong>EAN:</strong> {{ g.ean }}</li>
-						<li><strong>Bigbox:</strong> {{ g.bigbox }}</li>
-						<li><strong>Rarity:</strong> {{ g.rarity }}</li>
-						<li><strong>Platform:</strong> {{ g.support }}</li>
-					</ul>
+	<br />
+	<div class="container mt-5">
+		<div class="columns is-multiline">
+			<template v-for="(g, j) in filteredGames" :key="j">
+				<div class="column is-6 is-flex is-flex-direction-column is-justify-content-space-between">
+					<div class="columns">
+						<div class="column is-4">
+							<Carousel items-to-show="1">
+								<Slide v-for="image in g.image.src" :key="image.id">
+									<figure class="image">
+										<img :src="image" :alt="g.image.alt" />
+									</figure>
+								</Slide>
+
+								<template #addons>
+									<Navigation />
+								</template>
+							</Carousel>
+						</div>
+						<div class="column is-8">
+							<h3 class="title is-size-5">{{ g.title }}</h3>
+							<ul class="has-text-white p-3">
+								<li><strong>Publisher:</strong> {{ g.publisher }}</li>
+								<li><strong>Country:</strong> {{ g.country }}</li>
+								<li><strong>EAN:</strong> {{ g.ean }}</li>
+								<li><strong>Bigbox:</strong> {{ g.bigbox }}</li>
+								<li><strong>Rarity:</strong> {{ g.rarity }}</li>
+								<li><strong>Platform:</strong> {{ g.support }}</li>
+							</ul>
+						</div>
+					</div>
+					<hr />
 				</div>
 			</template>
 		</div>
@@ -36,13 +50,23 @@
 import COUNTRIES from '@/countries.js';
 import GAMES from '@/games.js';
 
+import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
+	props: ['searchGame'],
+	components: { Carousel, Slide, Navigation },
 	data() {
 		return {
 			countries: COUNTRIES,
 			games: GAMES,
+			filteredGames: GAMES,
+			itemsToShow: 1,
 		};
+	},
+	methods: {
+		filterGamesByCountry(c) {
+			this.filteredGames = this.games.filter((g) => g.country === c);
+		},
 	},
 };
 </script>
