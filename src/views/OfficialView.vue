@@ -65,7 +65,7 @@ export default {
 	},
 	methods: {
 		filterGamesByCountry(c) {
-			this.filteredGames = this.games.filter((g) => g.country === c);
+			this.filteredGames = this.games.filter((g) => g.country.includes(c));
 		},
 	},
 };
