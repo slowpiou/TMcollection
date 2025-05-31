@@ -15,7 +15,7 @@
 				<div class="column is-6 is-flex is-flex-direction-column is-justify-content-space-between">
 					<div class="columns">
 						<div class="column is-4">
-							<Carousel items-to-show="1">
+							<Carousel :items-to-show="itemsToShow">
 								<Slide v-for="image in g.image.src" :key="image.id">
 									<figure class="image">
 										<img :src="image" :alt="g.image.alt" />
