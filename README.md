@@ -1,3 +1,5 @@
 # tmcollection
 
-coucou pouet
+npm i
+
+npm run serve
