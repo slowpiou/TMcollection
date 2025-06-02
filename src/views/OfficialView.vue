@@ -47,8 +47,13 @@
 					<hr />
 				</div>
 			</template>
-			<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
 		</div>
+		<section class="hero" v-if="gamesPaginated.length === 0">
+			<div class="hero-body">
+				<p class="title">Nothing to show here :(</p>
+			</div>
+		</section>
+		<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
 	</div>
 </template>
 
@@ -157,5 +162,12 @@ export default {
 }
 ul {
 	list-style: inside;
+}
+.hero {
+	border: 2px solid #dddddd;
+	border-radius: 10px;
+	text-align: center;
+	font-style: italic;
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 10px 2px inset;
 }
 </style>
