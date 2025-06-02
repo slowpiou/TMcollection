@@ -14,7 +14,6 @@
 				<div class="is-flex">
 					<RouterLink to="/" class="navbar-item">Official</RouterLink>
 					<RouterLink to="/goodies" class="navbar-item">Goodies</RouterLink>
-					<RouterLink to="/owned" class="navbar-item">Owned</RouterLink>
 					<RouterLink to="/demos" class="navbar-item">Demos</RouterLink>
 				</div>
 				<h1 class="py-3 has-text-white title is-size-4 mb-0">TMCollection</h1>
