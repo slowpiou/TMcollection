@@ -193,8 +193,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1grsTXLXzTZNMLWZDxZ8GIBem1OKuDzdq=w200',
-				'https://lh3.googleusercontent.com/d/1sFSLn8DyaAW_TqMl8DaXSzv0M1Ks2qnF=w200',
+				require('@/assets/games/6936a710-ebfa-418d-b902-a99243b2ff17.webp'),
+				require('@/assets/games/6936a710-ebfa-418d-b902-a99243b2ff17_1.webp'),
 			],
 			alt: 'PC United Forever own Very rare 9771983800093 Brazil',
 		},
@@ -211,8 +211,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1rd8jEe8t-d7Eo6xVUpZ4gaY9rWC2UCpA=w200',
-				'https://lh3.googleusercontent.com/d/10VEsTQE36IeRgUITwqclWhdiEXuHoZrV=w200',
+				require('@/assets/games/2477f0a7-29a5-4cee-bc32-c700e3ee5aab.webp'),
+				require('@/assets/games/2477f0a7-29a5-4cee-bc32-c700e3ee5aab_1.webp'),
 			],
 			alt: 'PC United Full Games own Very rare 9777108110696 Brazil',
 		},
@@ -2784,8 +2784,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1WlTeoeev5MJ2EHy2yve5qsrMVBGfyym-=w200',
-				'https://lh3.googleusercontent.com/d/1LgGeBynA8775jaj_nTemNH5oP5PG1W6B=w200',
+				require('@/assets/games/467108ca-3f93-48d8-b271-258cd13de5a3.webp'),
+				require('@/assets/games/467108ca-3f93-48d8-b271-258cd13de5a3_1.webp'),
 			],
 			alt: 'PS4 Turbo Common False 0887256107475 Brazil',
 		},
