@@ -18,8 +18,7 @@
 										<Navigation />
 									</template>
 								</Carousel>
-								<span class="owned" v-if="g.own"></span>
-								<span class="owned not" v-else></span>
+								<owned-or-not :owned="g.own"></owned-or-not>
 							</div>
 						</div>
 						<div class="column is-8">
@@ -49,12 +48,13 @@ import GAMES from '@/games.js';
 import GameModal from '@/components/GameModal.vue';
 import ItemFilter from '@/components/ItemFilter.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
+import OwnedOrNot from '@/components/OwnedOrNot.vue';
 
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
 	props: ['modelValue'],
-	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero },
+	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
 	data() {
 		return {
 			countries: COUNTRIES,
@@ -108,17 +108,5 @@ export default {
 <style scoped>
 ul {
 	list-style: inside;
-}
-.owned {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-bottom: 30px solid green;
-}
-.owned.not {
-	border-bottom: 30px solid red;
 }
 </style>
