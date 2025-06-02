@@ -27,8 +27,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1eZZ7WiqanKKAG1cAxB-GqKCb8FQrH4QA=w200',
-				'https://lh3.googleusercontent.com/d/19KelDsoldicGiBA-PutMfUomeuUYANMA=w200',
+				require('@/assets/games/5580dad1-e6fc-42e2-b799-0eea1acff594.webp'),
+				require('@/assets/games/5580dad1-e6fc-42e2-b799-0eea1acff594_1.webp'),
 			],
 			alt: 'PC Sunrise Big Box BigBox own Very rare 9332985000241 Australia',
 		},
@@ -44,7 +44,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: ['https://lh3.googleusercontent.com/d/1NytbRdBn0BoQ3v2Y9SZvrXRKInwAX7In=w200'],
+			src: [require('@/assets/games/07fcf058-f296-45d1-a0ba-2a83527aca4b.webp')],
 			alt: 'PC Turbo False Common 3307215913499 Australia',
 		},
 		support: 'PC',
@@ -59,8 +59,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1-WYOiqrME6r_in1ZYkIMQGycVbu8DRwT=w200',
-				'https://lh3.googleusercontent.com/d/1EypDtSUDL9JumYftGd8d4LMMitpESxa3=w200',
+				require('@/assets/games/1e63e11c-88ed-4510-bca3-f4f6ad425a07.webp'),
+				require('@/assets/games/1e63e11c-88ed-4510-bca3-f4f6ad425a07_1.webp'),
 			],
 			alt: 'PC Press Kit False Gem Australia',
 		},
@@ -75,10 +75,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/14DYMRCxxJa3-R4GUjd7XFjSfFuG6fe-R=w200',
-				'https://lh3.googleusercontent.com/d/14DYMRCxxJa3-R4GUjd7XFjSfFuG6fe-R=w200',
-			],
+			src: [require('@/assets/games/6ec6fdbd-1cd5-498e-abb5-01f2b67a07c0.webp')],
 			alt: 'PC Press Kit False Gem Australia',
 		},
 		support: 'PC',
@@ -92,10 +89,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1_lmK5d2JyQGp4xsOkC1k9sAhepxshIS1=w200',
-				'https://lh3.googleusercontent.com/d/1_lmK5d2JyQGp4xsOkC1k9sAhepxshIS1=w200',
-			],
+			src: [require('@/assets/games/45f1a0dc-042a-4e9e-9d73-00865b7e0a5a.webp')],
 			alt: 'Wii False Common 3512289017343 Australia',
 		},
 		support: 'Wii',
@@ -109,10 +103,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1hxn7f6yaGJJYJpk6uw4YMnMqlUFv4GB4=w200',
-				'https://lh3.googleusercontent.com/d/1hxn7f6yaGJJYJpk6uw4YMnMqlUFv4GB4=w200',
-			],
+			src: [require('@/assets/games/ffca7593-270b-4e71-bffa-28e98df05b74.webp')],
 			alt: 'PS4 VR False Common 3307215913642 Australia',
 		},
 		support: 'PS4',
@@ -126,10 +117,7 @@ const GAMES = [
 		bigbox: 'Yes',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1fikdpfnhvQKcbI5hwgvYSzymiTUdh3ad=w200',
-				'https://lh3.googleusercontent.com/d/1fikdpfnhvQKcbI5hwgvYSzymiTUdh3ad=w200',
-			],
+			src: [require('@/assets/games/11298a94-5b0f-4dfc-92f2-14fc5695c803.webp')],
 			alt: 'PC Sunrise Extreme Big Box BigBox False Very rare 9332985000241 Australia',
 		},
 		support: 'PC',
@@ -144,8 +132,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1lvJjceXAXHjJ3aXd0KNPiy37qPMPGUHK=w200',
-				'https://lh3.googleusercontent.com/d/1Xtz_RTcP_RATmadB-BHUJJotiHL-xRBt=w200',
+				require('@/assets/games/f727cfa4-2091-4f2f-a7a1-4a929ab19725.webp'),
+				require('@/assets/games/f727cfa4-2091-4f2f-a7a1-4a929ab19725_1.webp'),
 			],
 			alt: 'PC United Big Box BigBox False Very rare 3512289012249 Australia',
 		},
@@ -161,8 +149,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1AZhMW3V0OmV1XH8bbkN_IhCY4LC8vgkF=w200',
-				'https://lh3.googleusercontent.com/d/1YHgzcEzw4vohl1-QYO5dJPuwdWSadLAQ=w200',
+				require('@/assets/games/923a637a-79f3-4bf2-a060-eb4baebcd54f.webp'),
+				require('@/assets/games/923a637a-79f3-4bf2-a060-eb4baebcd54f_1.webp'),
 			],
 			alt: 'PC Original Big Box BigBox False Very rare xx Australia',
 		},
@@ -710,8 +698,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1XNMfmjiOWsozVZ6jQAYITAba07kxv0EB=w200',
-				'https://lh3.googleusercontent.com/d/1FRNn2Ai-8-pPCQFeDECfQDKDcSEOo4kF=w200',
+				require('@/assets/games/7ed67039-4384-4284-b39b-8ea43d35061d.webp'),
+				require('@/assets/games/7ed67039-4384-4284-b39b-8ea43d35061d_1.webp'),
 			],
 			alt: 'PC Big Box BigBox own Rare 3512289008044 Australia',
 		},
@@ -2626,8 +2614,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/10S0PEJMBe85sYCwIjc1WiBfgDXi_gmXJ=w200',
-				'https://lh3.googleusercontent.com/d/18ERldBENQowE6VKIEp_VurPKLE2hCrma=w200',
+				require('@/assets/games/6e9e8487-6315-49de-abb6-0b398b8deabe.webp'),
+				require('@/assets/games/6e9e8487-6315-49de-abb6-0b398b8deabe_1.webp'),
 			],
 			alt: 'PC Original Replay own Common 9332985005369 Australia',
 		},
@@ -2644,8 +2632,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1qSUMAp9i635ya3QULy8EOMRuvwT4ZiZu=w200',
-				'https://lh3.googleusercontent.com/d/1QoeIDdBmZqXx7tCLyC4nDgvlHk03jNTQ=w200',
+				require('@/assets/games/fdfb7012-a0fa-4a67-8537-e1a0977ffdf7.webp'),
+				require('@/assets/games/fdfb7012-a0fa-4a67-8537-e1a0977ffdf7_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 3307215913642 Australia',
 		},
@@ -3174,8 +3162,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1sIYbgyidJkTspc6hTBOqRCAIEXZEgMlk=w200',
-				'https://lh3.googleusercontent.com/d/1M4iLigWKaXO7AiPSSLqvKQchmmCMOrva=w200',
+				require('@/assets/games/5a68b00c-0369-4bc6-b321-c2159fccd55c.webp'),
+				require('@/assets/games/5a68b00c-0369-4bc6-b321-c2159fccd55c_1.webp'),
 			],
 			alt: 'PC Common Own 9332985005215 Australia',
 		},
@@ -3192,8 +3180,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1Ow29ZzVPTHKh6jf4ZTqCAF90GwXOumNg=w200',
-				'https://lh3.googleusercontent.com/d/1W81SPo9IoOqC2xt6NL1AZo14_qXUqWhP=w200',
+				require('@/assets/games/70455154-09ab-4d26-a5ff-a43d45b7d434.webp'),
+				require('@/assets/games/70455154-09ab-4d26-a5ff-a43d45b7d434_1.webp'),
 			],
 			alt: 'PC United Forever Big Box BigBox Gem own 3512289014922 Australia',
 		},
@@ -3209,10 +3197,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1nhUmqAcGzDrPTYkUUvwS9mDBeX43x1-A=w200',
-				'https://lh3.googleusercontent.com/d/1nhUmqAcGzDrPTYkUUvwS9mDBeX43x1-A=w200',
-			],
+			src: [require('@/assets/games/80e1f41c-d191-4520-90cc-5c196167e338.webp')],
 			alt: 'DS Common False 3512289015479 Australia',
 		},
 		support: 'DS',
@@ -3226,10 +3211,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/12hkap78krDoqG-WoA30e69VlKum2u3LE=w200',
-				'https://lh3.googleusercontent.com/d/12hkap78krDoqG-WoA30e69VlKum2u3LE=w200',
-			],
+			src: [require('@/assets/games/468a98ba-0975-4b0a-b3ce-8607cba96221.webp')],
 			alt: 'DS Turbo Very Rare False 3512289017336 Australia',
 		},
 		support: 'DS',
@@ -3569,10 +3551,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1Hej-z4mnxys3NSTbjIdepQ0dZX_F4YoX=w200',
-				'https://lh3.googleusercontent.com/d/1Hej-z4mnxys3NSTbjIdepQ0dZX_F4YoX=w200',
-			],
+			src: [require('@/assets/games/3f19eec5-ee3c-4409-b42b-1497835b9c26.webp')],
 			alt: 'PC Rare False 3512289008044 Australia',
 		},
 		support: 'PC',
