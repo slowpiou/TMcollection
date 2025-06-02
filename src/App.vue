@@ -16,7 +16,10 @@
 					<RouterLink to="/goodies" class="navbar-item">Goodies</RouterLink>
 					<RouterLink to="/demos" class="navbar-item">Demos</RouterLink>
 				</div>
-				<h1 class="py-3 has-text-white title is-size-4 mb-0">TMCollection</h1>
+				<div class="content mb-0">
+					<h1 class="pt-3 title is-size-4 mb-0">TM Collection</h1>
+					<p class="is-italic is-size-7 has-text-right">by SUPERCOBY</p>
+				</div>
 				<div class="is-flex is-align-self-center">
 					<div class="control has-icons-left mr-3" v-if="$route.name === 'home'">
 						<input class="input" type="text" placeholder="Search game" v-model="searchGame" id="search-game" />
@@ -65,6 +68,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 #app {
 	font-family: Poppins, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
