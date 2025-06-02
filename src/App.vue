@@ -20,7 +20,7 @@
 				<h1 class="py-3 has-text-white title is-size-4 mb-0">TMCollection</h1>
 				<div class="is-flex is-align-self-center">
 					<div class="control has-icons-left mr-3" v-if="$route.name === 'home'">
-						<input class="input" type="text" placeholder="Search game" v-model="searchGame" />
+						<input class="input" type="text" placeholder="Search game" v-model="searchGame" id="search-game" />
 						<span class="icon is-small is-left">
 							<i class="fas fa-search"></i>
 						</span>
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 		</nav>
-		<RouterView :searchGame="searchGame" />
+		<RouterView v-model="searchGame" />
 	</div>
 </template>
 

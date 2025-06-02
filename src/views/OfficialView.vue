@@ -60,7 +60,7 @@ import GameModal from '@/components/GameModal.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
-	props: ['searchGame'],
+	props: ['modelValue'],
 	components: { Carousel, Slide, Navigation, GameModal },
 	data() {
 		return {
@@ -77,7 +77,17 @@ export default {
 	},
 	computed: {
 		gamesPaginated() {
-			return this.filteredGames.slice(0, this.currentPage * this.perPage);
+			return this.filteredGames
+				.filter(
+					(g) =>
+						g.title.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.publisher.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.country.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.ean.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.bigbox.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.rarity.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase())
+				)
+				.slice(0, this.currentPage * this.perPage);
 		},
 	},
 	methods: {
