@@ -1,19 +1,5 @@
 <template>
-	<div class="container my-5">
-		<div class="columns is-multiline is-justify-content-center">
-			<template v-for="(c, i) in countries" :key="i">
-				<div
-					class="column is-1 m-1 country-flag"
-					:style="{ 'background-image': `url(${c.flag})` }"
-					@click="filterGamesByCountry(c.name, $event)"
-					:class="selectedCountry === c.name ? 'active' : ''"
-				>
-					<div class="country-name">{{ c.name }}</div>
-				</div>
-			</template>
-		</div>
-	</div>
-	<br />
+	<item-filter :items="countries" @filteredByItem="filterGamesByCountry"></item-filter>
 	<div class="container mt-5">
 		<div class="columns is-multiline">
 			<template v-for="(g, j) in gamesPaginated" :key="j">
@@ -48,11 +34,7 @@
 				</div>
 			</template>
 		</div>
-		<section class="hero" v-if="gamesPaginated.length === 0">
-			<div class="hero-body">
-				<p class="title">Nothing to show here :(</p>
-			</div>
-		</section>
+		<empty-hero v-if="gamesPaginated.length === 0"></empty-hero>
 		<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
 	</div>
 </template>
@@ -61,19 +43,20 @@
 import COUNTRIES from '@/countries.js';
 import GAMES from '@/games.js';
 import GameModal from '@/components/GameModal.vue';
+import ItemFilter from '@/components/ItemFilter.vue';
+import EmptyHero from '@/components/EmptyHero.vue';
 
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
 	props: ['modelValue'],
-	components: { Carousel, Slide, Navigation, GameModal },
+	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero },
 	data() {
 		return {
 			countries: COUNTRIES,
 			games: GAMES,
 			filteredGames: GAMES,
 			itemsToShow: 1,
-			selectedCountry: '',
 			showGameModal: false,
 			gameModalContent: null,
 			currentPage: 1,
@@ -97,13 +80,7 @@ export default {
 	},
 	methods: {
 		filterGamesByCountry(c) {
-			if (this.selectedCountry === c) {
-				this.selectedCountry = '';
-				this.filteredGames = this.games;
-			} else {
-				this.selectedCountry = c;
-				this.filteredGames = this.games.filter((g) => g.country.includes(c));
-			}
+			this.filteredGames = c !== '' ? this.games.filter((g) => g.country.includes(c)) : this.games;
 		},
 		openGameModal(g) {
 			this.gameModalContent = g;
@@ -112,10 +89,6 @@ export default {
 		handleScroll() {
 			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
 				this.currentPage++;
-
-				if (this.gamesPaginated.length >= this.filteredGames.length) {
-					window.removeEventListener('scroll', this.handleScroll);
-				}
 			}
 		},
 	},
@@ -129,45 +102,7 @@ export default {
 </script>
 
 <style scoped>
-.country-flag {
-	height: 50px;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 5px;
-	position: relative;
-	cursor: pointer;
-}
-.country-name {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	font-weight: bold;
-	visibility: hidden;
-}
-.country-flag:hover .country-name,
-.country-flag.active .country-name {
-	background-color: rgba(0, 0, 0, 0.5);
-	visibility: visible;
-	transition: all 0.3s;
-}
 ul {
 	list-style: inside;
-}
-.hero {
-	border: 2px solid #dddddd;
-	border-radius: 10px;
-	text-align: center;
-	font-style: italic;
-	box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 10px 2px inset;
 }
 </style>

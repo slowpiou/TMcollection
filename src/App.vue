@@ -117,4 +117,35 @@ nav a {
 	cursor: default !important;
 	opacity: 0 !important;
 }
+.country-flag {
+	height: 50px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+}
+.country-name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-weight: bold;
+	visibility: hidden;
+}
+.country-flag:hover .country-name,
+.country-flag.active .country-name {
+	background-color: rgba(0, 0, 0, 0.5);
+	visibility: visible;
+	transition: all 0.3s;
+}
 </style>

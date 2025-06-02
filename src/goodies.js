@@ -1,15 +1,67 @@
 const GOODIES = [
-    {
-        title: "Basic Example",
-        image: {
-            src: [
-                'https://lh3.googleusercontent.com/d/1pDJ9IwOkoUJfAhCLSmVWJ4IYEFEvyrDZ=w200',
-                'https://lh3.googleusercontent.com/d/1HP4fBCGBC4pwKemfkaCnZduEJKbG6MSW=w200',
-            ],
-            alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
-        },
-        own: true
-    }
-]
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'Basic Example',
+		image: {
+			src: ['https://picsum.photos/400/300?random=1', 'https://picsum.photos/400/300?random=2'],
+			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+];
 
 export default GOODIES;
