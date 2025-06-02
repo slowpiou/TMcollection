@@ -33,6 +33,7 @@ const GAMES = [
 			alt: 'PC Sunrise Big Box BigBox own Very rare 9332985000241 Australia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913499',
@@ -183,6 +184,7 @@ const GAMES = [
 			alt: 'PC own Gem 00050915-01 Austria',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '9771983800093',
@@ -200,6 +202,7 @@ const GAMES = [
 			alt: 'PC United Forever own Very rare 9771983800093 Brazil',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '9777108110696',
@@ -217,6 +220,7 @@ const GAMES = [
 			alt: 'PC United Full Games own Very rare 9777108110696 Brazil',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '--',
@@ -234,6 +238,7 @@ const GAMES = [
 			alt: 'PC BigRezo Nations Games own Gem -- France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: 'Demo',
@@ -251,6 +256,7 @@ const GAMES = [
 			alt: 'PC Sunrise Opel Demo own Gem France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289011549',
@@ -268,6 +274,7 @@ const GAMES = [
 			alt: 'PC Sunrise + ESWC Games Big Box BigBox own Very Rare 3512289011549 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289011532',
@@ -285,6 +292,7 @@ const GAMES = [
 			alt: 'PC TMO + ESWC Games Big Box BigBox own Very Rare 3512289011532 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '---',
@@ -302,6 +310,7 @@ const GAMES = [
 			alt: 'PC United Big Box BigBox own Gem own Taiwan',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289011556',
@@ -319,6 +328,7 @@ const GAMES = [
 			alt: 'PC Nations ESWC own Very Rare 3512289011556 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082994(1)',
@@ -336,6 +346,7 @@ const GAMES = [
 			alt: 'PC United Big Box BigBox Gem own 4020628082994 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5999545971584',
@@ -353,6 +364,7 @@ const GAMES = [
 			alt: 'PC Power Up! Very Rare own 5999545971584 Hungary',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5998237105931',
@@ -370,6 +382,7 @@ const GAMES = [
 			alt: 'PC United Very Rare own 5998237105931 Hungary',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5998237106914',
@@ -387,6 +400,7 @@ const GAMES = [
 			alt: 'PC United Forever Very Rare own 5998237106914 Hungary',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5998237106730',
@@ -404,6 +418,7 @@ const GAMES = [
 			alt: 'PC United SZÁZ SZÁZALÉK SOROZAT Very Rare own 5998237106730 Hungary',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4582174810150',
@@ -421,6 +436,7 @@ const GAMES = [
 			alt: 'PC Original Very Rare own 4582174810150 Japan',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4582174810143',
@@ -438,6 +454,7 @@ const GAMES = [
 			alt: 'PC Sunrise Very Rare own 4582174810143 Japan',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '8717278827629',
@@ -489,6 +506,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme own Very Rare 8717278828299 Netherlands',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289010504',
@@ -506,6 +524,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Very Rare own 3512289010504 Netherlands',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289010160',
@@ -523,6 +542,7 @@ const GAMES = [
 			alt: 'PC Sunrise Very Rare own 3512289010160 Netherlands',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289011198',
@@ -540,6 +560,7 @@ const GAMES = [
 			alt: 'PC United Very Rare own 3512289011198 Netherlands',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289014946',
@@ -557,6 +578,7 @@ const GAMES = [
 			alt: 'PC United Forever Very Rare own 3512289014946 Portugal',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '7350002300619',
@@ -574,6 +596,7 @@ const GAMES = [
 			alt: 'PC Power Up! Nordic Very Rare own 7350002300619 Sweden',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4711182570187',
@@ -591,6 +614,7 @@ const GAMES = [
 			alt: 'PC Sunrise Big Box BigBox own Gem 4711182570187 Taiwan',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '----',
@@ -605,6 +629,7 @@ const GAMES = [
 			alt: 'PC own Gem ---- Taiwan',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628500269',
@@ -622,6 +647,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme own Very Rare 4020628500269 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012232',
@@ -639,6 +665,7 @@ const GAMES = [
 			alt: 'PC United own Very Rare 3512289012232 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4820072779569',
@@ -656,6 +683,7 @@ const GAMES = [
 			alt: 'PC United Byka own Gem 4820072779569 Ukraine',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4820072770573',
@@ -673,6 +701,7 @@ const GAMES = [
 			alt: 'PC Sunrise Byka Jewel Case own Very Rare 4820072770573 Ukraine',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289008044(1)',
@@ -690,6 +719,7 @@ const GAMES = [
 			alt: 'PC Big Box BigBox own Rare 3512289008044 Australia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289013710',
@@ -707,6 +737,7 @@ const GAMES = [
 			alt: 'PC United Friends Edition own Rare 3512289013710 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289014175',
@@ -724,6 +755,7 @@ const GAMES = [
 			alt: 'PC United Forever Limited Edition own Common 3512289014175 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289014175',
@@ -741,6 +773,7 @@ const GAMES = [
 			alt: 'PC United Forever Limited Edition own Common 3512289014175 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017015',
@@ -758,6 +791,7 @@ const GAMES = [
 			alt: 'Wii Wheel own Rare 3512289017015 France',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '4020628081195',
@@ -775,6 +809,7 @@ const GAMES = [
 			alt: 'PC Limited Edition own Rare 4020628081195 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082826',
@@ -792,6 +827,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Big Box BigBox own Rare 4020628082826 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082833',
@@ -809,6 +845,7 @@ const GAMES = [
 			alt: 'PC Nations ESWC own Rare 4020628082833 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082994(2)',
@@ -826,6 +863,7 @@ const GAMES = [
 			alt: 'PC United own Rare 4020628082994 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628086848',
@@ -843,6 +881,7 @@ const GAMES = [
 			alt: 'PC United Forever own Rare 4020628086848 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4012160452021',
@@ -860,6 +899,7 @@ const GAMES = [
 			alt: 'PC Turbo own Rare 4012160452021 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628080181(1)',
@@ -877,6 +917,7 @@ const GAMES = [
 			alt: 'PC own Rare 4020628080181 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082130',
@@ -894,6 +935,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Big Box BigBox own Rare 4020628082130 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082413',
@@ -911,6 +953,7 @@ const GAMES = [
 			alt: 'PC Nations ESWC own Rare 4020628082413 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628082956',
@@ -928,6 +971,7 @@ const GAMES = [
 			alt: 'PC United Big Box BigBox own Rare 4020628082956 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628084677',
@@ -945,6 +989,7 @@ const GAMES = [
 			alt: 'PC United Forever own Rare 4020628084677 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017947',
@@ -962,6 +1007,7 @@ const GAMES = [
 			alt: 'DS Turbo own Rare 3512289017947 Italy',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289015509',
@@ -979,6 +1025,7 @@ const GAMES = [
 			alt: 'DS own Rare 3512289015509 Netherlands',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '5907780502647',
@@ -996,6 +1043,7 @@ const GAMES = [
 			alt: 'PC Power Up ! Big Box BigBox own Rare 5907780502647 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5907577271459',
@@ -1013,6 +1061,7 @@ const GAMES = [
 			alt: 'PC United Kubica Big Box BigBox own Rare 5907577271459 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5907577272586',
@@ -1030,6 +1079,7 @@ const GAMES = [
 			alt: 'PC United Big Box BigBox own Rare 5907577272586 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4600974002015',
@@ -1047,6 +1097,7 @@ const GAMES = [
 			alt: 'PC Jewel Case Buka own Rare 4600974002015 Russia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3700046239057',
@@ -1064,6 +1115,7 @@ const GAMES = [
 			alt: 'PC own Rare 3700046239057 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012386',
@@ -1081,6 +1133,7 @@ const GAMES = [
 			alt: 'PC United own Rare 3512289012386 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017138',
@@ -1098,6 +1151,7 @@ const GAMES = [
 			alt: 'DS Turbo own Rare 3512289017138 Spain',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289012126',
@@ -1115,6 +1169,7 @@ const GAMES = [
 			alt: 'PC United own Rare 3512289012126 Sweden',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289014953',
@@ -1132,6 +1187,7 @@ const GAMES = [
 			alt: 'PC United Forever own Rare 3512289014953 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '0646662101381',
@@ -1149,6 +1205,7 @@ const GAMES = [
 			alt: 'PC Sunrise Big Box BigBox own Rare 0646662101381 USA',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: 'XboxPromo',
@@ -1166,6 +1223,7 @@ const GAMES = [
 			alt: 'Xbox Promotional Disc Turbo own Rare XboxPromo International',
 		},
 		support: 'Xbox',
+		own: true,
 	},
 	{
 		ean: 'Y03G0009',
@@ -1180,6 +1238,7 @@ const GAMES = [
 			alt: 'PC Nations ESWC own Rare Y03G0009 International',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: 'PS4Promo',
@@ -1194,6 +1253,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Rare PS4Promo International',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3512289007573',
@@ -1211,6 +1271,7 @@ const GAMES = [
 			alt: 'PC own Common 3512289007573 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289008723',
@@ -1228,6 +1289,7 @@ const GAMES = [
 			alt: 'PC Power Up ! own Common 3512289008723 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289009430',
@@ -1245,6 +1307,7 @@ const GAMES = [
 			alt: 'PC Original own Common 3512289009430 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289008624',
@@ -1262,6 +1325,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 3512289008624 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289010450',
@@ -1279,6 +1343,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme own Common 3512289010450 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289011181',
@@ -1296,6 +1361,7 @@ const GAMES = [
 			alt: 'PC United own Common 3512289011181 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289016629',
@@ -1313,6 +1379,7 @@ const GAMES = [
 			alt: 'PC United Forever own Common 3512289016629 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289016957',
@@ -1330,6 +1397,7 @@ const GAMES = [
 			alt: 'DS Turbo own Common 3512289016957 France',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289014618',
@@ -1347,6 +1415,7 @@ const GAMES = [
 			alt: 'DS own Common 3512289014618 France',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3307215913697(1)',
@@ -1364,6 +1433,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913697 France',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3307215913697(2)',
@@ -1381,6 +1451,7 @@ const GAMES = [
 			alt: 'PS4 Turbo VR own Common 3307215913697 France',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3307215913826',
@@ -1398,6 +1469,7 @@ const GAMES = [
 			alt: 'Xbox Turbo own Common 3307215913826 France',
 		},
 		support: 'Xbox',
+		own: true,
 	},
 	{
 		ean: '3512289016834',
@@ -1415,6 +1487,7 @@ const GAMES = [
 			alt: 'Wii own Common 3512289016834 France',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: 'Missing1',
@@ -1432,6 +1505,7 @@ const GAMES = [
 			alt: 'PC Turbo own Common  France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012980',
@@ -1449,6 +1523,7 @@ const GAMES = [
 			alt: 'PC Original Collection Arcade own Common 3512289012980 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289015271',
@@ -1466,6 +1541,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Collection Arcade own Common 3512289015271 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289015646',
@@ -1483,6 +1559,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Collection Arcade own Common 3512289015646 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012010(1)',
@@ -1500,6 +1577,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Collection Arcade own Common 3512289012010 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012010(2)',
@@ -1517,6 +1595,7 @@ const GAMES = [
 			alt: 'PC Sunrise Collection Arcade own Common 3512289012010 France',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307216263876',
@@ -1534,6 +1613,7 @@ const GAMES = [
 			alt: 'PS4 Turbo + Trials Rising Big Box BigBox PS4 own Common 3307216263876 France Switzerland',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '4020628000530(1)',
@@ -1551,6 +1631,7 @@ const GAMES = [
 			alt: 'PC own Common 4020628000530 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628000530(2)',
@@ -1568,6 +1649,7 @@ const GAMES = [
 			alt: 'PC own Common Big Box BigBox 4020628000530 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628087418',
@@ -1585,6 +1667,7 @@ const GAMES = [
 			alt: 'PC Extreme own Common 4020628087418 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628080242(1)',
@@ -1602,6 +1685,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628080242(2)',
@@ -1619,6 +1703,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628080242(3)',
@@ -1636,6 +1721,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628088095',
@@ -1653,6 +1739,7 @@ const GAMES = [
 			alt: 'PC United Forever own Common 4020628088095 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020636108730',
@@ -1670,6 +1757,7 @@ const GAMES = [
 			alt: 'PC Solid Games own Common 4020636108730 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020636230028',
@@ -1687,6 +1775,7 @@ const GAMES = [
 			alt: 'PC Magic Games own Common 4020636230028 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628084660',
@@ -1704,6 +1793,7 @@ const GAMES = [
 			alt: 'PC United Forever own Common 4020628084660 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017718',
@@ -1721,6 +1811,7 @@ const GAMES = [
 			alt: 'Wii own Common 3512289017718 Germany',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '3307215913833',
@@ -1738,6 +1829,7 @@ const GAMES = [
 			alt: 'Xbox Turbo own Common 3307215913833 Germany',
 		},
 		support: 'Xbox',
+		own: true,
 	},
 	{
 		ean: '3512289015516',
@@ -1755,6 +1847,7 @@ const GAMES = [
 			alt: 'DS own Common 3512289015516 Germany',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289017930',
@@ -1772,6 +1865,7 @@ const GAMES = [
 			alt: 'DS Turbo own Common 3512289017930 Germany',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3307215913703(1)',
@@ -1789,6 +1883,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913703 Germany',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3307215913703(2)',
@@ -1806,6 +1901,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913703 Germany',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3512289010672',
@@ -1823,6 +1919,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 3512289010672 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913758(1)',
@@ -1840,6 +1937,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913758 Spain',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3307215913758(2)',
@@ -1857,6 +1955,7 @@ const GAMES = [
 			alt: 'PS4 VR Turbo own Common 3307215913758 Spain',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '8423817602526',
@@ -1874,6 +1973,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme own Common 8423817602526 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '8436010151975',
@@ -1891,6 +1991,7 @@ const GAMES = [
 			alt: 'PC Original Fx own Common 8436010151975 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '8436010151456',
@@ -1908,6 +2009,7 @@ const GAMES = [
 			alt: 'PC Original Fx own Common 8436010151456 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '8436010151852',
@@ -1925,6 +2027,7 @@ const GAMES = [
 			alt: 'PC United Forever Fx own Common 8436010151852 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913611',
@@ -1942,6 +2045,7 @@ const GAMES = [
 			alt: 'PC Turbo own Common 3307215913611 Spain',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289015486',
@@ -1959,6 +2063,7 @@ const GAMES = [
 			alt: 'DS own Common 3512289015486 Spain',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289015462',
@@ -1976,6 +2081,7 @@ const GAMES = [
 			alt: 'DS own Common 3512289015462 Italy',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '4020628080181',
@@ -1993,6 +2099,7 @@ const GAMES = [
 			alt: 'PC own Common 4020628080181 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4020628080235',
@@ -2010,6 +2117,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 4020628080235 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913581',
@@ -2027,6 +2135,7 @@ const GAMES = [
 			alt: 'PC Turbo own Common 3307215913581 Italy',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913857',
@@ -2044,6 +2153,7 @@ const GAMES = [
 			alt: 'Xbox Turbo own Common 3307215913857 Italy',
 		},
 		support: 'Xbox',
+		own: true,
 	},
 	{
 		ean: '3307215913727(1)',
@@ -2061,6 +2171,7 @@ const GAMES = [
 			alt: 'PS4 Turbo VR own Common 3307215913727 Italy',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3307215913727(2)',
@@ -2078,6 +2189,7 @@ const GAMES = [
 			alt: 'PS4 Turbo VR own Common 3307215913727 Italy',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '5060074850104',
@@ -2095,6 +2207,7 @@ const GAMES = [
 			alt: 'PC Power Up! own Common 5060074850104 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5060074850012',
@@ -2112,6 +2225,7 @@ const GAMES = [
 			alt: 'PC own Common 5060074850012 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289012096',
@@ -2129,6 +2243,7 @@ const GAMES = [
 			alt: 'PC United own Common 3512289012096 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5060074850227',
@@ -2146,6 +2261,7 @@ const GAMES = [
 			alt: 'PC Sunrise own Common 5060074850227 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5017783026290',
@@ -2163,6 +2279,7 @@ const GAMES = [
 			alt: 'PC Original XPLOSIV own Common 5017783026290 UK',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017152',
@@ -2180,6 +2297,7 @@ const GAMES = [
 			alt: 'Wii own Common 3512289017152 UK',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '3512289015493',
@@ -2197,6 +2315,7 @@ const GAMES = [
 			alt: 'DS own Common 3512289015493 UK',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289017169',
@@ -2214,6 +2333,7 @@ const GAMES = [
 			alt: 'DS Turbo own Common 3512289017169 UK',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '5907577270056',
@@ -2231,6 +2351,7 @@ const GAMES = [
 			alt: 'PC Sunrise Big Box BigBox own Common 5907577270056 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5907577271398',
@@ -2282,6 +2403,7 @@ const GAMES = [
 			alt: 'PC Nations own Common ISSN1640307X Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '7351344879924 / 7350021968999',
@@ -2299,6 +2421,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Medallion own Common 7351344879924 7350021968999 Sweden',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289017206',
@@ -2316,6 +2439,7 @@ const GAMES = [
 			alt: 'Wii own Common 3512289017206 Spain',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '5907577272982',
@@ -2367,6 +2491,7 @@ const GAMES = [
 			alt: 'PC Sunrise Pomaranczowa Seria own Common 5907577272975 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5907577272968',
@@ -2384,6 +2509,7 @@ const GAMES = [
 			alt: 'PC Original Pomaranczowa Seria own Common 5907577272968 Poland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5390102494148',
@@ -2401,6 +2527,7 @@ const GAMES = [
 			alt: 'PC Original Hits Collection silver own Common 5390102494148 Ireland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '5390102504441',
@@ -2418,6 +2545,7 @@ const GAMES = [
 			alt: 'PC Original Hits Collection Red own Common 5390102494148 Ireland',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '0646662101411',
@@ -2435,6 +2563,7 @@ const GAMES = [
 			alt: 'PC Sunrise Jewel Case own Common 0646662101411 USA',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '0887256015817',
@@ -2452,6 +2581,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 0887256015817 USA',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '0897749002989',
@@ -2469,6 +2599,7 @@ const GAMES = [
 			alt: 'DS Turbo own Common 0897749002989 USA',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '3512289017701',
@@ -2486,6 +2617,7 @@ const GAMES = [
 			alt: 'Wii Turbo own Common 3512289017701 Italy',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '9332985005369',
@@ -2503,6 +2635,7 @@ const GAMES = [
 			alt: 'PC Original Replay own Common 9332985005369 Australia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913642',
@@ -2520,6 +2653,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913642 Australia',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '3512289017091',
@@ -2537,6 +2671,7 @@ const GAMES = [
 			alt: 'Wii own Common 3512289017091 Netherlands',
 		},
 		support: 'Wii',
+		own: true,
 	},
 	{
 		ean: '3007215913796',
@@ -2554,6 +2689,7 @@ const GAMES = [
 			alt: 'Xbox Turbo own Common 3007215913796 Netherlands',
 		},
 		support: 'Xbox',
+		own: true,
 	},
 	{
 		ean: '3307215913666',
@@ -2571,6 +2707,7 @@ const GAMES = [
 			alt: 'PS4 Turbo own Common 3307215913666 Netherlands',
 		},
 		support: 'PS4',
+		own: true,
 	},
 	{
 		ean: '9787900027429',
@@ -2945,6 +3082,7 @@ const GAMES = [
 			alt: 'PC Jewel Case Gem own Ukraine',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '',
@@ -2996,6 +3134,7 @@ const GAMES = [
 			alt: 'DS Very Common Own 730865400256 USA',
 		},
 		support: 'DS',
+		own: true,
 	},
 	{
 		ean: '0646662101282',
@@ -3047,6 +3186,7 @@ const GAMES = [
 			alt: 'PC Common Own 9332985005215 Australia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289014922',
@@ -3064,6 +3204,7 @@ const GAMES = [
 			alt: 'PC United Forever Big Box BigBox Gem own 3512289014922 Australia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3512289015479',
@@ -3336,6 +3477,7 @@ const GAMES = [
 			alt: 'PC Sunrise Jewel Case 4600974002992 Common own Russia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4600974005924(1)',
@@ -3353,6 +3495,7 @@ const GAMES = [
 			alt: 'PC United Jewel Case 4600974005924 Rare own Russia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4600974010874',
@@ -3370,6 +3513,7 @@ const GAMES = [
 			alt: 'PC United Forever Jewel Case 4600974010874 Rare own Russia',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '4600974005924(2)',
@@ -3455,6 +3599,7 @@ const GAMES = [
 			alt: 'PC Original Extended Version Rare Own 4020628081812 Germany',
 		},
 		support: 'PC',
+		own: true,
 	},
 	{
 		ean: '3307215913734',
@@ -3472,6 +3617,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Rare Own 3307215913734 Poland',
 		},
 		support: 'PS4',
+		own: true,
 	},
 ];
 

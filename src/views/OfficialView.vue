@@ -6,17 +6,21 @@
 				<div class="column is-6 is-flex is-flex-direction-column is-justify-content-space-between">
 					<div class="columns">
 						<div class="column is-4">
-							<Carousel :items-to-show="itemsToShow">
-								<Slide v-for="image in g.image.src" :key="image.id">
-									<figure class="image" @click="openGameModal(g.image)">
-										<img :src="image" :alt="g.image.alt" />
-									</figure>
-								</Slide>
+							<div class="is-relative">
+								<Carousel :items-to-show="itemsToShow">
+									<Slide v-for="image in g.image.src" :key="image.id">
+										<figure class="image" @click="openGameModal(g.image)">
+											<img :src="image" :alt="g.image.alt" />
+										</figure>
+									</Slide>
 
-								<template #addons>
-									<Navigation />
-								</template>
-							</Carousel>
+									<template #addons>
+										<Navigation />
+									</template>
+								</Carousel>
+								<span class="owned" v-if="g.own"></span>
+								<span class="owned not" v-else></span>
+							</div>
 						</div>
 						<div class="column is-8">
 							<h3 class="title is-size-5">{{ g.title }}</h3>
@@ -104,5 +108,17 @@ export default {
 <style scoped>
 ul {
 	list-style: inside;
+}
+.owned {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-bottom: 30px solid green;
+}
+.owned.not {
+	border-bottom: 30px solid red;
 }
 </style>
