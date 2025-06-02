@@ -22,7 +22,7 @@
 						<div class="column is-4">
 							<Carousel :items-to-show="itemsToShow">
 								<Slide v-for="image in g.image.src" :key="image.id">
-									<figure class="image">
+									<figure class="image" @click="openGameModal(g.image)">
 										<img :src="image" :alt="g.image.alt" />
 									</figure>
 								</Slide>
@@ -47,6 +47,7 @@
 					<hr />
 				</div>
 			</template>
+			<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
 		</div>
 	</div>
 </template>
@@ -54,12 +55,13 @@
 <script>
 import COUNTRIES from '@/countries.js';
 import GAMES from '@/games.js';
+import GameModal from '@/components/GameModal.vue';
 
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
 	props: ['searchGame'],
-	components: { Carousel, Slide, Navigation },
+	components: { Carousel, Slide, Navigation, GameModal },
 	data() {
 		return {
 			countries: COUNTRIES,
@@ -67,6 +69,8 @@ export default {
 			filteredGames: GAMES,
 			itemsToShow: 1,
 			selectedCountry: '',
+			showGameModal: false,
+			gameModalContent: null,
 		};
 	},
 	methods: {
@@ -78,6 +82,10 @@ export default {
 				this.selectedCountry = c;
 				this.filteredGames = this.games.filter((g) => g.country.includes(c));
 			}
+		},
+		openGameModal(g) {
+			this.gameModalContent = g;
+			this.showGameModal = true;
 		},
 	},
 };
