@@ -4,7 +4,7 @@
 	<div class="container mt-5">
 		<div class="columns is-multiline">
 			<template v-for="(g, j) in goodiesPaginated" :key="j">
-				<div class="column is-3 is-flex is-flex-direction-column is-justify-content-space-between">
+				<div class="column is-2 is-flex is-flex-direction-column is-justify-content-space-between">
 					<div class="is-relative">
 						<Carousel :items-to-show="itemsToShow">
 							<Slide v-for="image in g.image.src" :key="image.id">
