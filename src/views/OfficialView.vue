@@ -2,7 +2,12 @@
 	<div class="container my-5">
 		<div class="columns is-multiline is-justify-content-center">
 			<template v-for="(c, i) in countries" :key="i">
-				<div class="column is-1 m-1 country-flag" :style="{ 'background-image': `url(${c.flag})` }" @click="filterGamesByCountry(c.name)">
+				<div
+					class="column is-1 m-1 country-flag"
+					:style="{ 'background-image': `url(${c.flag})` }"
+					@click="filterGamesByCountry(c.name, $event)"
+					:class="selectedCountry === c.name ? 'active' : ''"
+				>
 					<div class="country-name">{{ c.name }}</div>
 				</div>
 			</template>
@@ -61,11 +66,18 @@ export default {
 			games: GAMES,
 			filteredGames: GAMES,
 			itemsToShow: 1,
+			selectedCountry: '',
 		};
 	},
 	methods: {
 		filterGamesByCountry(c) {
-			this.filteredGames = this.games.filter((g) => g.country.includes(c));
+			if (this.selectedCountry === c) {
+				this.selectedCountry = '';
+				this.filteredGames = this.games;
+			} else {
+				this.selectedCountry = c;
+				this.filteredGames = this.games.filter((g) => g.country.includes(c));
+			}
 		},
 	},
 };
@@ -97,7 +109,8 @@ export default {
 	font-weight: bold;
 	visibility: hidden;
 }
-.country-flag:hover .country-name {
+.country-flag:hover .country-name,
+.country-flag.active .country-name {
 	background-color: rgba(0, 0, 0, 0.5);
 	visibility: visible;
 	transition: all 0.3s;
