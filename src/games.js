@@ -177,10 +177,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1MDupNoLrd7_c5wjUSVOXpfLENLMaCVv3=w200',
-				'https://lh3.googleusercontent.com/d/1MDupNoLrd7_c5wjUSVOXpfLENLMaCVv3=w200',
-			],
+			src: [require('@/assets/games/6528da69-ccec-4f3e-9f3d-53d5ce2434e7.webp')],
 			alt: 'PC own Gem 00050915-01 Austria',
 		},
 		support: 'PC',
@@ -2939,10 +2936,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1qNV3CSNVFE1NTcC-LS8W_1acv5SPDaj9=w200',
-				'https://lh3.googleusercontent.com/d/1qNV3CSNVFE1NTcC-LS8W_1acv5SPDaj9=w200',
-			],
+			src: [require('@/assets/games/69d8265d-6900-4b7e-8f76-b52b3c6b9590.webp')],
 			alt: 'PC nation Forever False Gem ISSN1853-2721 Argentina',
 		},
 		support: 'PC',

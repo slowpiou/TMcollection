@@ -107,10 +107,10 @@ nav a {
 	--vc-nav-height: 100%;
 }
 .carousel__next {
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)) !important;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)) !important;
 }
 .carousel__prev {
-	background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)) !important;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)) !important;
 }
 .carousel__next--disabled,
 .carousel__prev--disabled {

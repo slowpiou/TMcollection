@@ -6,7 +6,7 @@
 				<Carousel :items-to-show="itemsToShow">
 					<Slide v-for="image in game.src" :key="image.id">
 						<figure class="image">
-							<img :src="image.substring(0, image.length - 5)" :alt="game.alt" />
+							<img :src="image" :alt="game.alt" />
 						</figure>
 					</Slide>
 

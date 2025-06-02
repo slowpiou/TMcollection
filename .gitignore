@@ -3,7 +3,7 @@ node_modules
 /dist
 TMCollection-old
 /src/components/BackToTop.vue
-
+/src/assets/originals
 # local env files
 .env.local
 .env.*.local
