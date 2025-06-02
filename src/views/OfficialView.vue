@@ -16,7 +16,7 @@
 	<br />
 	<div class="container mt-5">
 		<div class="columns is-multiline">
-			<template v-for="(g, j) in filteredGames" :key="j">
+			<template v-for="(g, j) in gamesPaginated" :key="j">
 				<div class="column is-6 is-flex is-flex-direction-column is-justify-content-space-between">
 					<div class="columns">
 						<div class="column is-4">
@@ -71,7 +71,14 @@ export default {
 			selectedCountry: '',
 			showGameModal: false,
 			gameModalContent: null,
+			currentPage: 1,
+			perPage: 16,
 		};
+	},
+	computed: {
+		gamesPaginated() {
+			return this.filteredGames.slice(0, this.currentPage * this.perPage);
+		},
 	},
 	methods: {
 		filterGamesByCountry(c) {
@@ -87,6 +94,21 @@ export default {
 			this.gameModalContent = g;
 			this.showGameModal = true;
 		},
+		handleScroll() {
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+				this.currentPage++;
+
+				if (this.gamesPaginated.length >= this.filteredGames.length) {
+					window.removeEventListener('scroll', this.handleScroll);
+				}
+			}
+		},
+	},
+	created() {
+		window.addEventListener('scroll', this.handleScroll);
+	},
+	unmounted() {
+		window.removeEventListener('scroll', this.handleScroll);
 	},
 };
 </script>
