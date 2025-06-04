@@ -33,7 +33,7 @@
 									<i class="fas fa-search"></i>
 								</span>
 							</div>
-							<div class="dropdown mr-3" :class="showFilterDropdown ? 'is-active' : ''" v-if="$route.name === 'home'">
+							<div class="dropdown mr-3" :class="showFilterDropdown ? 'is-active' : ''">
 								<div class="dropdown-trigger" @click="showFilterDropdown = !showFilterDropdown">
 									<button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
 										<span>Games Filters</span>
@@ -56,38 +56,40 @@
 											@click="ownFilter = undefined"
 											>All</a
 										>
-										<hr class="dropdown-divider" />
-										<div class="dropdown-item is-size-7 pl-2 pb-1">Rarity</div>
-										<a
-											class="dropdown-item"
-											:class="rarityFilter === 'Gem' ? 'has-text-success' : ''"
-											@click="rarityFilter = 'Gem'"
-											>Gem</a
-										>
-										<a
-											class="dropdown-item"
-											:class="rarityFilter === 'Very Rare' ? 'has-text-success' : ''"
-											@click="rarityFilter = 'Very Rare'"
-											>Very rare</a
-										>
-										<a
-											class="dropdown-item"
-											:class="rarityFilter === 'Rare' ? 'has-text-success' : ''"
-											@click="rarityFilter = 'Rare'"
-											>Rare</a
-										>
-										<a
-											class="dropdown-item"
-											:class="rarityFilter === 'Common' ? 'has-text-success' : ''"
-											@click="rarityFilter = 'Common'"
-											>Common</a
-										>
-										<a
-											class="dropdown-item"
-											:class="rarityFilter === 'All' ? 'has-text-success' : ''"
-											@click="rarityFilter = 'All'"
-											>All</a
-										>
+										<template v-if="$route.name === 'home'">
+											<hr class="dropdown-divider" />
+											<div class="dropdown-item is-size-7 pl-2 pb-1">Rarity</div>
+											<a
+												class="dropdown-item"
+												:class="rarityFilter === 'Gem' ? 'has-text-success' : ''"
+												@click="rarityFilter = 'Gem'"
+												>Gem</a
+											>
+											<a
+												class="dropdown-item"
+												:class="rarityFilter === 'Very Rare' ? 'has-text-success' : ''"
+												@click="rarityFilter = 'Very Rare'"
+												>Very rare</a
+											>
+											<a
+												class="dropdown-item"
+												:class="rarityFilter === 'Rare' ? 'has-text-success' : ''"
+												@click="rarityFilter = 'Rare'"
+												>Rare</a
+											>
+											<a
+												class="dropdown-item"
+												:class="rarityFilter === 'Common' ? 'has-text-success' : ''"
+												@click="rarityFilter = 'Common'"
+												>Common</a
+											>
+											<a
+												class="dropdown-item"
+												:class="rarityFilter === 'All' ? 'has-text-success' : ''"
+												@click="rarityFilter = 'All'"
+												>All</a
+											>
+										</template>
 									</div>
 								</div>
 							</div>
