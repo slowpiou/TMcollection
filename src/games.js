@@ -415,8 +415,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1bJtiCeibT7ggdRjsII21IPaRmqg1uWvC=w200',
-				'https://lh3.googleusercontent.com/d/1QBSzU11vwl99VYCAB-z8K5qQrDp0yAJz=w200',
+				require('@/assets/games/japan/d626c4f1-5c24-44e2-9669-c0355454bc47.webp'),
+				require('@/assets/games/japan/d626c4f1-5c24-44e2-9669-c0355454bc47_1.webp'),
 			],
 			alt: 'PC Original Very Rare own 4582174810150 Japan',
 		},
@@ -433,8 +433,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1Ly5sxRxjvt8TjI7tyl6MZ2yJrYVX4EiE=w200',
-				'https://lh3.googleusercontent.com/d/1RDtu4oCwZWnlcpKyKKfEpMBUVUPFM0Oz=w200',
+				require('@/assets/games/japan/f781a9fc-05b1-495a-80d4-0565a701b687.webp'),
+				require('@/assets/games/japan/f781a9fc-05b1-495a-80d4-0565a701b687_1.webp'),
 			],
 			alt: 'PC Sunrise Very Rare own 4582174810143 Japan',
 		},
@@ -451,25 +451,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1_EZbqgcTbnG9boKonAWJF5FR1wsVVP1V=w200',
-				'https://lh3.googleusercontent.com/d/1_EZbqgcTbnG9boKonAWJF5FR1wsVVP1V=w200',
-			],
-			alt: 'PC Original Very Rare False 8717278827629 Netherlands',
-		},
-		support: 'PC',
-	},
-	{
-		ean: '8717278827629',
-		title: 'Trackmania Original',
-		publisher: 'Nadeo, Focus',
-		country: 'Netherlands',
-		release: '',
-		bigbox: 'No',
-		rarity: 'Very Rare',
-		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/14c32T4doLX30eKngi9rSWIeEpGrgtQwx=w200',
-				'https://lh3.googleusercontent.com/d/1V5acRfvceJLR63wa5awX7mhFwSL3m7y6=w200',
+				require('@/assets/games/netherlands/2fd422ad-5995-41a0-9db9-14d315301244.webp'),
+				require('@/assets/games/netherlands/2fd422ad-5995-41a0-9db9-14d315301244_1.webp'),
 			],
 			alt: 'PC Original Very Rare False 8717278827629 Netherlands',
 		},
@@ -485,8 +468,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1zbsxBOzG_P4n3-GLP9PR04ENy0rJvxtj=w200',
-				'https://lh3.googleusercontent.com/d/17_ewoeZ15VVXsLG0WilEN687suUNNRD9=w200',
+				require('@/assets/games/netherlands/e6416f3d-a933-48bf-b769-ddc400b5fd1e.webp'),
+				require('@/assets/games/netherlands/e6416f3d-a933-48bf-b769-ddc400b5fd1e_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme own Very Rare 8717278828299 Netherlands',
 		},
@@ -503,8 +486,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1hp3X3zXGFIvFcITm2BEQP9Epayb57VyG=w200',
-				'https://lh3.googleusercontent.com/d/1nxfE4Ym_0RAGdoVdOybznnW72OSDb6o1=w200',
+				require('@/assets/games/netherlands/7a7ee7c3-423b-42b6-94f1-cf56145c0ce4.webp'),
+				require('@/assets/games/netherlands/7a7ee7c3-423b-42b6-94f1-cf56145c0ce4_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme Very Rare own 3512289010504 Netherlands',
 		},
@@ -521,8 +504,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1NELKyxnxI1tpniXjf4-i2Ms5l0sW6wso=w200',
-				'https://lh3.googleusercontent.com/d/1acwJ9jk84Ka_FxUoqZjubNvyKDuH-0MT=w200',
+				require('@/assets/games/netherlands/218d1dd1-7594-4f80-aab7-0a4f03b81a9a.webp'),
+				require('@/assets/games/netherlands/218d1dd1-7594-4f80-aab7-0a4f03b81a9a_1.webp'),
 			],
 			alt: 'PC Sunrise Very Rare own 3512289010160 Netherlands',
 		},
@@ -531,7 +514,7 @@ const GAMES = [
 	},
 	{
 		ean: '3512289011198',
-		title: 'Trackmania Sunrise',
+		title: 'Trackmania United',
 		publisher: 'Nadeo, Focus, Atoll Soft',
 		country: 'Netherlands',
 		release: '',
@@ -539,8 +522,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1HWQ2CUp3uV9VzwGHLMVVlSngRoEbOEcN=w200',
-				'https://lh3.googleusercontent.com/d/1pcAzzykbmWGGNK_c-P644bHYNXiXOmPM=w200',
+				require('@/assets/games/netherlands/4330d88a-d500-4c0c-ba25-6c556cc0fa4c.webp'),
+				require('@/assets/games/netherlands/4330d88a-d500-4c0c-ba25-6c556cc0fa4c_1.webp'),
 			],
 			alt: 'PC United Very Rare own 3512289011198 Netherlands',
 		},
@@ -896,8 +879,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1EAklMVVaD6Myzlf6sYmizRutod1huB1V=w200',
-				'https://lh3.googleusercontent.com/d/1cdhVj_g-jTxfvdtEQelI30pvy9vZcbMM=w200',
+				require('@/assets/games/italy/b5249ffb-956b-402c-98de-1550f71fcb99.webp'),
+				require('@/assets/games/italy/b5249ffb-956b-402c-98de-1550f71fcb99_1.webp'),
 			],
 			alt: 'PC own Rare 4020628080181 Italy',
 		},
@@ -914,8 +897,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1zlW6LRTADqVzvIxO1Qm6itBXxsgz1tXP=w200',
-				'https://lh3.googleusercontent.com/d/156qN_5ImGM6EJUzPoVw_Q8_xlXran5US=w200',
+				require('@/assets/games/italy/2f5608d0-a18d-48b9-be23-b08627df527f.webp'),
+				require('@/assets/games/italy/2f5608d0-a18d-48b9-be23-b08627df527f_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme Big Box BigBox own Rare 4020628082130 Italy',
 		},
@@ -932,8 +915,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1fWQ7gpn_skvlJyEbsdxcg_QHPbvguMmg=w200',
-				'https://lh3.googleusercontent.com/d/1ewf-wqvnj3FvQidhKPdWfP1quP9fXu7W=w200',
+				require('@/assets/games/italy/2fe0823d-48db-404a-8cb5-3634dd0dce7c.webp'),
+				require('@/assets/games/italy/2fe0823d-48db-404a-8cb5-3634dd0dce7c_1.webp'),
 			],
 			alt: 'PC Nations ESWC own Rare 4020628082413 Italy',
 		},
@@ -950,8 +933,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1UNMuh0xHRlCyx8VaXulYnaHWPTCBJqQT=w200',
-				'https://lh3.googleusercontent.com/d/14w__PozdRO-76XFtY0seCJiAQs6sSuRT=w200',
+				require('@/assets/games/italy/d25f2bc9-acf9-4f6b-9766-414ec3bde2cf.webp'),
+				require('@/assets/games/italy/d25f2bc9-acf9-4f6b-9766-414ec3bde2cf_1.webp'),
 			],
 			alt: 'PC United Big Box BigBox own Rare 4020628082956 Italy',
 		},
@@ -968,8 +951,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/11Lim89RVIlPj0b57yMJXkXct1iQbz9FB=w200',
-				'https://lh3.googleusercontent.com/d/1eeDSyVVuwsCu7Y-6p5jPRpqR2jlYtZoU=w200',
+				require('@/assets/games/italy/7ba4ff8f-b12c-4e98-ad09-eed5cea76876.webp'),
+				require('@/assets/games/italy/7ba4ff8f-b12c-4e98-ad09-eed5cea76876_1.webp'),
 			],
 			alt: 'PC United Forever own Rare 4020628084677 Italy',
 		},
@@ -986,8 +969,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1LJ52A3HvwEx9p7bfRA7wYGZPc_mZuwiL=w200',
-				'https://lh3.googleusercontent.com/d/1B8oUDHeZnPAra03kSI3W0CzbVTAYIvm_=w200',
+				require('@/assets/games/italy/fdb4df29-0f4b-4b54-adf8-fddd23517d43.webp'),
+				require('@/assets/games/italy/fdb4df29-0f4b-4b54-adf8-fddd23517d43_1.webp'),
 			],
 			alt: 'DS Turbo own Rare 3512289017947 Italy',
 		},
@@ -1004,8 +987,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1cgETtZwcrxAzslp746U_SsfqeFejGvF4=w200',
-				'https://lh3.googleusercontent.com/d/1kYFxgz6Qv4NEbzhaUtul8MpuXIyG-kW1=w200',
+				require('@/assets/games/netherlands/826541c8-414c-4c4b-8e47-043ef984ae3e.webp'),
+				require('@/assets/games/netherlands/826541c8-414c-4c4b-8e47-043ef984ae3e_1.webp'),
 			],
 			alt: 'DS own Rare 3512289015509 Netherlands',
 		},
@@ -2060,8 +2043,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1switx28T0n4zJhGlO29DxKvSSMjt1ZIU=w200',
-				'https://lh3.googleusercontent.com/d/1678Y1bZ8c5f7ZNGQ39J80IE-7U92dD2D=w200',
+				require('@/assets/games/italy/3df6d8de-b949-4d88-9bea-da2d55665608.webp'),
+				require('@/assets/games/italy/3df6d8de-b949-4d88-9bea-da2d55665608_1.webp'),
 			],
 			alt: 'DS own Common 3512289015462 Italy',
 		},
@@ -2078,8 +2061,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pS9zTDmSKa7K89yBfm2V9SmhHgncWhVA=w200',
-				'https://lh3.googleusercontent.com/d/1UwwuNjbQI93m_nM_bzqUIq-z_t4_9aTD=w200',
+				require('@/assets/games/italy/d7bd3f2a-3527-492d-ad31-1b1746bbcdca.webp'),
+				require('@/assets/games/italy/d7bd3f2a-3527-492d-ad31-1b1746bbcdca_1.webp'),
 			],
 			alt: 'PC own Common 4020628080181 Italy',
 		},
@@ -2096,8 +2079,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1PtsF9zg9yCpz4qhRBgvtsPcMC1mAgDZ0=w200',
-				'https://lh3.googleusercontent.com/d/1pvmkwc8CJ9iaHfURZzErylukOsebWmkq=w200',
+				require('@/assets/games/italy/94329058-d545-4971-9353-95498486ba4a.webp'),
+				require('@/assets/games/italy/94329058-d545-4971-9353-95498486ba4a_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 4020628080235 Italy',
 		},
@@ -2114,8 +2097,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1g_FQ5CVcQg78onelIxqbDl7plTRQ-zbM=w200',
-				'https://lh3.googleusercontent.com/d/1AZGzQJBjFRIRx_2S3EV3GQPLINUNM6tY=w200',
+				require('@/assets/games/italy/55e95298-e53a-462a-b548-0f78742a671b.webp'),
+				require('@/assets/games/italy/55e95298-e53a-462a-b548-0f78742a671b_1.webp'),
 			],
 			alt: 'PC Turbo own Common 3307215913581 Italy',
 		},
@@ -2132,8 +2115,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/16BEHtIHEDv9w8hsR6XwZuaAGHkowtFai=w200',
-				'https://lh3.googleusercontent.com/d/1I7ZEEjXUy3c9YBQ5G_7Umijg9ImxqCTp=w200',
+				require('@/assets/games/italy/f0322f3d-6343-4a05-b683-a35c66204c75.webp'),
+				require('@/assets/games/italy/f0322f3d-6343-4a05-b683-a35c66204c75_1.webp'),
 			],
 			alt: 'Xbox Turbo own Common 3307215913857 Italy',
 		},
@@ -2150,17 +2133,17 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1QZDNyNMCpRsUDX-K-EKfUOTPBjHohCTi=w200',
-				'https://lh3.googleusercontent.com/d/1c9Lw2GCoSVM_8I5zNnvDPLTwxzeDo1ZQ=w200',
+				require('@/assets/games/italy/331292c8-5821-4b2a-96d9-a9850c130fba.webp'),
+				require('@/assets/games/italy/331292c8-5821-4b2a-96d9-a9850c130fba_1.webp'),
 			],
-			alt: 'PS4 Turbo VR own Common 3307215913727 Italy',
+			alt: 'PS4 Turbo own Common 3307215913727 Italy',
 		},
 		support: 'PS4',
 		own: true,
 	},
 	{
 		ean: '3307215913727(2)',
-		title: 'Trackmania Turbo',
+		title: 'Trackmania Turbo VR',
 		publisher: 'Ubisoft',
 		country: 'Italy',
 		release: '',
@@ -2168,8 +2151,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1Zr7mDsvicFiZHu6WYoI1-n58VVpZwrNa=w200',
-				'https://lh3.googleusercontent.com/d/1j_IESyrjO3EghsTI0m6bGnXNb5xjCw-1=w200',
+				require('@/assets/games/italy/79c60a6b-a214-4cf8-aaaf-437b563495d1.webp'),
+				require('@/assets/games/italy/79c60a6b-a214-4cf8-aaaf-437b563495d1_1.webp'),
 			],
 			alt: 'PS4 Turbo VR own Common 3307215913727 Italy',
 		},
@@ -2596,8 +2579,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1jyUbAeCZK2_UzJ0K4whca3zxf35x3wFy=w200',
-				'https://lh3.googleusercontent.com/d/1EQl4hmxgGa-MBLqQmNjnVeLoCn0HgsuA=w200',
+				require('@/assets/games/italy/48a75934-c254-4337-9fdf-8e133590e961.webp'),
+				require('@/assets/games/italy/48a75934-c254-4337-9fdf-8e133590e961_1.webp'),
 			],
 			alt: 'Wii Turbo own Common 3512289017701 Italy',
 		},
@@ -2650,8 +2633,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/15EmbfyFn10-viM6Kih2O59CV7o5p8UHC=w200',
-				'https://lh3.googleusercontent.com/d/1SgY5CZ61RaknUh0edpisvmD1Nv5U3WKZ=w200',
+				require('@/assets/games/netherlands/9321214e-5fe6-4708-b5c0-a57084ae4d11.webp'),
+				require('@/assets/games/netherlands/9321214e-5fe6-4708-b5c0-a57084ae4d11_1.webp'),
 			],
 			alt: 'Wii own Common 3512289017091 Netherlands',
 		},
@@ -2668,8 +2651,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pat9nUXWorvn8g76EweexSo2a9RTsP2K=w200',
-				'https://lh3.googleusercontent.com/d/1FEEk6bKd8olDaUc8OQBR0jiSbSzEyvG_=w200',
+				require('@/assets/games/netherlands/689a813f-ad22-4f08-a282-8fbbb45f5500.webp'),
+				require('@/assets/games/netherlands/689a813f-ad22-4f08-a282-8fbbb45f5500_1.webp'),
 			],
 			alt: 'Xbox Turbo own Common 3007215913796 Netherlands',
 		},
@@ -2686,8 +2669,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dWvt-sydlpFj_vZj61SzcUfUIb4vd6vr=w200',
-				'https://lh3.googleusercontent.com/d/1-yatHGhSgDdF2KwHRm1tVTKhBhR6-1vW=w200',
+				require('@/assets/games/netherlands/327201c6-68f3-4aa9-a803-c003240a46e4.webp'),
+				require('@/assets/games/netherlands/327201c6-68f3-4aa9-a803-c003240a46e4_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 3307215913666 Netherlands',
 		},
@@ -2983,27 +2966,21 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1BqiezWUVLyX-G9LEDjdnmMSf9wT0M80x=w200',
-				'https://lh3.googleusercontent.com/d/1BqiezWUVLyX-G9LEDjdnmMSf9wT0M80x=w200',
-			],
+			src: [require('@/assets/games/japan/d1e55cc0-067c-4122-9e93-d57c0c74086c.webp')],
 			alt: 'PC United Forever Common False 4582174810303 Japan',
 		},
 		support: 'PC',
 	},
 	{
 		ean: '4949244003858',
-		title: 'Trackmania ',
+		title: 'Trackmania Turbo',
 		publisher: 'Nadeo, Focus, Overland',
 		country: 'Japan',
 		release: '',
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1lTYLxLoGsRCHLzUF0aIh2cRz-v_pgjH2=w200',
-				'https://lh3.googleusercontent.com/d/1lTYLxLoGsRCHLzUF0aIh2cRz-v_pgjH2=w200',
-			],
+			src: [require('@/assets/games/japan/7f123391-bf75-4645-be26-9b2fef5f1c1e.webp')],
 			alt: 'PS4 Turbo Common False 4949244003858 Japan',
 		},
 		support: 'PS4',
@@ -3086,10 +3063,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1NljzZO7-cNLP3CcCRvz4uMPbpidWti4c=w200',
-				'https://lh3.googleusercontent.com/d/1NljzZO7-cNLP3CcCRvz4uMPbpidWti4c=w200',
-			],
+			src: [require('@/assets/games/netherlands/4308924c-5646-45ee-a409-a96996ca0f66.webp')],
 			alt: 'PC Rare False 3512289008044 Netherlands',
 		},
 		support: 'PC',
