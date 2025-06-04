@@ -22,6 +22,6 @@ export default {
 	border-bottom: 30px solid green;
 }
 .owned.not {
-	border-bottom: 30px solid red;
+	border-bottom: 30px solid rgb(185, 4, 4);
 }
 </style>
