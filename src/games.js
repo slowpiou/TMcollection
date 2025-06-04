@@ -2856,9 +2856,9 @@ const GAMES = [
 				require('@/assets/games/serbia/d36e2a32-1503-4b07-9f8a-2e3b2fa04839.webp'),
 				require('@/assets/games/serbia/d36e2a32-1503-4b07-9f8a-2e3b2fa04839_1.webp'),
 			],
-			alt: 'PS4 Turbo Common False 8606005551862 Serbia',
+			alt: 'PC Turbo Common False 8606005551862 Serbia',
 		},
-		support: 'PS4',
+		support: 'PC',
 		own: false,
 	},
 	{
