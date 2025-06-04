@@ -7,7 +7,7 @@
 					<div class="columns">
 						<div class="column is-4">
 							<div class="is-relative">
-								<Carousel :items-to-show="itemsToShow">
+								<Carousel :items-to-show="itemsToShow" :mouse-drag="false">
 									<Slide v-for="image in g.image.src" :key="image.id">
 										<figure class="image" @click="openGameModal(g.image)">
 											<img :src="image" :alt="g.image.alt" />
