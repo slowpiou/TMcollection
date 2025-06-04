@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div>
 		<nav class="navbar has-background-black-ter py-3 mb-3" role="navigation" aria-label="main navigation">
 			<div class="navbar-brand">
 				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -20,7 +20,48 @@
 					<h1 class="pt-3 title is-size-4 mb-0">TM Collection</h1>
 					<p class="is-italic is-size-7 has-text-right">by SUPERCOBY</p>
 				</div>
-				<div class="is-flex is-align-self-center">
+				<div class="is-flex is-align-items-center">
+					<div class="dropdown mr-3" :class="showFilterDropdown ? 'is-active' : ''">
+						<div class="dropdown-trigger" @click="showFilterDropdown = !showFilterDropdown">
+							<button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+								<span>Games Filters</span>
+								<span class="icon is-small">
+									<i class="fas fa-angle-down" aria-hidden="true"></i>
+								</span>
+							</button>
+						</div>
+						<div class="dropdown-menu" id="dropdown-menu" role="menu">
+							<div class="dropdown-content">
+								<a class="dropdown-item" :class="ownFilter === true ? 'has-text-success' : ''" @click="ownFilter = true">Owned</a>
+								<a class="dropdown-item" :class="ownFilter === false ? 'has-text-success' : ''" @click="ownFilter = false"
+									>Not owned</a
+								>
+								<a class="dropdown-item" :class="ownFilter === undefined ? 'has-text-success' : ''" @click="ownFilter = undefined"
+									>All</a
+								>
+								<hr class="dropdown-divider" />
+								<div class="dropdown-item is-size-7 pl-2 pb-1">Rarity</div>
+								<a class="dropdown-item" :class="rarityFilter === 'Gem' ? 'has-text-success' : ''" @click="rarityFilter = 'Gem'"
+									>Gem</a
+								>
+								<a
+									class="dropdown-item"
+									:class="rarityFilter === 'Very Rare' ? 'has-text-success' : ''"
+									@click="rarityFilter = 'Very Rare'"
+									>Very rare</a
+								>
+								<a class="dropdown-item" :class="rarityFilter === 'Rare' ? 'has-text-success' : ''" @click="rarityFilter = 'Rare'"
+									>Rare</a
+								>
+								<a class="dropdown-item" :class="rarityFilter === 'Common' ? 'has-text-success' : ''" @click="rarityFilter = 'Common'"
+									>Common</a
+								>
+								<a class="dropdown-item" :class="rarityFilter === 'All' ? 'has-text-success' : ''" @click="rarityFilter = 'All'"
+									>All</a
+								>
+							</div>
+						</div>
+					</div>
 					<div class="control has-icons-left mr-3" v-if="$route.name === 'home'">
 						<input class="input" type="text" placeholder="Search game" v-model="searchGame" id="search-game" />
 						<span class="icon is-small is-left">
@@ -52,7 +93,8 @@
 				</div>
 			</div>
 		</nav>
-		<RouterView v-model="searchGame" />
+
+		<RouterView v-model="searchGame" :rarityFilter="rarityFilter" :ownFilter="ownFilter" />
 	</div>
 </template>
 
@@ -61,6 +103,9 @@ export default {
 	data() {
 		return {
 			searchGame: '',
+			showFilterDropdown: false,
+			rarityFilter: 'All',
+			ownFilter: undefined,
 		};
 	},
 };

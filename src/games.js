@@ -48,6 +48,7 @@ const GAMES = [
 			alt: 'PC Turbo False Common 3307215913499 Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'PressKit1',
@@ -65,6 +66,7 @@ const GAMES = [
 			alt: 'PC Press Kit False Gem Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'PressKit2',
@@ -79,6 +81,7 @@ const GAMES = [
 			alt: 'PC Press Kit False Gem Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289017343',
@@ -93,6 +96,7 @@ const GAMES = [
 			alt: 'Wii False Common 3512289017343 Australia',
 		},
 		support: 'Wii',
+		own: false,
 	},
 	{
 		ean: '3307215913642',
@@ -107,6 +111,7 @@ const GAMES = [
 			alt: 'PS4 VR False Common 3307215913642 Australia',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '9332985000241',
@@ -121,6 +126,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Big Box BigBox False Very rare 9332985000241 Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289012249',
@@ -138,6 +144,7 @@ const GAMES = [
 			alt: 'PC United Big Box BigBox False Very rare 3512289012249 Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'xx',
@@ -155,6 +162,7 @@ const GAMES = [
 			alt: 'PC Original Big Box BigBox False Very rare xx Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '00050915-01',
@@ -457,6 +465,7 @@ const GAMES = [
 			alt: 'PC Original Very Rare False 8717278827629 Netherlands',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8717278828299',
@@ -642,7 +651,7 @@ const GAMES = [
 		country: 'Ukraine',
 		release: '',
 		bigbox: 'No',
-		rarity: 'Very Rare',
+		rarity: 'Gem',
 		image: {
 			src: [
 				require('@/assets/games/ukraine/3252a321-671c-4ce7-92eb-7e732c3bf87a.webp'),
@@ -2334,6 +2343,7 @@ const GAMES = [
 			alt: 'PC Power Up ! 5907577271398 Common False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577271398',
@@ -2351,6 +2361,7 @@ const GAMES = [
 			alt: 'PC Power Up ! 5907577271398 Common False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'ISSN1640307X',
@@ -2422,6 +2433,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577272982',
@@ -2436,6 +2448,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577272975',
@@ -2687,6 +2700,7 @@ const GAMES = [
 			alt: 'PC United Big Box False BigBox Gem 9787900027429 China',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '4774560889010',
@@ -2704,6 +2718,7 @@ const GAMES = [
 			alt: 'PC United Gem False 4774560889010 China',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '9687888993801',
@@ -2721,6 +2736,7 @@ const GAMES = [
 			alt: 'PC Canyon Gem False 9687888993801 China',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3307215913895',
@@ -2738,6 +2754,7 @@ const GAMES = [
 			alt: 'Xbox Turbo Common False 3307215913895 Spain',
 		},
 		support: 'Xbox',
+		own: false,
 	},
 	{
 		ean: '0887256107475',
@@ -2755,6 +2772,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Common False 0887256107475 Brazil',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '3307215913512',
@@ -2769,6 +2787,7 @@ const GAMES = [
 			alt: 'PC Turbo Rare False 3307215913512 UK',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3307215913598',
@@ -2786,6 +2805,7 @@ const GAMES = [
 			alt: 'PC Turbo Common False 3307215913598 Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3307215913864',
@@ -2803,6 +2823,7 @@ const GAMES = [
 			alt: 'Xbox Turbo Common False 3307215913864 Poland',
 		},
 		support: 'Xbox',
+		own: false,
 	},
 	{
 		ean: '887256015695',
@@ -2820,6 +2841,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Common False 887256015695 USA',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '8606005551862',
@@ -2837,6 +2859,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Common False 8606005551862 Serbia',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '3512289015xxx',
@@ -2854,6 +2877,7 @@ const GAMES = [
 			alt: 'DS Rare False 3512289015xxx Russia',
 		},
 		support: 'DS',
+		own: false,
 	},
 	{
 		ean: '3512289011884',
@@ -2871,6 +2895,7 @@ const GAMES = [
 			alt: 'PC Sunrise ESWC False Gem 3512289011884 International',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'G71-VG31001-CE2',
@@ -2885,6 +2910,7 @@ const GAMES = [
 			alt: 'PC nation eswc ESWC False Gem G71-VG31001-CE2 International',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: 'ISSN1853-2721',
@@ -2899,6 +2925,7 @@ const GAMES = [
 			alt: 'PC nation Forever False Gem ISSN1853-2721 Argentina',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '9783833106446',
@@ -2913,6 +2940,7 @@ const GAMES = [
 			alt: 'PC False Rare 9783833106446 Germany',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5998237107430',
@@ -2927,6 +2955,7 @@ const GAMES = [
 			alt: 'PC United Forever False Rare 5998237107430 Hungary',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5999545971980',
@@ -2944,6 +2973,7 @@ const GAMES = [
 			alt: 'PC Sunrise False Rare 5999545971980 Hungary',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '4582174810303',
@@ -2958,6 +2988,7 @@ const GAMES = [
 			alt: 'PC United Forever Common False 4582174810303 Japan',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '4949244003858',
@@ -2972,6 +3003,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Common False 4949244003858 Japan',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '3512289010719',
@@ -2986,6 +3018,7 @@ const GAMES = [
 			alt: 'PC Original Common False 3512289010719 Sweden',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5060074850401',
@@ -3000,6 +3033,7 @@ const GAMES = [
 			alt: 'PC Power Up ! Gem False 5060074850401 UK',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '   ',
@@ -3032,6 +3066,7 @@ const GAMES = [
 			alt: 'PC United Forever Jewel Case Gem False Russia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289008044(2)',
@@ -3046,6 +3081,7 @@ const GAMES = [
 			alt: 'PC Rare False 3512289008044 Netherlands',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '730865400256',
@@ -3078,6 +3114,7 @@ const GAMES = [
 			alt: 'PC Jewel Case Common False 0646662101282 USA',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '0897749002972',
@@ -3092,6 +3129,7 @@ const GAMES = [
 			alt: 'Wii Common False 0897749002972 USA',
 		},
 		support: 'Wii',
+		own: false,
 	},
 	{
 		ean: '9332985005215',
@@ -3142,6 +3180,7 @@ const GAMES = [
 			alt: 'DS Common False 3512289015479 Australia',
 		},
 		support: 'DS',
+		own: false,
 	},
 	{
 		ean: '3512289017336',
@@ -3156,6 +3195,7 @@ const GAMES = [
 			alt: 'DS Turbo Very Rare False 3512289017336 Australia',
 		},
 		support: 'DS',
+		own: false,
 	},
 	{
 		ean: '8590349001308 / 8590349001131 / 4033756001263',
@@ -3170,6 +3210,7 @@ const GAMES = [
 			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare False 3512289017336 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8595228101698 / 4033756001263',
@@ -3184,6 +3225,7 @@ const GAMES = [
 			alt: 'PC Sunrise 8595228101698 / 4033756001263 Very Rare False 3512289017336 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8594037371308',
@@ -3198,6 +3240,7 @@ const GAMES = [
 			alt: 'PC United Forever Very Rare False 8594037371308 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8594037371001',
@@ -3212,6 +3255,7 @@ const GAMES = [
 			alt: 'PC United Very Rare False 8594037371001 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '9770322958006',
@@ -3226,6 +3270,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme Common False 9770322958006 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8594037370615',
@@ -3240,6 +3285,7 @@ const GAMES = [
 			alt: 'PC Sunrise Very Rare False 8594037370615 Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8590349001308 / 8590349001131 / 4033756001263 ',
@@ -3254,6 +3300,7 @@ const GAMES = [
 			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare False Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '8590349001308 / 4033756001263',
@@ -3268,6 +3315,7 @@ const GAMES = [
 			alt: 'PC 8590349001308 / 4033756001263 Gem Big Box BigBox False Czech',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577270391',
@@ -3282,6 +3330,7 @@ const GAMES = [
 			alt: 'PC Original 5907577270391 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577270629',
@@ -3296,6 +3345,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme 5907577270629 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '5907577272371',
@@ -3310,6 +3360,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme 5907577272371 Gem Big Box BigBox False Poland',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '     ',
@@ -3324,6 +3375,7 @@ const GAMES = [
 			alt: 'Xbox Turbo Common False Russia',
 		},
 		support: 'Xbox',
+		own: false,
 	},
 	{
 		ean: '/',
@@ -3338,6 +3390,7 @@ const GAMES = [
 			alt: 'PS4 Turbo Common False Russia',
 		},
 		support: 'PS4',
+		own: false,
 	},
 	{
 		ean: '4600974002992',
@@ -3406,6 +3459,7 @@ const GAMES = [
 			alt: 'PC United Jewel Case 4600974005924(2) Rare False Russia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289011983',
@@ -3420,6 +3474,7 @@ const GAMES = [
 			alt: 'PC Original Arcade Collection 3512289011983 Common False France',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289008105 / 3700078401590',
@@ -3437,6 +3492,7 @@ const GAMES = [
 			alt: 'PC DevCopy Gem False 3512289008105 / 3700078401590 France',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '3512289008044(3)',
@@ -3451,6 +3507,7 @@ const GAMES = [
 			alt: 'PC Rare False 3512289008044 Australia',
 		},
 		support: 'PC',
+		own: false,
 	},
 	{
 		ean: '4020628081812',

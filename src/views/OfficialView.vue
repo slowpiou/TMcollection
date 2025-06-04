@@ -49,11 +49,10 @@ import GameModal from '@/components/GameModal.vue';
 import ItemFilter from '@/components/ItemFilter.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
 import OwnedOrNot from '@/components/OwnedOrNot.vue';
-
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
-	props: ['modelValue'],
+	props: ['modelValue', 'rarityFilter', 'ownFilter'],
 	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
 	data() {
 		return {
@@ -69,7 +68,10 @@ export default {
 	},
 	computed: {
 		gamesPaginated() {
-			return this.filteredGames
+			let rarirtyFilteredGames =
+				this.rarityFilter !== 'All' ? this.filteredGames.filter((g) => g.rarity === this.rarityFilter) : this.filteredGames;
+			let ownFilteredGames = this.ownFilter !== undefined ? rarirtyFilteredGames.filter((g) => g.own === this.ownFilter) : rarirtyFilteredGames;
+			return ownFilteredGames
 				.filter(
 					(g) =>
 						g.title.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
