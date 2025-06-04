@@ -540,8 +540,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1Mv3OayWtmSj6ah5OyQQu7Kk53Q3eeQ5e=w200',
-				'https://lh3.googleusercontent.com/d/10R-ZMm5mXhxDjZSMJyiQz9lhuNOr0ck7=w200',
+				require('@/assets/games/portugal/4d745cdf-9605-476c-98db-a2460e4cd473.webp'),
+				require('@/assets/games/portugal/4d745cdf-9605-476c-98db-a2460e4cd473_1.webp'),
 			],
 			alt: 'PC United Forever Very Rare own 3512289014946 Portugal',
 		},
@@ -1005,8 +1005,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/13MZTdcnFezGVuefvq_CFNy6oWGOaZy3b=w200',
-				'https://lh3.googleusercontent.com/d/1DJzykRkPBeSmvUMrH3o4tMRiQnDCxJPk=w200',
+				require('@/assets/games/poland/1e9aab14-784c-4eed-991a-20da2367f4fa.webp'),
+				require('@/assets/games/poland/1e9aab14-784c-4eed-991a-20da2367f4fa_1.webp'),
 			],
 			alt: 'PC Power Up ! Big Box BigBox own Rare 5907780502647 Poland',
 		},
@@ -1023,8 +1023,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1OK0QATAde57aQm4-p56TjGUWkCtdEYaH=w200',
-				'https://lh3.googleusercontent.com/d/10mLPZEhTAlt_FCjHkYOwugMxzmP3a_jc=w200',
+				require('@/assets/games/poland/c6014470-1da9-426c-b497-74ebdda25d14.webp'),
+				require('@/assets/games/poland/c6014470-1da9-426c-b497-74ebdda25d14_1.webp'),
 			],
 			alt: 'PC United Kubica Big Box BigBox own Rare 5907577271459 Poland',
 		},
@@ -1041,8 +1041,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1YJDsPFE7K_qFKgs8Y_Gm-tj-sLXjvA1M=w200',
-				'https://lh3.googleusercontent.com/d/1EPwq9k_rj6GXH8XPtY56rs8Tx3DvylWD=w200',
+				require('@/assets/games/poland/eeeb339d-7d71-4ef3-b4eb-5a235fc51852.webp'),
+				require('@/assets/games/poland/eeeb339d-7d71-4ef3-b4eb-5a235fc51852_1.webp'),
 			],
 			alt: 'PC United Big Box BigBox own Rare 5907577272586 Poland',
 		},
@@ -1059,8 +1059,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1lc9DoNXQZM0bddHOwUNltplVB-L1344Z=w200',
-				'https://lh3.googleusercontent.com/d/1NSYNNUjKrM3Brug7WbWR0QBP9Zfeb3-p=w200',
+				require('@/assets/games/russia/15f8fafb-075e-4209-823a-f8ba90f613e4.webp'),
+				require('@/assets/games/russia/15f8fafb-075e-4209-823a-f8ba90f613e4_1.webp'),
 			],
 			alt: 'PC Jewel Case Buka own Rare 4600974002015 Russia',
 		},
@@ -2313,8 +2313,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1vMCJEn0Z-aRSM1wlt3aEIABpoQAHGWsp=w200',
-				'https://lh3.googleusercontent.com/d/12KR98s5gFbWPGs6oh5Vw0FhbXKcYh0No=w200',
+				require('@/assets/games/poland/2aa270e6-bc3b-4fa2-8100-34f5b3a19031.webp'),
+				require('@/assets/games/poland/2aa270e6-bc3b-4fa2-8100-34f5b3a19031_1.webp'),
 			],
 			alt: 'PC Sunrise Big Box BigBox own Common 5907577270056 Poland',
 		},
@@ -2330,10 +2330,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1BmaHeXaJBEdJACXoAoZXyxy4R4EWgXFP=w200',
-				'https://lh3.googleusercontent.com/d/1BmaHeXaJBEdJACXoAoZXyxy4R4EWgXFP=w200',
-			],
+			src: [require('@/assets/games/poland/5f8dfb07-849a-4ab6-831d-9c2600fe3073.webp')],
 			alt: 'PC Power Up ! 5907577271398 Common False Poland',
 		},
 		support: 'PC',
@@ -2348,8 +2345,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1Fy8g_aowzR7D7srNRDFhy1pEmttPPlDr=w200',
-				'https://lh3.googleusercontent.com/d/1My9t5Z1ZIjyAGiiS4GqbnVmJOs3XQ_5t=w200',
+				require('@/assets/games/poland/5637b615-fb00-4c44-aed6-65e1ee87d0fd.webp'),
+				require('@/assets/games/poland/5637b615-fb00-4c44-aed6-65e1ee87d0fd_1.webp'),
 			],
 			alt: 'PC Power Up ! 5907577271398 Common False Poland',
 		},
@@ -2365,8 +2362,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ZKUtOb-s7fow5tNGh8gZRgawCCGHhllC=w200',
-				'https://lh3.googleusercontent.com/d/1KgX6-XmNsIvP9XkmJr00aeopXNWmsR_s=w200',
+				require('@/assets/games/poland/34d2f3b4-9dcb-441c-88d4-80689c56b3a4.webp'),
+				require('@/assets/games/poland/34d2f3b4-9dcb-441c-88d4-80689c56b3a4_1.webp'),
 			],
 			alt: 'PC Nations own Common ISSN1640307X Poland',
 		},
@@ -2419,8 +2416,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/13Nicv_UkHAmDxjKtQsuHqTqpDG6AkLwb=w200',
-				'https://lh3.googleusercontent.com/d/1_iuWzcX57_US7D4VT2XNvJRBtiIfSyOv=w200',
+				require('@/assets/games/poland/d998c867-a6b6-4a35-81b4-2c7e2fd52dbf.webp'),
+				require('@/assets/games/poland/d998c867-a6b6-4a35-81b4-2c7e2fd52dbf_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
@@ -2435,10 +2432,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1vfpQ3JyKZAlcTvuABc88txcgKCwBYgmt=w200',
-				'https://lh3.googleusercontent.com/d/1vfpQ3JyKZAlcTvuABc88txcgKCwBYgmt=w200',
-			],
+			src: [require('@/assets/games/poland/98662f55-3015-41d5-8e3a-1d7a1985937a.webp')],
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
 		support: 'PC',
@@ -2453,8 +2447,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1CY2MFoeZPOsPCrXqUG_VtKZ265WHS2QK=w200',
-				'https://lh3.googleusercontent.com/d/1VfbqE5ejd6oHe98RKXl5AVPekty0Ixjq=w200',
+				require('@/assets/games/poland/c2eed92c-e5d7-4d9e-b55a-c39309b7cd7e.webp'),
+				require('@/assets/games/poland/c2eed92c-e5d7-4d9e-b55a-c39309b7cd7e_1.webp'),
 			],
 			alt: 'PC Sunrise Pomaranczowa Seria own Common 5907577272975 Poland',
 		},
@@ -2471,8 +2465,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1gBtMFvTQ1Y1uoBCnu3i05IkbyvuEFE9H=w200',
-				'https://lh3.googleusercontent.com/d/1yjsJty-zzUNCESgRtts0Euzz6BEsbBKN=w200',
+				require('@/assets/games/poland/40fa86e4-e269-4ac2-9ebe-56566af1b2ac.webp'),
+				require('@/assets/games/poland/40fa86e4-e269-4ac2-9ebe-56566af1b2ac_1.webp'),
 			],
 			alt: 'PC Original Pomaranczowa Seria own Common 5907577272968 Poland',
 		},
@@ -2789,8 +2783,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1hykN5MZOVdGHUL7OAH0NKWGU7Wr45H4r=w200',
-				'https://lh3.googleusercontent.com/d/1B1RBoXrAt_h08lsCvZID8XthmamXGe3J=w200',
+				require('@/assets/games/poland/db0b2b30-a332-43c5-b3a8-30fd5dfd909a.webp'),
+				require('@/assets/games/poland/db0b2b30-a332-43c5-b3a8-30fd5dfd909a_1.webp'),
 			],
 			alt: 'PC Turbo Common False 3307215913598 Poland',
 		},
@@ -2806,8 +2800,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1mwTcIt_Hb2TS0ocV18WPvL1wxCSCo5Zc=w200',
-				'https://lh3.googleusercontent.com/d/12epayVvrPA5p1xSz0IEVMdov6N6Z2VcJ=w200',
+				require('@/assets/games/poland/28d6ac24-0c83-4759-aacb-33b78f0247cf.webp'),
+				require('@/assets/games/poland/28d6ac24-0c83-4759-aacb-33b78f0247cf_1.webp'),
 			],
 			alt: 'Xbox Turbo Common False 3307215913864 Poland',
 		},
@@ -2857,8 +2851,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1xoUuNY8qJQ5b7_xDwxkfT1zxagrZMROK=w200',
-				'https://lh3.googleusercontent.com/d/1LMQRQb3bn21c8Z9yJahxIzBTzMf82iiM=w200',
+				require('@/assets/games/russia/36be3903-fd7a-4a59-8c78-029463b31303.webp'),
+				require('@/assets/games/russia/36be3903-fd7a-4a59-8c78-029463b31303_1.webp'),
 			],
 			alt: 'DS Rare False 3512289015xxx Russia',
 		},
@@ -3046,10 +3040,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1l1kgVoYdAT8nmr32SQnW3nd8kEK2S5Ms=w200',
-				'https://lh3.googleusercontent.com/d/1l1kgVoYdAT8nmr32SQnW3nd8kEK2S5Ms=w200',
-			],
+			src: [require('@/assets/games/russia/b9fcb3ef-f7f7-4a50-b262-1deec4c15ec7.webp')],
 			alt: 'PC United Forever Jewel Case Gem False Russia',
 		},
 		support: 'PC',
@@ -3305,10 +3296,7 @@ const GAMES = [
 		bigbox: 'Yes',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1l7ZSr7Hl3CPwxix_B68HrgksTPjAktL5=w200',
-				'https://lh3.googleusercontent.com/d/1l7ZSr7Hl3CPwxix_B68HrgksTPjAktL5=w200',
-			],
+			src: [require('@/assets/games/poland/c74a25c7-38db-4201-ba00-dea53eae9405.webp')],
 			alt: 'PC Original 5907577270391 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
@@ -3322,10 +3310,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1JwhJMdzmbA1KqijBCK9UFy9lAP5vhBXa=w200',
-				'https://lh3.googleusercontent.com/d/1JwhJMdzmbA1KqijBCK9UFy9lAP5vhBXa=w200',
-			],
+			src: [require('@/assets/games/poland/c3366109-c1c1-4dd7-a1a0-837d380e8e75.webp')],
 			alt: 'PC Sunrise Extreme 5907577270629 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
@@ -3339,10 +3324,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1E4CfScGpS9PaNIF5h51KfiZhjPF-9tAF=w200',
-				'https://lh3.googleusercontent.com/d/1E4CfScGpS9PaNIF5h51KfiZhjPF-9tAF=w200',
-			],
+			src: [require('@/assets/games/poland/f190420a-9538-4107-84ea-9abe6a6b233f.webp')],
 			alt: 'PC Sunrise Extreme 5907577272371 Gem Big Box BigBox False Poland',
 		},
 		support: 'PC',
@@ -3356,10 +3338,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1K2wwgpkd3KZdGOcVDAfIjPq8wHTELBsb=w200',
-				'https://lh3.googleusercontent.com/d/1K2wwgpkd3KZdGOcVDAfIjPq8wHTELBsb=w200',
-			],
+			src: [require('@/assets/games/russia/cbf486b7-6842-493b-a328-41040294e8a9.webp')],
 			alt: 'Xbox Turbo Common False Russia',
 		},
 		support: 'Xbox',
@@ -3373,10 +3352,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/18YAcITTJsaAP8z8lbFHMpr3z7h3jjyNY=w200',
-				'https://lh3.googleusercontent.com/d/18YAcITTJsaAP8z8lbFHMpr3z7h3jjyNY=w200',
-			],
+			src: [require('@/assets/games/russia/4bb58b6c-d6a0-41e4-a439-4b5131472c7b.webp')],
 			alt: 'PS4 Turbo Common False Russia',
 		},
 		support: 'PS4',
@@ -3391,8 +3367,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1huD0SA8rMVdeD_pislGiGB7J2RZXwKCb=w200',
-				'https://lh3.googleusercontent.com/d/1JlRmcQSkSb1IRm7sZ8DgtvyuKZTj_t5Z=w200',
+				require('@/assets/games/russia/f0f48cb8-e498-426a-8d01-dd94ac8b5f4b.webp'),
+				require('@/assets/games/russia/f0f48cb8-e498-426a-8d01-dd94ac8b5f4b_1.webp'),
 			],
 			alt: 'PC Sunrise Jewel Case 4600974002992 Common own Russia',
 		},
@@ -3409,8 +3385,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1BHydBySRgPSwJIf0JZ4uZ6wgwyI2X9oV=w200',
-				'https://lh3.googleusercontent.com/d/1Y7pjG9ag2RFesihEhZ_G0rTDC7mhNYr0=w200',
+				require('@/assets/games/russia/3ae6d8f1-e221-4f72-b800-ce20c4866dfd.webp'),
+				require('@/assets/games/russia/3ae6d8f1-e221-4f72-b800-ce20c4866dfd_1.webp'),
 			],
 			alt: 'PC United Jewel Case 4600974005924 Rare own Russia',
 		},
@@ -3427,8 +3403,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1TZqRJIMvfGm-waTGojKm9GIeXeCHPEs1=w200',
-				'https://lh3.googleusercontent.com/d/1Vo6NfZWgt6kjGLFEwnQ99p_pHXmRD1u5=w200',
+				require('@/assets/games/russia/705d86e9-128b-4276-be5a-50edff298a8f.webp'),
+				require('@/assets/games/russia/705d86e9-128b-4276-be5a-50edff298a8f_1.webp'),
 			],
 			alt: 'PC United Forever Jewel Case 4600974010874 Rare own Russia',
 		},
@@ -3444,10 +3420,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1v9iPBPAsUKeKx1yeF2CEnT6BcfS8GJD5=w200',
-				'https://lh3.googleusercontent.com/d/1v9iPBPAsUKeKx1yeF2CEnT6BcfS8GJD5=w200',
-			],
+			src: [require('@/assets/games/russia/0a971127-957b-483e-801e-6aca60a0f768.webp')],
 			alt: 'PC United Jewel Case 4600974005924(2) Rare False Russia',
 		},
 		support: 'PC',
@@ -3525,8 +3498,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1wgQENGGKFsQPHc8fpGrhPs-9oMW5lP83=w200',
-				'https://lh3.googleusercontent.com/d/1v82mVk6nwPDVkPf8rfYv_cUfpuvL2kik=w200',
+				require('@/assets/games/poland/8ec914cb-6ab4-449f-8d0c-460d3cfd593b.webp'),
+				require('@/assets/games/poland/8ec914cb-6ab4-449f-8d0c-460d3cfd593b_1.webp'),
 			],
 			alt: 'PS4 Turbo Rare Own 3307215913734 Poland',
 		},
