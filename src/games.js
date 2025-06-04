@@ -2704,8 +2704,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1nn03JHXw-kIAPn2K7YYcONpl7bjBk95Y=w200',
-				'https://lh3.googleusercontent.com/d/1A5tAAAAiDUGEKAqU1_GmHbWU-K7dQRKt=w200',
+				require('@/assets/games/d10dee2e-bec3-4826-921f-044a2b8ee66d.webp'),
+				require('@/assets/games/d10dee2e-bec3-4826-921f-044a2b8ee66d_1.webp'),
 			],
 			alt: 'PC United Big Box False BigBox Gem 9787900027429 China',
 		},
@@ -2721,8 +2721,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1i18KabVSmYWEOOrE8l__YdIL8uLsikK6=w200',
-				'https://lh3.googleusercontent.com/d/1njeLCNOxgbJC0IMxB1pATNuVzhHHSo-E=w200',
+				require('@/assets/games/56d9f257-f9c3-46f2-a71f-93760423096d.webp'),
+				require('@/assets/games/56d9f257-f9c3-46f2-a71f-93760423096d_1.webp'),
 			],
 			alt: 'PC United Gem False 4774560889010 China',
 		},
@@ -2738,8 +2738,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1v8I3bCE-I-FI9QWJh8lZl8-CwmRM2v3B=w200',
-				'https://lh3.googleusercontent.com/d/1ZMIV1mS-OQnXtwFT0bdYz7BiVWUZdKKA=w200',
+				require('@/assets/games/6186cc87-a747-4795-bffb-010510c34f72.webp'),
+				require('@/assets/games/6186cc87-a747-4795-bffb-010510c34f72_1.webp'),
 			],
 			alt: 'PC Canyon Gem False 9687888993801 China',
 		},
@@ -3225,10 +3225,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1tTpPtlKD8wZ7eIgBqJsJvijQYEXHzILf=w200',
-				'https://lh3.googleusercontent.com/d/1tTpPtlKD8wZ7eIgBqJsJvijQYEXHzILf=w200',
-			],
+			src: [require('@/assets/games/6e7226c7-32e5-4007-8022-53a0bc577817.webp')],
 			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare False 3512289017336 Czech',
 		},
 		support: 'PC',
@@ -3242,10 +3239,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/171sJB0gMNw6BT2xHJJsy-Q2PeXwMSwU7=w200',
-				'https://lh3.googleusercontent.com/d/171sJB0gMNw6BT2xHJJsy-Q2PeXwMSwU7=w200',
-			],
+			src: [require('@/assets/games/0a875b71-9acc-4589-a8a8-2e7fcf2342fb.webp')],
 			alt: 'PC Sunrise 8595228101698 / 4033756001263 Very Rare False 3512289017336 Czech',
 		},
 		support: 'PC',
@@ -3259,10 +3253,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1tOMFpAlcsO4o5LQJqAdmkia0llmf_CyR=w200',
-				'https://lh3.googleusercontent.com/d/1tOMFpAlcsO4o5LQJqAdmkia0llmf_CyR=w200',
-			],
+			src: [require('@/assets/games/d6a11439-a57e-4292-82a6-0301f0cf2fa9.webp')],
 			alt: 'PC United Forever Very Rare False 8594037371308 Czech',
 		},
 		support: 'PC',
@@ -3276,10 +3267,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1uP05kMKZ-ig8W4ke6TTDroY31HDJZ-JW=w200',
-				'https://lh3.googleusercontent.com/d/1uP05kMKZ-ig8W4ke6TTDroY31HDJZ-JW=w200',
-			],
+			src: [require('@/assets/games/c8c5ef0e-e9f8-414a-bde9-9dca7974f3ad.webp')],
 			alt: 'PC United Very Rare False 8594037371001 Czech',
 		},
 		support: 'PC',
@@ -3293,10 +3281,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1mC7EXtBDTBrfMN3lEq5XvySOY0r1Z0-q=w200',
-				'https://lh3.googleusercontent.com/d/1mC7EXtBDTBrfMN3lEq5XvySOY0r1Z0-q=w200',
-			],
+			src: [require('@/assets/games/5b10d5ed-acc4-418d-a9ca-93005bb47f15.webp')],
 			alt: 'PC Sunrise Extreme Common False 9770322958006 Czech',
 		},
 		support: 'PC',
@@ -3310,10 +3295,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1pfP10FAyRpBRq9ADeEvoUvgG1U3Ack8N=w200',
-				'https://lh3.googleusercontent.com/d/1pfP10FAyRpBRq9ADeEvoUvgG1U3Ack8N=w200',
-			],
+			src: [require('@/assets/games/65171092-fdea-4046-9958-41ca10b20ad5.webp')],
 			alt: 'PC Sunrise Very Rare False 8594037370615 Czech',
 		},
 		support: 'PC',
@@ -3327,10 +3309,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1KZafqHvX-eZoIm_snzqCsu1aCLvAXS_r=w200',
-				'https://lh3.googleusercontent.com/d/1KZafqHvX-eZoIm_snzqCsu1aCLvAXS_r=w200',
-			],
+			src: [require('@/assets/games/28d6c48c-666e-431b-9b87-c389bb74f90a.webp')],
 			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare False Czech',
 		},
 		support: 'PC',
@@ -3344,10 +3323,7 @@ const GAMES = [
 		bigbox: 'Yes',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1U817p_ZGUSwKN5fy6WZwmr8hifarGd_-=w200',
-				'https://lh3.googleusercontent.com/d/1U817p_ZGUSwKN5fy6WZwmr8hifarGd_-=w200',
-			],
+			src: [require('@/assets/games/2fca63a4-b9a4-415a-98c6-dba0e2f6aaa1.webp')],
 			alt: 'PC 8590349001308 / 4033756001263 Gem Big Box BigBox False Czech',
 		},
 		support: 'PC',
