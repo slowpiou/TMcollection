@@ -79,6 +79,7 @@ export default {
 						g.country.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
 						g.ean.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
 						g.bigbox.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
+						g.support.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase()) ||
 						g.rarity.toLocaleLowerCase().includes(this.modelValue.toLocaleLowerCase())
 				)
 				.slice(0, this.currentPage * this.perPage);
