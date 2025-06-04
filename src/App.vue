@@ -15,8 +15,6 @@
 					<div class="columns">
 						<div class="column is-5 is-flex is-align-items-center">
 							<RouterLink to="/" class="navbar-item">Official</RouterLink>
-							<RouterLink to="/goodies" class="navbar-item">Goodies</RouterLink>
-							<RouterLink to="/demos" class="navbar-item">Demos</RouterLink>
 						</div>
 						<div class="column is-2">
 							<div class="content has-text-centered mb-0">
