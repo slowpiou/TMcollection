@@ -289,8 +289,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ZraP_onjaU6xeLni4tTNzoq4IOiMcCgd=w200',
-				'https://lh3.googleusercontent.com/d/1Yc2N6oyRkafaieIMpuVGTeEvPLqN7xKY=w200',
+				require('@/assets/games/taiwan/e5b5e1ae-383a-42bd-8ae2-2b79b72d85dc.webp'),
+				require('@/assets/games/taiwan/e5b5e1ae-383a-42bd-8ae2-2b79b72d85dc_1.webp'),
 			],
 			alt: 'PC United Big Box BigBox own Gem own Taiwan',
 		},
@@ -558,8 +558,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1k2pJ2c6BaYUSg2to2ZCKuzsY3m3JI108=w200',
-				'https://lh3.googleusercontent.com/d/1hYMc40pReSG5xXMe3bbhVnjVqM6B3G2a=w200',
+				require('@/assets/games/sweden/b2f22d49-bd4b-4b3e-9484-debebb3bc454.webp'),
+				require('@/assets/games/sweden/b2f22d49-bd4b-4b3e-9484-debebb3bc454_1.webp'),
 			],
 			alt: 'PC Power Up! Nordic Very Rare own 7350002300619 Sweden',
 		},
@@ -576,8 +576,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1F097H57Ch9fB-LBudeJj_Nx4x8nAucVS=w200',
-				'https://lh3.googleusercontent.com/d/1gvRfz_3MpTYEl5FLuo-F2fxzUteK-4mv=w200',
+				require('@/assets/games/taiwan/bc8c90e7-36d0-4e6f-a36a-586b45fac9d2.webp'),
+				require('@/assets/games/taiwan/bc8c90e7-36d0-4e6f-a36a-586b45fac9d2_1.webp'),
 			],
 			alt: 'PC Sunrise Big Box BigBox own Gem 4711182570187 Taiwan',
 		},
@@ -593,7 +593,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: ['https://lh3.googleusercontent.com/d/1gDvNic76suh3FWCMfCVAcc0WvEiiTfnW=w200', ''],
+			src: [require('@/assets/games/taiwan/5c15088d-4687-4c18-88b8-3c37953b7ee4.webp')],
 			alt: 'PC own Gem ---- Taiwan',
 		},
 		support: 'PC',
@@ -1077,8 +1077,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/19Zwb_fYhZSt9czDSuVf-K1eQwmOs8kf3=w200',
-				'https://lh3.googleusercontent.com/d/1o2jdzpOAQZEDdCjqcuXG5NTwoCelFLx2=w200',
+				require('@/assets/games/spain/66b55aad-23c7-4848-bbfd-8dcd9674b38b.webp'),
+				require('@/assets/games/spain/66b55aad-23c7-4848-bbfd-8dcd9674b38b_1.webp'),
 			],
 			alt: 'PC own Rare 3700046239057 Spain',
 		},
@@ -1095,8 +1095,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/10l_iv4C0w6B7kWpY-yUGK_bEct08fvC8=w200',
-				'https://lh3.googleusercontent.com/d/1gI8pLUGeE_F6jWUfO4R702jS5HZ5URV0=w200',
+				require('@/assets/games/spain/309a3342-4a92-4361-87aa-85ed64c5193e.webp'),
+				require('@/assets/games/spain/309a3342-4a92-4361-87aa-85ed64c5193e_1.webp'),
 			],
 			alt: 'PC United own Rare 3512289012386 Spain',
 		},
@@ -1113,8 +1113,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/14Jxt6I4CM1fkj72MMDqIvCnbaEll5NwY=w200',
-				'https://lh3.googleusercontent.com/d/1IKl3k0K2XdW_uBuVYhGuZs_nr4_OHy-F=w200',
+				require('@/assets/games/spain/0fdfe598-d05a-4d4d-ae1d-995706eeea3b.webp'),
+				require('@/assets/games/spain/0fdfe598-d05a-4d4d-ae1d-995706eeea3b_1.webp'),
 			],
 			alt: 'DS Turbo own Rare 3512289017138 Spain',
 		},
@@ -1131,8 +1131,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dJl4k-JNwnQEh5zx4F9eoKfSpGZnyJZu=w200',
-				'https://lh3.googleusercontent.com/d/1Qw67MCENtAUnBO2Wt5hI_K6yyz7M1Iyv=w200',
+				require('@/assets/games/sweden/fc814eb3-f2e0-4370-a1f3-1cfcf482e657.webp'),
+				require('@/assets/games/sweden/fc814eb3-f2e0-4370-a1f3-1cfcf482e657_1.webp'),
 			],
 			alt: 'PC United own Rare 3512289012126 Sweden',
 		},
@@ -1881,8 +1881,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1AZMCRrzRw4gKSXMvBuLPU4zATLe_6JFS=w200',
-				'https://lh3.googleusercontent.com/d/1zLA5ED-nqS6ATk0ZqgbnqmQJsMCc6cTU=w200',
+				require('@/assets/games/spain/7452b162-a6c5-48e5-b33b-df085e83e481.webp'),
+				require('@/assets/games/spain/7452b162-a6c5-48e5-b33b-df085e83e481_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 3512289010672 Spain',
 		},
@@ -1899,8 +1899,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1NKpn0Vro2espkx4jcAYhH9lHlXhVcZuR=w200',
-				'https://lh3.googleusercontent.com/d/15Hp-CsPttT8I4w4ATtPbh3wppHtMObJz=w200',
+				require('@/assets/games/spain/51c11c44-0539-494f-9809-876a3c2c97a7.webp'),
+				require('@/assets/games/spain/51c11c44-0539-494f-9809-876a3c2c97a7_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 3307215913758 Spain',
 		},
@@ -1917,8 +1917,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dXk1qog4knfkvt9ogLF1uyw5jSQW19oC=w200',
-				'https://lh3.googleusercontent.com/d/1tz_w8OuU0Ed15cSsARJ2gruzAkrcSPw8=w200',
+				require('@/assets/games/spain/6b6b010f-0311-4b32-9313-41c074b521e3.webp'),
+				require('@/assets/games/spain/6b6b010f-0311-4b32-9313-41c074b521e3_1.webp'),
 			],
 			alt: 'PS4 VR Turbo own Common 3307215913758 Spain',
 		},
@@ -1935,8 +1935,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1VqMNpyn29Q9zt7DlJDxSLbTcSB-LN07u=w200',
-				'https://lh3.googleusercontent.com/d/12twLwBuhLX0AUKqHrbvSi9df0hTjvVoV=w200',
+				require('@/assets/games/spain/e919980b-1186-45dd-bfea-8e14efbaf662.webp'),
+				require('@/assets/games/spain/e919980b-1186-45dd-bfea-8e14efbaf662_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme own Common 8423817602526 Spain',
 		},
@@ -1953,8 +1953,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ApmjVjOaRMGjZrFURYMlvyqNezD-Wg51=w200',
-				'https://lh3.googleusercontent.com/d/1rOsXodeGMdlgY4bq80jTj8ksyUDSI6H9=w200',
+				require('@/assets/games/spain/2a9d6168-7029-468a-87f1-6c48b6b091e2.webp'),
+				require('@/assets/games/spain/2a9d6168-7029-468a-87f1-6c48b6b091e2_1.webp'),
 			],
 			alt: 'PC Original Fx own Common 8436010151975 Spain',
 		},
@@ -1971,8 +1971,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1eVGfxixcX0vXbp-xwIKlrUExKgpzrZF8=w200',
-				'https://lh3.googleusercontent.com/d/1bij9iTERPOct1MLjEYbR2cqUUpbKPipT=w200',
+				require('@/assets/games/spain/98bf2e6e-fe1d-4c3f-9348-9ccb461553b7.webp'),
+				require('@/assets/games/spain/98bf2e6e-fe1d-4c3f-9348-9ccb461553b7_1.webp'),
 			],
 			alt: 'PC Original Fx own Common 8436010151456 Spain',
 		},
@@ -1989,8 +1989,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1plOlY1kaUcqcy6hiMu21l2q8sCRYwoDN=w200',
-				'https://lh3.googleusercontent.com/d/1fcTLXzA5HiaH-NVyfOgJytmFnvHZCHwo=w200',
+				require('@/assets/games/spain/f6670e4c-144a-4b62-9256-36d441b8448c.webp'),
+				require('@/assets/games/spain/f6670e4c-144a-4b62-9256-36d441b8448c_1.webp'),
 			],
 			alt: 'PC United Forever Fx own Common 8436010151852 Spain',
 		},
@@ -2007,8 +2007,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1rqCopSEsY8GNU9bBewmwMC6KNU48SlBs=w200',
-				'https://lh3.googleusercontent.com/d/130YwHa0Mr9gcK1ltfjJWI7cORpQh8oMt=w200',
+				require('@/assets/games/spain/1ea4f259-11a7-4f40-b25f-84017c4edb2b.webp'),
+				require('@/assets/games/spain/1ea4f259-11a7-4f40-b25f-84017c4edb2b_1.webp'),
 			],
 			alt: 'PC Turbo own Common 3307215913611 Spain',
 		},
@@ -2025,8 +2025,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1B15XjFXDavZm7RJVyhaa-y4TqDk1VAlj=w200',
-				'https://lh3.googleusercontent.com/d/1X-MEslo0myBbKd69deBInaBlmw6k8FsD=w200',
+				require('@/assets/games/spain/65f2647e-3acd-484e-a97c-a6ac57f91896.webp'),
+				require('@/assets/games/spain/65f2647e-3acd-484e-a97c-a6ac57f91896_1.webp'),
 			],
 			alt: 'DS own Common 3512289015486 Spain',
 		},
@@ -2380,8 +2380,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/10V9il37J-JIxDF9dLf0cucn1365Ij3bw=w200',
-				'https://lh3.googleusercontent.com/d/18cEg-jIimuJzG2F90hgsaQ9GVBlBxY3N=w200',
+				require('@/assets/games/sweden/86916631-5125-40d3-9954-30596386e7af.webp'),
+				require('@/assets/games/sweden/86916631-5125-40d3-9954-30596386e7af_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme Medallion own Common 7351344879924 7350021968999 Sweden',
 		},
@@ -2398,8 +2398,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1_iDIKpuCJVBGpooJ4A_jQWHme-UFOVWh=w200',
-				'https://lh3.googleusercontent.com/d/1GVxOYdVjq4W9ks8fHiYJb7MnOvNTG4va=w200',
+				require('@/assets/games/spain/a3839162-da40-4db0-b933-634c4593ef6e.webp'),
+				require('@/assets/games/spain/a3839162-da40-4db0-b933-634c4593ef6e_1.webp'),
 			],
 			alt: 'Wii own Common 3512289017206 Spain',
 		},
@@ -2732,8 +2732,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1HsVRq5fckJs9D1E8gTjH0vwLJLQ6d-ls=w200',
-				'https://lh3.googleusercontent.com/d/1GOUNEcfMoHDNzzg9ygaEW_7GPPmpppbA=w200',
+				require('@/assets/games/spain/9f5a5c7b-1723-4e54-b21f-59237a792c66.webp'),
+				require('@/assets/games/spain/9f5a5c7b-1723-4e54-b21f-59237a792c66_1.webp'),
 			],
 			alt: 'Xbox Turbo Common False 3307215913895 Spain',
 		},
@@ -2834,8 +2834,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1hmkdZ5Uno5fy_67wo1QidHsry7AclpGN=w200',
-				'https://lh3.googleusercontent.com/d/154ssnhcOb0G8eDBG2cq4zQhtr8fTxYwY=w200',
+				require('@/assets/games/serbia/d36e2a32-1503-4b07-9f8a-2e3b2fa04839.webp'),
+				require('@/assets/games/serbia/d36e2a32-1503-4b07-9f8a-2e3b2fa04839_1.webp'),
 			],
 			alt: 'PS4 Turbo Common False 8606005551862 Serbia',
 		},
@@ -2988,10 +2988,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1o2W5gI_7YgMOApNoSlscDtvAx7rqPevE=w200',
-				'https://lh3.googleusercontent.com/d/1o2W5gI_7YgMOApNoSlscDtvAx7rqPevE=w200',
-			],
+			src: [require('@/assets/games/sweden/7707b72d-6f91-48d6-8d99-76482b1f7207.webp')],
 			alt: 'PC Original Common False 3512289010719 Sweden',
 		},
 		support: 'PC',
