@@ -9,8 +9,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pDJ9IwOkoUJfAhCLSmVWJ4IYEFEvyrDZ=w200',
-				'https://lh3.googleusercontent.com/d/1HP4fBCGBC4pwKemfkaCnZduEJKbG6MSW=w200',
+				require('@/assets/games/usa/69c9a981-4224-4da1-af4f-5ef13e2f2c51.webp'),
+				require('@/assets/games/usa/69c9a981-4224-4da1-af4f-5ef13e2f2c51_1.webp'),
 			],
 			alt: 'PC Original Big Box BigBox own Commun 0646662101145 USA',
 		},
@@ -609,8 +609,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1iOCHZ7j3ZMQRZ0gqD53zwfK4pyr0PBDn=w200',
-				'https://lh3.googleusercontent.com/d/1X01kbEMcfh9BuBUN_FkLl0HpZZuRAV42=w200',
+				require('@/assets/games/uk/acdb1f47-725a-46ab-8fda-d481cc4c3319.webp'),
+				require('@/assets/games/uk/acdb1f47-725a-46ab-8fda-d481cc4c3319_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme own Very Rare 4020628500269 UK',
 		},
@@ -627,8 +627,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/19MSXmB1BDoP38xguJJEBLglZvKg0wbKq=w200',
-				'https://lh3.googleusercontent.com/d/1scdRz_PdDp_zED5ncfH7LhrO7OWHamiC=w200',
+				require('@/assets/games/uk/3f34fb5e-8ae0-4c1a-8779-3ec1924f365b.webp'),
+				require('@/assets/games/uk/3f34fb5e-8ae0-4c1a-8779-3ec1924f365b_1.webp'),
 			],
 			alt: 'PC United own Very Rare 3512289012232 UK',
 		},
@@ -645,8 +645,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/14ICCT59Pj-wRiWu4tijJ3q6AYtT6PsVJ=w200',
-				'https://lh3.googleusercontent.com/d/1ChAVWftu9RwMKEDVfdnBWwnfbKmyiSnQ=w200',
+				require('@/assets/games/ukraine/3252a321-671c-4ce7-92eb-7e732c3bf87a.webp'),
+				require('@/assets/games/ukraine/3252a321-671c-4ce7-92eb-7e732c3bf87a_1.webp'),
 			],
 			alt: 'PC United Byka own Gem 4820072779569 Ukraine',
 		},
@@ -663,8 +663,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/14VgdQTlk_KGFixHHDx0hLiodww14nzBn=w200',
-				'https://lh3.googleusercontent.com/d/1fLKjD4_jDV6ZZv9OfihOwmL-2Zt80ntv=w200',
+				require('@/assets/games/ukraine/82961d40-aa04-4094-bf10-aa86aa0c43e9.webp'),
+				require('@/assets/games/ukraine/82961d40-aa04-4094-bf10-aa86aa0c43e9_1.webp'),
 			],
 			alt: 'PC Sunrise Byka Jewel Case own Very Rare 4820072770573 Ukraine',
 		},
@@ -1149,8 +1149,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1mh0ZvqFYOjQXBRy8oVArkHCgvJvKQzxp=w200',
-				'https://lh3.googleusercontent.com/d/1fCrbdKbhaN7zCDloStjwCkQHJkJJYayO=w200',
+				require('@/assets/games/uk/034bb382-b914-4f8f-9767-038f5e41a8ec.webp'),
+				require('@/assets/games/uk/034bb382-b914-4f8f-9767-038f5e41a8ec_1.webp'),
 			],
 			alt: 'PC United Forever own Rare 3512289014953 UK',
 		},
@@ -1167,8 +1167,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1WeTVczwcXgul8kdw5YGni8d4A2GvMYjq=w200',
-				'https://lh3.googleusercontent.com/d/1Y-LTOrBNsjDdDYaj-QjdvtyugHQJupM7=w200',
+				require('@/assets/games/usa/9ba553dd-f896-4ada-8c83-31b0bf4b4367.webp'),
+				require('@/assets/games/usa/9ba553dd-f896-4ada-8c83-31b0bf4b4367_1.webp'),
 			],
 			alt: 'PC Sunrise Big Box BigBox own Rare 0646662101381 USA',
 		},
@@ -2169,8 +2169,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1lZ8kSvIpYhz4N2FjQes80o9yvKsojSax=w200',
-				'https://lh3.googleusercontent.com/d/1SaYUuanIUANfOVtsBZf1ZK5-p14zsNkP=w200',
+				require('@/assets/games/uk/e7be99e2-7e0e-4681-988f-76dbd22a0644.webp'),
+				require('@/assets/games/uk/e7be99e2-7e0e-4681-988f-76dbd22a0644_1.webp'),
 			],
 			alt: 'PC Power Up! own Common 5060074850104 UK',
 		},
@@ -2187,8 +2187,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/12a001VN3zl1gu9jV2-DtOdqLDWLSV14l=w200',
-				'https://lh3.googleusercontent.com/d/14sveuU5n6hs6mTLbEJEdNfo0khzUGCU3=w200',
+				require('@/assets/games/uk/fc047383-db78-46dd-9374-00fbe61b4a8a.webp'),
+				require('@/assets/games/uk/fc047383-db78-46dd-9374-00fbe61b4a8a_1.webp'),
 			],
 			alt: 'PC own Common 5060074850012 UK',
 		},
@@ -2205,8 +2205,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1H64xNDJ2cmcuszv2ma3Q_9PogBa9PXpL=w200',
-				'https://lh3.googleusercontent.com/d/1vzRJQTPC1Om33P14Oxoq6eYgTCwwoIvl=w200',
+				require('@/assets/games/uk/6ef0bfac-4dc0-4b4a-8c87-93bd412265be.webp'),
+				require('@/assets/games/uk/6ef0bfac-4dc0-4b4a-8c87-93bd412265be_1.webp'),
 			],
 			alt: 'PC United own Common 3512289012096 UK',
 		},
@@ -2223,8 +2223,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1xsZ8mf_XGCN1J1MNNFh04tKg5CBP55py=w200',
-				'https://lh3.googleusercontent.com/d/1AmYKOiux-2fJutx_c9ymARdhrI19LPPo=w200',
+				require('@/assets/games/uk/f24d5451-8dc3-482d-84b1-cac7792020ce.webp'),
+				require('@/assets/games/uk/f24d5451-8dc3-482d-84b1-cac7792020ce_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 5060074850227 UK',
 		},
@@ -2241,8 +2241,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1TbTxiqErONYY-ll_2eBHFZ0fLx0NhuCQ=w200',
-				'https://lh3.googleusercontent.com/d/17R6YI-xM4F_jgvf13K5PFSN-HczodSCK=w200',
+				require('@/assets/games/uk/579606f9-cd61-4845-bccf-d118d2ec7be6.webp'),
+				require('@/assets/games/uk/579606f9-cd61-4845-bccf-d118d2ec7be6_1.webp'),
 			],
 			alt: 'PC Original XPLOSIV own Common 5017783026290 UK',
 		},
@@ -2259,8 +2259,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1BSMsRJaSGhiKDB2ODEUhz-RutrsOJ6WS=w200',
-				'https://lh3.googleusercontent.com/d/1IxlAAUjlkvDb9d3Nyd72EG6Y6QlyfoSr=w200',
+				require('@/assets/games/uk/1a496540-1cce-4969-99ac-9fe941f34184.webp'),
+				require('@/assets/games/uk/1a496540-1cce-4969-99ac-9fe941f34184_1.webp'),
 			],
 			alt: 'Wii own Common 3512289017152 UK',
 		},
@@ -2277,8 +2277,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ZINvHPB_k60dOXPspuKAaLTOMW1hW6RW=w200',
-				'https://lh3.googleusercontent.com/d/1qg3N0UQ7Dbyfhet3b3BOQpSoudkTlSoC=w200',
+				require('@/assets/games/uk/488fe1aa-bc9a-4f88-96d7-14e435f3c674.webp'),
+				require('@/assets/games/uk/488fe1aa-bc9a-4f88-96d7-14e435f3c674_1.webp'),
 			],
 			alt: 'DS own Common 3512289015493 UK',
 		},
@@ -2295,8 +2295,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/175PU-P-RkOeufk962WuaEKK7hxdSsYS9=w200',
-				'https://lh3.googleusercontent.com/d/1aUjvtuVEVFtb8gGjzRYWixP00--p0MFa=w200',
+				require('@/assets/games/uk/9eb6caca-6071-45fb-a949-241a8abb7380.webp'),
+				require('@/assets/games/uk/9eb6caca-6071-45fb-a949-241a8abb7380_1.webp'),
 			],
 			alt: 'DS Turbo own Common 3512289017169 UK',
 		},
@@ -2519,8 +2519,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1owQAub5Z-QmItbkm8mPoSpE7kh-tQglw=w200',
-				'https://lh3.googleusercontent.com/d/1UVy7L5o7kLHkhxNGllZxbB8YOabrF7o8=w200',
+				require('@/assets/games/usa/b308d4ed-38e3-4acc-93e7-b4bb4629d83e.webp'),
+				require('@/assets/games/usa/b308d4ed-38e3-4acc-93e7-b4bb4629d83e_1.webp'),
 			],
 			alt: 'PC Sunrise Jewel Case own Common 0646662101411 USA',
 		},
@@ -2537,8 +2537,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dMGDp69xWMmgI_GtTxceUVKwALhExixa=w200',
-				'https://lh3.googleusercontent.com/d/1-lhrdEMHld4KOBpvCgwSwlIBWajpon_e=w200',
+				require('@/assets/games/usa/748a0a79-7330-482f-a36c-13fc28e9c513.webp'),
+				require('@/assets/games/usa/748a0a79-7330-482f-a36c-13fc28e9c513_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 0887256015817 USA',
 		},
@@ -2555,8 +2555,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dm_QtxU71eAVZUI5FJZ8MB7nM2rMUrTf=w200',
-				'https://lh3.googleusercontent.com/d/1CjFUJNPsEYch4Mq7n1NPGZNP_M1DkHiu=w200',
+				require('@/assets/games/usa/7ca93eae-ae23-4a77-a764-653a7798c3c1.webp'),
+				require('@/assets/games/usa/7ca93eae-ae23-4a77-a764-653a7798c3c1_1.webp'),
 			],
 			alt: 'DS Turbo own Common 0897749002989 USA',
 		},
@@ -2765,10 +2765,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/15p4N-DBLIFd93t2cWZknE_ATUqcGIY2k=w200',
-				'https://lh3.googleusercontent.com/d/15p4N-DBLIFd93t2cWZknE_ATUqcGIY2k=w200',
-			],
+			src: [require('@/assets/games/uk/f0eb2a22-472b-42ed-9416-13fbcb457b0f.webp')],
 			alt: 'PC Turbo Rare False 3307215913512 UK',
 		},
 		support: 'PC',
@@ -2817,8 +2814,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1NuB4h4C7BC2AMcddbgFyyQBIFuobz7JD=w200',
-				'https://lh3.googleusercontent.com/d/1rqdNCXxEpUu2_HKasocU_FDg1qrTvw9-=w200',
+				require('@/assets/games/usa/627c6675-937b-4504-967a-a45469addfb0.webp'),
+				require('@/assets/games/usa/627c6675-937b-4504-967a-a45469addfb0_1.webp'),
 			],
 			alt: 'PS4 Turbo Common False 887256015695 USA',
 		},
@@ -3002,10 +2999,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1wBzQsJE5yE1D_mLZkcTJ6lFmcGNYFjc1=w200',
-				'https://lh3.googleusercontent.com/d/1wBzQsJE5yE1D_mLZkcTJ6lFmcGNYFjc1=w200',
-			],
+			src: [require('@/assets/games/uk/142d08d2-d0f3-4b20-836a-4de828879337.webp')],
 			alt: 'PC Power Up ! Gem False 5060074850401 UK',
 		},
 		support: 'PC',
@@ -3020,8 +3014,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ypi9oOphOkzdlpoCqdrOS74PWvdaq2eT=w200',
-				'https://lh3.googleusercontent.com/d/1iq0r1C1FxNtcxa5X62A1jZE1k2J_n1Oq=w200',
+				require('@/assets/games/ukraine/077724ad-2707-4be3-bf62-ce9472bc009a.webp'),
+				require('@/assets/games/ukraine/077724ad-2707-4be3-bf62-ce9472bc009a_1.webp'),
 			],
 			alt: 'PC Jewel Case Gem own Ukraine',
 		},
@@ -3066,8 +3060,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1YppsCPORazTTCldXv4A8HGXfLXcb9ZjV=w200',
-				'https://lh3.googleusercontent.com/d/1Njr3o2cPwi32rFQsOCgpitCEz1nvhlaM=w200',
+				require('@/assets/games/usa/f1b7ab09-818b-43a1-8058-16aa011532b9.webp'),
+				require('@/assets/games/usa/f1b7ab09-818b-43a1-8058-16aa011532b9_1.webp'),
 			],
 			alt: 'DS Very Common Own 730865400256 USA',
 		},
@@ -3083,10 +3077,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1jpjBbYyCBQH2Jv2gPxwRDfKDJOJwxLer=w200',
-				'https://lh3.googleusercontent.com/d/1jpjBbYyCBQH2Jv2gPxwRDfKDJOJwxLer=w200',
-			],
+			src: [require('@/assets/games/usa/7e9acfc8-0ebc-4235-9748-6a6c58a6f02a.webp')],
 			alt: 'PC Jewel Case Common False 0646662101282 USA',
 		},
 		support: 'PC',
@@ -3100,10 +3091,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/113HxKDZfCSjDQPuxpgvgM6teDYpu1Ban=w200',
-				'https://lh3.googleusercontent.com/d/113HxKDZfCSjDQPuxpgvgM6teDYpu1Ban=w200',
-			],
+			src: [require('@/assets/games/usa/a3e7f0bf-3495-4164-be19-9318283cbf55.webp')],
 			alt: 'Wii Common False 0897749002972 USA',
 		},
 		support: 'Wii',
