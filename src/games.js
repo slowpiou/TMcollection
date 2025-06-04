@@ -343,8 +343,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1eJh2xxqt2OnghqBxVLJNm3BKD9Udya9h=w200',
-				'https://lh3.googleusercontent.com/d/1ngLTENS8rQwB3fsb5qKShlDGrLau4J02=w200',
+				require('@/assets/games/hungary/2b428cfc-f153-4e75-883d-260a7b48ab58.webp'),
+				require('@/assets/games/hungary/2b428cfc-f153-4e75-883d-260a7b48ab58_1.webp'),
 			],
 			alt: 'PC Power Up! Very Rare own 5999545971584 Hungary',
 		},
@@ -361,8 +361,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/142SbXAcLq_ruBQwxUhMxq8cbk7gP9N-V=w200',
-				'https://lh3.googleusercontent.com/d/1a7h74adNfxTIXDI-ECI2hykxVleS7fhE=w200',
+				require('@/assets/games/hungary/cdef20eb-dc6d-4882-a760-fa543314274a.webp'),
+				require('@/assets/games/hungary/cdef20eb-dc6d-4882-a760-fa543314274a_1.webp'),
 			],
 			alt: 'PC United Very Rare own 5998237105931 Hungary',
 		},
@@ -379,8 +379,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1NU0kqHXXEYNzyOeknDdR9aW_4lOCMrDY=w200',
-				'https://lh3.googleusercontent.com/d/1MYY-_u02BwUDstx9zIVfIA2xiTmr2E9i=w200',
+				require('@/assets/games/hungary/6e00d2b0-aacf-4372-b48c-6f0b2090e76a.webp'),
+				require('@/assets/games/hungary/6e00d2b0-aacf-4372-b48c-6f0b2090e76a_1.webp'),
 			],
 			alt: 'PC United Forever Very Rare own 5998237106914 Hungary',
 		},
@@ -397,8 +397,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1l5QPi8bHmjvPruYt1g17c6QRUhEYlP-9=w200',
-				'https://lh3.googleusercontent.com/d/1aT9neNivN785GW8FyK5UmYOWq2yED-PZ=w200',
+				require('@/assets/games/hungary/8c767657-f61b-4400-8290-70d2db736f13.webp'),
+				require('@/assets/games/hungary/8c767657-f61b-4400-8290-70d2db736f13_1.webp'),
 			],
 			alt: 'PC United SZÁZ SZÁZALÉK SOROZAT Very Rare own 5998237106730 Hungary',
 		},
@@ -2506,8 +2506,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1gwLJ-2qX4CLVLd222tXM-aENsTZxwy-G=w200',
-				'https://lh3.googleusercontent.com/d/16fYsLhHN2E3EYJDFIKAoqhlsQIELEKuN=w200',
+				require('@/assets/games/ireland/252fe2dd-1e9e-4b15-8130-080764761ff9.webp'),
+				require('@/assets/games/ireland/252fe2dd-1e9e-4b15-8130-080764761ff9_1.webp'),
 			],
 			alt: 'PC Original Hits Collection silver own Common 5390102494148 Ireland',
 		},
@@ -2524,8 +2524,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1J3CmPy5UXAlnkr2bIGG1GtgVcOadp1e8=w200',
-				'https://lh3.googleusercontent.com/d/18lyr5kssBeSVn1J5fFezu98rIGsADoLM=w200',
+				require('@/assets/games/ireland/899ab0fe-3c21-41f7-99d5-ad229c42c133.webp'),
+				require('@/assets/games/ireland/899ab0fe-3c21-41f7-99d5-ad229c42c133_1.webp'),
 			],
 			alt: 'PC Original Hits Collection Red own Common 5390102494148 Ireland',
 		},
@@ -2952,10 +2952,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1Sua8aVQazQXOUJM1-fIL4dsqV2DGzgW9=w200',
-				'https://lh3.googleusercontent.com/d/1Sua8aVQazQXOUJM1-fIL4dsqV2DGzgW9=w200',
-			],
+			src: [require('@/assets/games/hungary/451ee50f-f21e-4b72-8f91-c2cc5bf0e791.webp')],
 			alt: 'PC United Forever False Rare 5998237107430 Hungary',
 		},
 		support: 'PC',
@@ -2970,8 +2967,8 @@ const GAMES = [
 		rarity: 'Very Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1zMQTIaAXO_fG64XPfrotsddFc1-zDVZU=w200',
-				'https://lh3.googleusercontent.com/d/1zMQTIaAXO_fG64XPfrotsddFc1-zDVZU=w200',
+				require('@/assets/games/hungary/79115e35-460e-4775-91d3-8c5f2cf55f8a.webp'),
+				require('@/assets/games/hungary/79115e35-460e-4775-91d3-8c5f2cf55f8a_1.webp'),
 			],
 			alt: 'PC Sunrise False Rare 5999545971980 Hungary',
 		},
