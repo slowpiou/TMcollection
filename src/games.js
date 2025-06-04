@@ -325,8 +325,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1ttiwYQkHxVwYtFL-aBsaWiXt3srJU4Mf=w200',
-				'https://lh3.googleusercontent.com/d/1jfDA8lctpWM7jsK9y3DvryJxCtTQzsKd=w200',
+				require('@/assets/games/germany/96e5eccf-ff62-4bff-bb07-0ae4e9fc29fe.webp'),
+				require('@/assets/games/germany/96e5eccf-ff62-4bff-bb07-0ae4e9fc29fe_1.webp'),
 			],
 			alt: 'PC United Big Box BigBox Gem own 4020628082994 Germany',
 		},
@@ -788,8 +788,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/15JmRBJqlE026q2jrq3Z_pSTacyq1PZUk=w200',
-				'https://lh3.googleusercontent.com/d/1wSGb3l7BAe-XHGIisbxD5JZFmQfXKN4z=w200',
+				require('@/assets/games/germany/ef813fc1-2388-47b4-994b-d254ab0cd7cf.webp'),
+				require('@/assets/games/germany/ef813fc1-2388-47b4-994b-d254ab0cd7cf_1.webp'),
 			],
 			alt: 'PC Limited Edition own Rare 4020628081195 Germany',
 		},
@@ -806,8 +806,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1AyFXJFiDWv6avxJ9M3Gb93-mzBUIGsnL=w200',
-				'https://lh3.googleusercontent.com/d/1o1kdWfMNjRDUEeKFI0IcBKDgoz8qoV9B=w200',
+				require('@/assets/games/germany/eab5e9cf-1e81-4816-a4e6-15a59ef2354b.webp'),
+				require('@/assets/games/germany/eab5e9cf-1e81-4816-a4e6-15a59ef2354b_1.webp'),
 			],
 			alt: 'PC Sunrise Extreme Big Box BigBox own Rare 4020628082826 Germany',
 		},
@@ -824,8 +824,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/14DutQTW5YWEEVtbxZF6cRkPJbF6RusvP=w200',
-				'https://lh3.googleusercontent.com/d/19SO1fQ1xtWa20weL7ZkIHk8qLUsmbRL9=w200',
+				require('@/assets/games/germany/bfb88706-6ec1-4713-9e95-61d07dcbd8c6.webp'),
+				require('@/assets/games/germany/bfb88706-6ec1-4713-9e95-61d07dcbd8c6_1.webp'),
 			],
 			alt: 'PC Nations ESWC own Rare 4020628082833 Germany',
 		},
@@ -842,8 +842,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1j3K7aVcCNewN7VNPiJzARZXZonbRiWJr=w200',
-				'https://lh3.googleusercontent.com/d/1kSmV0uj1cxHQ2Qesw9JHywhBVlmOGzEY=w200',
+				require('@/assets/games/germany/aaa6327d-22b4-4e92-b421-7ea7041a0727.webp'),
+				require('@/assets/games/germany/aaa6327d-22b4-4e92-b421-7ea7041a0727_1.webp'),
 			],
 			alt: 'PC United own Rare 4020628082994 Germany',
 		},
@@ -860,8 +860,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1yLU3NTmUJl7p1G6BSbUq66ISAZ2MKB5h=w200',
-				'https://lh3.googleusercontent.com/d/1yILiMIJVnO57ZZ9vU7H5TvjFSYn60Eov=w200',
+				require('@/assets/games/germany/3c382495-4896-434f-a11d-b6e2c536b0a0.webp'),
+				require('@/assets/games/germany/3c382495-4896-434f-a11d-b6e2c536b0a0_1.webp'),
 			],
 			alt: 'PC United Forever own Rare 4020628086848 Germany',
 		},
@@ -878,8 +878,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1IuNevslJnDQHQk0y2vkDjSGdIb1h0iTc=w200',
-				'https://lh3.googleusercontent.com/d/1uKDmxL44EkaQ33u70sbjNog4i4nKNUat=w200',
+				require('@/assets/games/germany/10bc9ee7-356d-4943-97e8-fdeac4872a73.webp'),
+				require('@/assets/games/germany/10bc9ee7-356d-4943-97e8-fdeac4872a73_1.webp'),
 			],
 			alt: 'PC Turbo own Rare 4012160452021 Germany',
 		},
@@ -1610,8 +1610,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1h0ghZt-DLlrW-DQk8gglI4rfXmtf7bDX=w200',
-				'https://lh3.googleusercontent.com/d/1x_jy17YA8g19pgBN2yE-k3EkxT6aL5LH=w200',
+				require('@/assets/games/germany/e6154a7e-1139-486d-a649-f506d4d4c979.webp'),
+				require('@/assets/games/germany/e6154a7e-1139-486d-a649-f506d4d4c979_1.webp'),
 			],
 			alt: 'PC own Common 4020628000530 Germany',
 		},
@@ -1628,8 +1628,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1RwNvjmcHgYNUtUS-3BwBJJ4yVOmrxway=w200',
-				'https://lh3.googleusercontent.com/d/1wN1QlAnhMvx0DfgQ1OZuObuvLwgquOqD=w200',
+				require('@/assets/games/germany/e8e00b5c-6961-4392-8905-e1cb05fa4873.webp'),
+				require('@/assets/games/germany/e8e00b5c-6961-4392-8905-e1cb05fa4873_1.webp'),
 			],
 			alt: 'PC own Common Big Box BigBox 4020628000530 Germany',
 		},
@@ -1646,8 +1646,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1t7KjrlPNaXw5i9fHpQk-gpLisEmk8WjW=w200',
-				'https://lh3.googleusercontent.com/d/1JWDAtGB99kCEXgq9IHgBUcz_8rLb2vpO=w200',
+				require('@/assets/games/germany/cf9cb07d-c82f-48ac-ad7e-ae1a4b9506bd.webp'),
+				require('@/assets/games/germany/cf9cb07d-c82f-48ac-ad7e-ae1a4b9506bd_1.webp'),
 			],
 			alt: 'PC Extreme own Common 4020628087418 Germany',
 		},
@@ -1664,8 +1664,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1dv8c8POwVgOmeB2vNT9-H3bS9Ejp1k3a=w200',
-				'https://lh3.googleusercontent.com/d/1xR9Ohx2cTXjQAdyAF0_BPnITtbJ4U4Gv=w200',
+				require('@/assets/games/germany/00f99e19-0348-4ebc-a5c5-83990902fa42.webp'),
+				require('@/assets/games/germany/00f99e19-0348-4ebc-a5c5-83990902fa42_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
@@ -1682,8 +1682,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pkLGkZVeS9TJ-Z-KSNa4DbNakD67_43S=w200',
-				'https://lh3.googleusercontent.com/d/1hHOG8gZVwVOUVxdJKaSYw2NN_x7_Qz0P=w200',
+				require('@/assets/games/germany/9a5811fb-c7d6-4f13-9e0b-8a62eb2a918a.webp'),
+				require('@/assets/games/germany/9a5811fb-c7d6-4f13-9e0b-8a62eb2a918a_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
@@ -1700,8 +1700,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1LqLsIpqYMIHzkRPG_xt9cevzceOa-PrH=w200',
-				'https://lh3.googleusercontent.com/d/162G0XGPbTqrwztJFfdvFJPH_fBderfpA=w200',
+				require('@/assets/games/germany/b3b8c16b-93ed-4924-abfb-beb8dd28e7f5.webp'),
+				require('@/assets/games/germany/b3b8c16b-93ed-4924-abfb-beb8dd28e7f5_1.webp'),
 			],
 			alt: 'PC Sunrise own Common 4020628080242 Germany',
 		},
@@ -1718,8 +1718,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1jUuuxsdwtIidOya01r_2RXIj6SAkJJxe=w200',
-				'https://lh3.googleusercontent.com/d/137iVne1d8x0vZD03-brTKxIfPX7d5i0V=w200',
+				require('@/assets/games/germany/df4c61b0-b915-4894-86df-570b614b11b7.webp'),
+				require('@/assets/games/germany/df4c61b0-b915-4894-86df-570b614b11b7_1.webp'),
 			],
 			alt: 'PC United Forever own Common 4020628088095 Germany',
 		},
@@ -1736,8 +1736,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1jaXkrvsoho5zUjZEdduDwJDdA1yGO8CF=w200',
-				'https://lh3.googleusercontent.com/d/1h-ou6ZOSLP52-xnu9jLQAxHH6VfeHb6F=w200',
+				require('@/assets/games/germany/77430f98-4f91-4bd6-b3ac-4c0c9a35ee01.webp'),
+				require('@/assets/games/germany/77430f98-4f91-4bd6-b3ac-4c0c9a35ee01_1.webp'),
 			],
 			alt: 'PC Solid Games own Common 4020636108730 Germany',
 		},
@@ -1754,8 +1754,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1KRBxXtI08UqHW7-KRAlifl-sUwAjCzBt=w200',
-				'https://lh3.googleusercontent.com/d/1lFpOxv1Q9UjHxmn-VGSOOyf54HjtwYc3=w200',
+				require('@/assets/games/germany/e8f7f8f8-b55f-4eea-9569-4e93c077a289.webp'),
+				require('@/assets/games/germany/e8f7f8f8-b55f-4eea-9569-4e93c077a289_1.webp'),
 			],
 			alt: 'PC Magic Games own Common 4020636230028 Germany',
 		},
@@ -1772,8 +1772,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1rr5vlrJItvDYTm0ElrDFYUyI4Vwk7Uab=w200',
-				'https://lh3.googleusercontent.com/d/1dFpjaX1RIlcD5Kb5gG4pNBa4d-40DnXE=w200',
+				require('@/assets/games/germany/4090ebf7-8c97-4eb2-8114-e374362bf5d7.webp'),
+				require('@/assets/games/germany/4090ebf7-8c97-4eb2-8114-e374362bf5d7_1.webp'),
 			],
 			alt: 'PC United Forever own Common 4020628084660 Germany',
 		},
@@ -1790,8 +1790,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1lYSkQDOdKn-Knd1smtcTtCa6L3KYU2tY=w200',
-				'https://lh3.googleusercontent.com/d/1IOcYoL0GSwT4wojpgvccX_PAbWMIE8Qg=w200',
+				require('@/assets/games/germany/8ee6154b-32ad-4c11-9641-38e9c7b449d6.webp'),
+				require('@/assets/games/germany/8ee6154b-32ad-4c11-9641-38e9c7b449d6_1.webp'),
 			],
 			alt: 'Wii own Common 3512289017718 Germany',
 		},
@@ -1808,8 +1808,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pMjbjnt6Ke-4ILopj4oGblpe8YBbv4A_=w200',
-				'https://lh3.googleusercontent.com/d/1SH0D5A107IZV4ann7LM-cNPYOtNHjhG7=w200',
+				require('@/assets/games/germany/22b69970-e1b2-4aa0-80fb-627f288b903f.webp'),
+				require('@/assets/games/germany/22b69970-e1b2-4aa0-80fb-627f288b903f_1.webp'),
 			],
 			alt: 'Xbox Turbo own Common 3307215913833 Germany',
 		},
@@ -1826,8 +1826,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1z_XY-7UuKcPpLV07LeY_f0FkQW89uscP=w200',
-				'https://lh3.googleusercontent.com/d/1JkYy6y678fqB4pH6Y-Ku1-yvPi10C3G8=w200',
+				require('@/assets/games/germany/d3375828-bf35-414a-8db9-a25aee179ed2.webp'),
+				require('@/assets/games/germany/d3375828-bf35-414a-8db9-a25aee179ed2_1.webp'),
 			],
 			alt: 'DS own Common 3512289015516 Germany',
 		},
@@ -1844,8 +1844,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1q9kqE1yi27EKXHUARebZlC4zqnEg1rgi=w200',
-				'https://lh3.googleusercontent.com/d/1Zbkt1gE0q0lM-P7EOJmVpZB3zK281_t9=w200',
+				require('@/assets/games/germany/d8457957-7203-4c83-8546-a9fbadb1c5cc.webp'),
+				require('@/assets/games/germany/d8457957-7203-4c83-8546-a9fbadb1c5cc_1.webp'),
 			],
 			alt: 'DS Turbo own Common 3512289017930 Germany',
 		},
@@ -1862,8 +1862,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1HY3Bm9rUn6WbYoKYhfepPHX6KxBqtGS4=w200',
-				'https://lh3.googleusercontent.com/d/1U5wu2maE1ny9hx75Ww2ar96oWFdeI0cX=w200',
+				require('@/assets/games/germany/ddcecac4-d3e1-469c-9684-3d6814d853a6.webp'),
+				require('@/assets/games/germany/ddcecac4-d3e1-469c-9684-3d6814d853a6_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 3307215913703 Germany',
 		},
@@ -1880,8 +1880,8 @@ const GAMES = [
 		rarity: 'Common',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1pWptgTqCoj3EnUPo6BPPC9mpoX29nx05=w200',
-				'https://lh3.googleusercontent.com/d/14c1fMWcyIfQo9hWS_L08BHOKCZEXfcQ5=w200',
+				require('@/assets/games/germany/44b7374c-8fa0-410f-ba89-6d46c93c7226.webp'),
+				require('@/assets/games/germany/44b7374c-8fa0-410f-ba89-6d46c93c7226_1.webp'),
 			],
 			alt: 'PS4 Turbo own Common 3307215913703 Germany',
 		},
@@ -2938,10 +2938,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1c3m_R0SNSdEFhENu8xY8743DmQ_KCiJ5=w200',
-				'https://lh3.googleusercontent.com/d/1c3m_R0SNSdEFhENu8xY8743DmQ_KCiJ5=w200',
-			],
+			src: [require('@/assets/games/germany/50955bed-258a-4ab0-adbc-080f09d725f4.webp')],
 			alt: 'PC False Rare 9783833106446 Germany',
 		},
 		support: 'PC',
@@ -3539,8 +3536,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1LK2P06t2kY4V911GRetLDrvXaVQEnK-l=w200',
-				'https://lh3.googleusercontent.com/d/1-6YpRz3t0pyFPwAtKuCKHjKUEhDXVCve=w200',
+				require('@/assets/games/germany/49031ef4-4b88-4cbb-be29-300d063524fc.webp'),
+				require('@/assets/games/germany/49031ef4-4b88-4cbb-be29-300d063524fc_1.webp'),
 			],
 			alt: 'PC Original Extended Version Rare Own 4020628081812 Germany',
 		},
