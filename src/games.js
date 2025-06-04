@@ -1185,8 +1185,8 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1uyFfLGtvBehZrg9pTwtYLf8BlYeHb5Ib=w200',
-				'https://lh3.googleusercontent.com/d/1y7IT9MJOPM0pM69wlIIBLnt5KFQJTVwF=w200',
+				require('@/assets/games/international/92a11e45-96e5-4aa6-ae8f-684c9103bd84.webp'),
+				require('@/assets/games/international/92a11e45-96e5-4aa6-ae8f-684c9103bd84_1.webp'),
 			],
 			alt: 'Xbox Promotional Disc Turbo own Rare XboxPromo International',
 		},
@@ -1202,7 +1202,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: ['https://lh3.googleusercontent.com/d/15vMYc7LCcnOVq2u201886yq6mD3kBY1u=w200', ''],
+			src: [require('@/assets/games/international/17c424d2-7f17-4770-b95a-923ed3a9d628.webp')],
 			alt: 'PC Nations ESWC own Rare Y03G0009 International',
 		},
 		support: 'PC',
@@ -1217,7 +1217,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: ['https://lh3.googleusercontent.com/d/1QCrl0AKBt0110lEs8DQWym-goWU4opzC=w200', ''],
+			src: [require('@/assets/games/international/f9dbd798-3b0d-4a53-81d4-6e517af11cce.webp')],
 			alt: 'PS4 Turbo own Rare PS4Promo International',
 		},
 		support: 'PS4',
@@ -2865,8 +2865,8 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [
-				'https://lh3.googleusercontent.com/d/1cBcmLN8Cqp2GIDWK35sGuiJXB1o-phGr=w200',
-				'https://lh3.googleusercontent.com/d/1uy3L7BhPIKjs6To-1aqWx7BZxCLWV7I3=w200',
+				require('@/assets/games/international/9862ec1a-4734-465e-9a7e-5c076e764be2.webp'),
+				require('@/assets/games/international/9862ec1a-4734-465e-9a7e-5c076e764be2_1.webp'),
 			],
 			alt: 'PC Sunrise ESWC False Gem 3512289011884 International',
 		},
@@ -2881,10 +2881,7 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [
-				'https://lh3.googleusercontent.com/d/1kY7a49ipaUOunHT1to-qtyTcJm5SjMPk=w200',
-				'https://lh3.googleusercontent.com/d/1kY7a49ipaUOunHT1to-qtyTcJm5SjMPk=w200',
-			],
+			src: [require('@/assets/games/international/eee3d732-c832-479f-a5f7-67a7792b3b49.webp')],
 			alt: 'PC nation eswc ESWC False Gem G71-VG31001-CE2 International',
 		},
 		support: 'PC',
