@@ -24,20 +24,21 @@
 		</div>
 		<empty-hero v-if="goodiesPaginated.length === 0"></empty-hero>
 
-		<!-- <game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal> -->
+		<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
 	</div>
 </template>
 
 <script>
 import GOODIES from '@/goodies.js';
+import GameModal from '@/components/GameModal.vue';
 import ItemFilter from '@/components/ItemFilter.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
 import OwnedOrNot from '@/components/OwnedOrNot.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'GoodiesView',
-	props: ['modelValue'],
-	components: { Carousel, Slide, Navigation, ItemFilter, EmptyHero, OwnedOrNot },
+	props: ['modelValue', 'ownFilter'],
+	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
 	data() {
 		return {
 			goodies: GOODIES,
@@ -50,20 +51,38 @@ export default {
 				{ flag: 'https://picsum.photos/200/300', name: 'Others' },
 			],
 			filteredGoodies: GOODIES,
+			showGameModal: false,
+			gameModalContent: null,
 			itemsToShow: 1,
 			currentPage: 1,
-			perPage: 16,
+			perPage: 18,
 		};
 	},
 	computed: {
 		goodiesPaginated() {
-			return this.filteredGoodies.slice(0, this.currentPage * this.perPage);
+			let ownFilteredGames = this.ownFilter !== undefined ? this.filteredGoodies.filter((g) => g.own === this.ownFilter) : this.filteredGoodies;
+			return ownFilteredGames.slice(0, this.currentPage * this.perPage);
 		},
 	},
 	methods: {
 		filterGoodiesByType(g) {
 			this.filteredGoodies = g !== '' ? this.goodies.filter((good) => good.type.includes(g)) : this.goodies;
 		},
+		openGameModal(g) {
+			this.gameModalContent = g;
+			this.showGameModal = true;
+		},
+		handleScroll() {
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+				this.currentPage++;
+			}
+		},
+	},
+	created() {
+		window.addEventListener('scroll', this.handleScroll);
+	},
+	unmounted() {
+		window.removeEventListener('scroll', this.handleScroll);
 	},
 };
 </script>
