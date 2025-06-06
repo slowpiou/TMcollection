@@ -1,8 +1,8 @@
 <template>
-	<span class="icon has-background-success-50 owned" v-if="owned">
+	<span class="icon has-background-success-50" v-if="owned">
 		<i class="fas fa-check has-text-white"></i>
 	</span>
-	<span class="icon has-background-danger-40 owned" v-else>
+	<span class="icon has-background-danger-40" v-else>
 		<i class="fas fa-times has-text-white"></i>
 	</span>
 </template>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style scoped>
-.owned {
+.icon {
 	position: absolute;
 	z-index: 10;
 	bottom: 5px;
