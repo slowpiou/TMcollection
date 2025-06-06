@@ -37,7 +37,7 @@ import OwnedOrNot from '@/components/OwnedOrNot.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'GoodiesView',
-	props: ['modelValue', 'ownFilter'],
+	props: ['ownFilter'],
 	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
 	data() {
 		return {

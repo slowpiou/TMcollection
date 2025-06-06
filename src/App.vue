@@ -55,7 +55,7 @@
 											>All</a
 										>
 										<template v-if="$route.name === 'home'">
-											<hr class="dropdown-divider" />
+											<hr class="dropdown-divider dropdown-item p-0" />
 											<div class="dropdown-item is-size-7 pl-2 pb-1">Rarity</div>
 											<a
 												class="dropdown-item"
@@ -119,7 +119,8 @@
 			</div>
 		</nav>
 
-		<RouterView v-model="searchGame" :rarityFilter="rarityFilter" :ownFilter="ownFilter" />
+		<RouterView v-model="searchGame" :rarityFilter="rarityFilter" :ownFilter="ownFilter" v-if="$route.name === 'home'" />
+		<RouterView :ownFilter="ownFilter" v-else />
 	</div>
 </template>
 
@@ -132,6 +133,17 @@ export default {
 			rarityFilter: 'All',
 			ownFilter: undefined,
 		};
+	},
+	methods: {
+		closeDropdown(e) {
+			let dropdownMenu = document.getElementsByClassName('dropdown-item');
+			if (!Array.from(dropdownMenu).includes(e.target) && this.showFilterDropdown) {
+				this.showFilterDropdown = false;
+			}
+		},
+	},
+	created() {
+		document.body.addEventListener('click', this.closeDropdown, { capture: true });
 	},
 };
 </script>
