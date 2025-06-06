@@ -134,17 +134,7 @@ export default {
 			ownFilter: undefined,
 		};
 	},
-	methods: {
-		closeDropdown(e) {
-			let dropdownMenu = document.getElementsByClassName('dropdown-item');
-			if (!Array.from(dropdownMenu).includes(e.target) && this.showFilterDropdown) {
-				this.showFilterDropdown = false;
-			}
-		},
-	},
-	created() {
-		document.body.addEventListener('click', this.closeDropdown, { capture: true });
-	},
+
 	watch: {
 		$route() {
 			this.searchGame = '';

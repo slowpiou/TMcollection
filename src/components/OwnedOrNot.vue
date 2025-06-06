@@ -1,9 +1,9 @@
 <template>
-	<span class="icon has-background-success-50" v-if="owned">
-		<i class="fas fa-check has-text-white"></i>
+	<span class="icon" v-if="owned">
+		<i class="fas fa-check has-text-white own"></i>
 	</span>
-	<span class="icon has-background-danger-40" v-else>
-		<i class="fas fa-times has-text-white"></i>
+	<span class="icon not" v-else>
+		<i class="fas fa-times has-text-white own"></i>
 	</span>
 </template>
 
@@ -18,10 +18,23 @@ export default {
 .icon {
 	position: absolute;
 	z-index: 10;
-	bottom: 5px;
-	right: 5px;
-	width: 25px;
-	height: 25px;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid rgb(5, 139, 39);
+	border-left: 40px solid transparent;
+}
+.icon.not {
+	border-bottom: 40px solid rgb(170, 11, 11);
+}
+.own {
+	position: absolute;
+	z-index: 15;
+	bottom: -20px;
+	right: 20px;
+	width: 0px;
+	height: 0px;
 	border-radius: 50%;
 }
 </style>
