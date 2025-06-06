@@ -155,6 +155,7 @@ export default {
 	font-family: Poppins, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	min-height: 100vh;
 }
 #socials {
 	gap: 0.25rem;
