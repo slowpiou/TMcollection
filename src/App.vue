@@ -145,6 +145,14 @@ export default {
 	created() {
 		document.body.addEventListener('click', this.closeDropdown, { capture: true });
 	},
+	watch: {
+		$route() {
+			this.searchGame = '';
+			this.showFilterDropdown = false;
+			this.rarityFilter = 'All';
+			this.ownFilter = undefined;
+		},
+	},
 };
 </script>
 
