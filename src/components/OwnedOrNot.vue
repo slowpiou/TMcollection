@@ -1,6 +1,10 @@
 <template>
-	<span class="owned" v-if="owned"></span>
-	<span class="owned not" v-else></span>
+	<span class="icon has-background-success-50 owned" v-if="owned">
+		<i class="fas fa-check has-text-white"></i>
+	</span>
+	<span class="icon has-background-danger-40 owned" v-else>
+		<i class="fas fa-times has-text-white"></i>
+	</span>
 </template>
 
 <script>
@@ -14,14 +18,10 @@ export default {
 .owned {
 	position: absolute;
 	z-index: 10;
-	bottom: 0;
-	right: 0;
-	width: 0;
-	height: 0;
-	border-left: 30px solid transparent;
-	border-bottom: 30px solid green;
-}
-.owned.not {
-	border-bottom: 30px solid rgb(185, 4, 4);
+	bottom: 5px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
 }
 </style>
