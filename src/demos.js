@@ -13,6 +13,17 @@ const DEMOS = [
 		title: 'Missing',
 		image: {
 			src: [
+				require('@/assets/demos/brazil/365592aa-4763-4ff4-8b20-109f8e00065d.webp'),
+				require('@/assets/demos/brazil/365592aa-4763-4ff4-8b20-109f8e00065d_1.webp'),
+			],
+			country: 'brazil',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
 				require('@/assets/demos/czech/8d9b316e-cdc2-420d-85c5-9053197b568f.webp'),
 			],
 			country: 'czech',
@@ -319,6 +330,17 @@ const DEMOS = [
 		title: 'Missing',
 		image: {
 			src: [
+				require('@/assets/demos/germany/116b6a9a-a323-412e-a6d8-d438ef663d28.webp'),
+				require('@/assets/demos/germany/116b6a9a-a323-412e-a6d8-d438ef663d28_1.webp'),
+			],
+			country: 'germany',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
 				require('@/assets/demos/italy/02a74b09-f63c-4b8a-8fe7-901b2c68e118.webp'),
 			],
 			country: 'italy',
@@ -391,6 +413,17 @@ const DEMOS = [
 		title: 'Missing',
 		image: {
 			src: [
+				require('@/assets/demos/italy/f76e2676-f18d-471b-affe-a0b3dcf67e2a.webp'),
+				require('@/assets/demos/italy/f76e2676-f18d-471b-affe-a0b3dcf67e2a_1.webp'),
+			],
+			country: 'italy',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
 				require('@/assets/demos/poland/3e74d0d4-2195-4a45-b2f9-4bfbe4f640a5.webp'),
 			],
 			country: 'poland',
@@ -444,6 +477,17 @@ const DEMOS = [
 			src: [
 				require('@/assets/demos/poland/cab2412a-70df-45d7-8df9-a7b5d73c97c0.webp'),
 				require('@/assets/demos/poland/cab2412a-70df-45d7-8df9-a7b5d73c97c0_1.webp'),
+			],
+			country: 'poland',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/poland/e95f956e-b577-4fff-98bf-e0415b2b26a7.webp'),
+				require('@/assets/demos/poland/e95f956e-b577-4fff-98bf-e0415b2b26a7_1.webp'),
 			],
 			country: 'poland',
 			own: true,
@@ -655,6 +699,72 @@ const DEMOS = [
 		title: 'Missing',
 		image: {
 			src: [
+				require('@/assets/demos/russia/3d7f8c1b-735a-42fa-b4e4-9dd156b222f3.webp'),
+				require('@/assets/demos/russia/3d7f8c1b-735a-42fa-b4e4-9dd156b222f3_1.webp'),
+			],
+			country: 'russia',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/7b069337-8f3d-4528-a736-cb65d0cee585.webp'),
+				require('@/assets/demos/russia/7b069337-8f3d-4528-a736-cb65d0cee585_1.webp'),
+			],
+			country: 'russia',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/7c9e9464-4b54-4e33-8336-4416b4fb6b64.webp'),
+				require('@/assets/demos/russia/7c9e9464-4b54-4e33-8336-4416b4fb6b64_1.webp'),
+			],
+			country: 'russia',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/184de59c-6703-4cbf-9e89-4596b137502e.webp'),
+				require('@/assets/demos/russia/184de59c-6703-4cbf-9e89-4596b137502e_1.webp'),
+			],
+			country: 'russia',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/687b3636-8686-4a39-a43d-dcfcd291e31e.webp'),
+				require('@/assets/demos/russia/687b3636-8686-4a39-a43d-dcfcd291e31e_1.webp'),
+			],
+			country: 'russia',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/spain/3854b03e-790e-4d86-b465-892170f02956.webp'),
+				require('@/assets/demos/spain/3854b03e-790e-4d86-b465-892170f02956_1.webp'),
+			],
+			country: 'spain',
+			own: true,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
 				require('@/assets/demos/uk/2f13f577-49ac-453c-ae65-b31aa73656f9.webp'),
 			],
 			country: 'uk',
@@ -688,6 +798,17 @@ const DEMOS = [
 				require('@/assets/demos/india/fc0a0eb2-33bd-451a-bd58-bbe99b87aac4.webp'),
 			],
 			country: 'india',
+			own: false,
+		}
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/usa/fe088e22-b575-4d98-8e58-bed4270b4cca.webp'),
+				require('@/assets/demos/usa/fe088e22-b575-4d98-8e58-bed4270b4cca_1.webp'),
+			],
+			country: 'usa',
 			own: false,
 		}
 	},
