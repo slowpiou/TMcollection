@@ -23,6 +23,10 @@
 		<empty-hero v-if="demosPaginated.length === 0"></empty-hero>
 
 		<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
+
+		<Transition name="fade">
+			<back-to-top v-if="currentPage > 1"></back-to-top>
+		</Transition>
 	</div>
 </template>
 
@@ -32,12 +36,13 @@ import DEMOS from '@/demos.js';
 import ItemFilter from '@/components/ItemFilter.vue';
 import GameModal from '@/components/GameModal.vue';
 import OwnedOrNot from '@/components/OwnedOrNot.vue';
+import BackToTop from '@/components/BackToTop.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'DemosView',
 	props: ['ownFilter'],
-	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
+	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot, BackToTop },
 	data() {
 		return {
 			demos: DEMOS,
@@ -77,7 +82,7 @@ export default {
 		},
 	},
 	created() {
-		console.log(this.demos.length);
+		this.currentPage = 1;
 
 		window.addEventListener('scroll', this.handleScroll);
 	},

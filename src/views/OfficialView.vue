@@ -39,6 +39,9 @@
 		</div>
 		<empty-hero v-if="gamesPaginated.length === 0"></empty-hero>
 		<game-modal :game="gameModalContent" v-if="showGameModal" @close-modal="showGameModal = false"></game-modal>
+		<Transition name="fade">
+			<back-to-top v-if="currentPage > 1"></back-to-top>
+		</Transition>
 	</div>
 </template>
 
@@ -47,13 +50,14 @@ import COUNTRIES from '@/countries.js';
 import GAMES from '@/games.js';
 import GameModal from '@/components/GameModal.vue';
 import ItemFilter from '@/components/ItemFilter.vue';
+import BackToTop from '@/components/BackToTop.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
 import OwnedOrNot from '@/components/OwnedOrNot.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'OfficialView',
 	props: ['modelValue', 'rarityFilter', 'ownFilter'],
-	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
+	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot, BackToTop },
 	data() {
 		return {
 			countries: COUNTRIES.filter((c) => !['India'].includes(c.name)),
@@ -100,6 +104,7 @@ export default {
 		},
 	},
 	created() {
+		this.currentPage = 1;
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	unmounted() {
