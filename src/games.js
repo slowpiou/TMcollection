@@ -51,8 +51,8 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: 'PressKit1',
-		title: 'TM Sunrise Press Kit1',
+		ean: '',
+		title: 'TM Sunrise Press Kit',
 		publisher: 'QV Software',
 		country: 'Australia',
 		release: '',
@@ -69,8 +69,8 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: 'PressKit2',
-		title: 'TM Sunrise Press Kit2',
+		ean: '',
+		title: 'TM Sunrise Press Kit',
 		publisher: 'QV Software',
 		country: 'Australia',
 		release: '',
@@ -147,7 +147,7 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: 'xx',
+		ean: '',
 		title: 'Trackmania Original',
 		publisher: 'Nadeo, Focus, G',
 		country: 'Australia',
@@ -159,7 +159,7 @@ const GAMES = [
 				require('@/assets/games/australia/923a637a-79f3-4bf2-a060-eb4baebcd54f.webp'),
 				require('@/assets/games/australia/923a637a-79f3-4bf2-a060-eb4baebcd54f_1.webp'),
 			],
-			alt: 'PC Original Big Box BigBox False Very rare xx Australia',
+			alt: 'PC Original Big Box BigBox False Very rare Australia',
 		},
 		support: 'PC',
 		own: false,
@@ -216,7 +216,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '--',
+		ean: '',
 		title: 'BigRezo Trackmania Nations',
 		publisher: 'Nadeo, Focus',
 		country: 'France',
@@ -228,7 +228,7 @@ const GAMES = [
 				require('@/assets/games/france/eca25399-7cca-4718-90a6-1bdcca0f16bb.webp'),
 				require('@/assets/games/france/eca25399-7cca-4718-90a6-1bdcca0f16bb_1.webp'),
 			],
-			alt: 'PC BigRezo Nations Games own Gem -- France',
+			alt: 'PC BigRezo Nations Games own Gem France',
 		},
 		support: 'PC',
 		own: true,
@@ -288,7 +288,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '---',
+		ean: '',
 		title: 'Trackmania United',
 		publisher: 'Nadeo, UserJoy Technology',
 		country: 'Taiwan',
@@ -324,7 +324,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628082994(1)',
+		ean: '4020628082994',
 		title: 'Trackmania United (Limitierte Erstauflage)',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -594,7 +594,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '----',
+		ean: '',
 		title: 'Trackmania Original',
 		publisher: 'Nadeo, Focus, Dynastar',
 		country: 'Taiwan',
@@ -603,7 +603,7 @@ const GAMES = [
 		rarity: 'Gem',
 		image: {
 			src: [require('@/assets/games/taiwan/5c15088d-4687-4c18-88b8-3c37953b7ee4.webp')],
-			alt: 'PC own Gem ---- Taiwan',
+			alt: 'PC own Gem Taiwan',
 		},
 		support: 'PC',
 		own: true,
@@ -681,7 +681,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3512289008044(1)',
+		ean: '3512289008044',
 		title: 'Trackmania',
 		publisher: 'Nadeo, QV Software',
 		country: 'Australia',
@@ -825,7 +825,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628082994(2)',
+		ean: '4020628082994',
 		title: 'Trackmania United',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -879,7 +879,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628080181(1)',
+		ean: '4020628080181',
 		title: 'Trackmania',
 		publisher: 'Nadeo, G Star Player',
 		country: 'Italy',
@@ -1185,7 +1185,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: 'XboxPromo',
+		ean: '',
 		title: 'Xbox Promotional',
 		publisher: 'Ubisoft',
 		country: 'International',
@@ -1218,7 +1218,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: 'PS4Promo',
+		ean: '',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'International',
@@ -1395,7 +1395,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913697(1)',
+		ean: '3307215913697',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'France',
@@ -1413,7 +1413,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913697(2)',
+		ean: '3307215913697',
 		title: 'Trackmania Turbo VR',
 		publisher: 'Ubisoft',
 		country: 'France',
@@ -1467,7 +1467,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: 'Missing1',
+		ean: '',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'France',
@@ -1539,7 +1539,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3512289012010(1)',
+		ean: '3512289012010',
 		title: 'TMS COLLECTION ARCADE silver',
 		publisher: 'Nadeo, Focus',
 		country: 'France',
@@ -1557,7 +1557,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3512289012010(2)',
+		ean: '3512289012010',
 		title: 'TMSX COLLECTION ARCADE silver',
 		publisher: 'Nadeo, Focus',
 		country: 'France',
@@ -1593,7 +1593,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628000530(1)',
+		ean: '4020628000530',
 		title: 'Trackmania Full CD',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -1611,7 +1611,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628000530(2)',
+		ean: '4020628000530',
 		title: 'Trackmania',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -1647,7 +1647,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628080242(1)',
+		ean: '4020628080242',
 		title: 'Trackmania Sunrise',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -1665,7 +1665,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628080242(2)',
+		ean: '4020628080242',
 		title: 'Trackmania Sunrise',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -1683,7 +1683,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4020628080242(3)',
+		ean: '4020628080242',
 		title: 'Trackmania Sunrise',
 		publisher: 'Nadeo, Deep Silver',
 		country: 'Germany',
@@ -1845,7 +1845,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913703(1)',
+		ean: '3307215913703',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'Germany',
@@ -1863,7 +1863,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913703(2)',
+		ean: '3307215913703',
 		title: 'Trackmania Turbo VR',
 		publisher: 'Ubisoft',
 		country: 'Germany',
@@ -1899,7 +1899,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913758(1)',
+		ean: '3307215913758',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'Spain',
@@ -1917,7 +1917,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913758(2)',
+		ean: '3307215913758',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'Spain',
@@ -2133,7 +2133,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913727(1)',
+		ean: '3307215913727',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'Italy',
@@ -2151,7 +2151,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '3307215913727(2)',
+		ean: '3307215913727',
 		title: 'Trackmania Turbo VR',
 		publisher: 'Ubisoft',
 		country: 'Italy',
@@ -2433,7 +2433,7 @@ const GAMES = [
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577272982',
@@ -2862,7 +2862,7 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: '3512289015xxx',
+		ean: '3512289015592',
 		title: 'Trackmania DS',
 		publisher: 'Focus',
 		country: 'Russia',
@@ -2874,7 +2874,7 @@ const GAMES = [
 				require('@/assets/games/russia/36be3903-fd7a-4a59-8c78-029463b31303.webp'),
 				require('@/assets/games/russia/36be3903-fd7a-4a59-8c78-029463b31303_1.webp'),
 			],
-			alt: 'DS Rare False 3512289015xxx Russia',
+			alt: 'DS Rare False 3512289015592 Russia',
 		},
 		support: 'DS',
 		own: false,
@@ -3069,7 +3069,7 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: '3512289008044(2)',
+		ean: '3512289008044',
 		title: 'Trackmania',
 		publisher: 'Nadeo, MediaMix',
 		country: 'Netherlands',
@@ -3378,7 +3378,7 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: '/',
+		ean: '',
 		title: 'Trackmania Turbo',
 		publisher: 'Ubisoft',
 		country: 'Russia',
@@ -3411,7 +3411,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4600974005924(1)',
+		ean: '4600974005924',
 		title: 'Trackmania United',
 		publisher: 'Nadeo, Focus, Buka Entertainment',
 		country: 'Russia',
@@ -3447,7 +3447,7 @@ const GAMES = [
 		own: true,
 	},
 	{
-		ean: '4600974005924(2)',
+		ean: '4600974005924',
 		title: 'Trackmania United',
 		publisher: 'Nadeo, Focus, Buka Entertainment',
 		country: 'Russia',
@@ -3456,7 +3456,7 @@ const GAMES = [
 		rarity: 'Rare',
 		image: {
 			src: [require('@/assets/games/russia/0a971127-957b-483e-801e-6aca60a0f768.webp')],
-			alt: 'PC United Jewel Case 4600974005924(2) Rare False Russia',
+			alt: 'PC United Jewel Case 4600974005924 Rare False Russia',
 		},
 		support: 'PC',
 		own: false,
@@ -3495,7 +3495,7 @@ const GAMES = [
 		own: false,
 	},
 	{
-		ean: '3512289008044(3)',
+		ean: '3512289008044',
 		title: 'Trackmania',
 		publisher: 'Nadeo, QV Software',
 		country: 'Australia',

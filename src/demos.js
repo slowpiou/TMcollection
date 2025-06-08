@@ -228,6 +228,68 @@ const DEMOS = [
 	{
 		title: 'Missing',
 		image: {
+			src: [
+				require('@/assets/demos/france/0abdbf54-96a9-4896-999b-8c2af644b01d.webp'),
+				require('@/assets/demos/france/0abdbf54-96a9-4896-999b-8c2af644b01d_1.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/france/64f61a60-bc7b-4ba9-8294-a3a5398524f5.webp'),
+				require('@/assets/demos/france/64f61a60-bc7b-4ba9-8294-a3a5398524f5_1.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/france/2ab99ca5-af48-410e-9389-8d2096a8036b.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/france/b30389b2-2e22-403f-bd6f-42240e7c16b5.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/france/bf9bdc5e-9bbe-4335-8d80-ea811ec9d983.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/france/eee088e3-cd44-49aa-b59e-b974fb6ba23c.webp'),
+			],
+		},
+		country: 'france',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
 			src: [require('@/assets/demos/germany/24dcd0cb-a3a4-443b-80d1-7f8f3f907fc1.webp')],
 		},
 		country: 'germany',
@@ -282,6 +344,28 @@ const DEMOS = [
 			src: [
 				require('@/assets/demos/germany/116b6a9a-a323-412e-a6d8-d438ef663d28.webp'),
 				require('@/assets/demos/germany/116b6a9a-a323-412e-a6d8-d438ef663d28_1.webp'),
+			],
+		},
+		country: 'germany',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/germany/02c70b72-b6b5-4a15-a3f2-d7a195f06490.webp'),
+				require('@/assets/demos/germany/02c70b72-b6b5-4a15-a3f2-d7a195f06490_1.webp'),
+			],
+		},
+		country: 'germany',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/germany/e4bb89bc-04ff-4e9f-a373-fa4c7f57f97a.webp'),
+				require('@/assets/demos/germany/e4bb89bc-04ff-4e9f-a373-fa4c7f57f97a_1.webp'),
 			],
 		},
 		country: 'germany',
@@ -565,7 +649,7 @@ const DEMOS = [
 			],
 		},
 		country: 'russia',
-		own: true,
+		own: false,
 	},
 	{
 		title: 'Missing',
@@ -682,6 +766,17 @@ const DEMOS = [
 	{
 		title: 'Missing',
 		image: {
+			src: [
+				require('@/assets/demos/spain/5c1d357d-442b-43c2-9534-eca1748a7625.webp'),
+				require('@/assets/demos/spain/5c1d357d-442b-43c2-9534-eca1748a7625_1.webp'),
+			],
+		},
+		country: 'spain',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
 			src: [require('@/assets/demos/uk/2f13f577-49ac-453c-ae65-b31aa73656f9.webp')],
 		},
 		country: 'uk',
@@ -720,6 +815,38 @@ const DEMOS = [
 			],
 		},
 		country: 'usa',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/usa/b98a2493-0206-4fab-b05d-ac35a4afa5b2.webp'),
+			],
+		},
+		country: 'usa',
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/china/5f8de526-75a3-4213-983d-25d282e427c6.webp'),
+				require('@/assets/demos/china/5f8de526-75a3-4213-983d-25d282e427c6_1.webp'),
+			],
+		},
+		country: 'china',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/china/b03c1933-3553-48f7-a4b1-cc005bfd514a.webp'),
+				require('@/assets/demos/china/b03c1933-3553-48f7-a4b1-cc005bfd514a_1.webp'),
+			],
+		},
+		country: 'china',
 		own: false,
 	},
 ];

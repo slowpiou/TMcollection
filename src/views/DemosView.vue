@@ -47,7 +47,7 @@ export default {
 		return {
 			demos: DEMOS,
 			countries: COUNTRIES.filter((c) =>
-				['France', 'Germany', 'India', 'Italy', 'Spain', 'Portugal', 'UK', 'Ukraine', 'Russia', 'USA', 'Poland', 'Brazil', 'Czech'].includes(
+				['China', 'France', 'Germany', 'India', 'Italy', 'Spain', 'Portugal', 'UK', 'Russia', 'USA', 'Poland', 'Brazil', 'Czech'].includes(
 					c.name
 				)
 			),
