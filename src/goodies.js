@@ -506,7 +506,7 @@ const GOODIES = [
 			alt: 'Square maniaplanet Green',
 		},
 		type: 'TM1-2',
-		own: true,
+		own: false,
 	},
 	{
 		title: 'Bottle Canyon',
@@ -540,6 +540,28 @@ const GOODIES = [
 		},
 		type: 'TM1-2',
 		own: false,
+	},
+	{
+		title: 'poster original',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/0f337836-2788-4fc2-a70d-7854787d87c7.webp'),
+			],
+			alt: 'poster original',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'poster tmnf',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/e44ab19d-80cb-45a7-8a56-c6654171404e.webp'),
+			],
+			alt: 'poster tmnf',
+		},
+		type: 'TM1-2',
+		own: true,
 	},
 	{
 		title: 'Tshirt Shootmania Black',
@@ -1064,6 +1086,17 @@ const GOODIES = [
 		own: true,
 	},
 	{
+		title: 'poster turbo',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/f45fd253-9b8b-422b-9495-7ff357862691.webp'),
+			],
+			alt: 'poster turbo',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
 		title: 'Tshirt 1 Zerator',
 		image: {
 			src: [
@@ -1217,6 +1250,28 @@ const GOODIES = [
 				require('@/assets/goodies/Zerator/ee73886d-c371-4ca9-94ac-eec644e82f53.webp'),
 			],
 			alt: 'Bracelet Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'flag Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/275f154e-fe49-44a1-baa2-712a8c617564.webp'),
+			],
+			alt: 'flag Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'bag Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/c916ca74-e0be-4fca-8a04-5036525ea987.webp'),
+			],
+			alt: 'bag Zerator',
 		},
 		type: 'Zerator',
 		own: true,
