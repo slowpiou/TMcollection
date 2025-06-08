@@ -78,6 +78,8 @@ export default {
 		handleScroll() {
 			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
 				this.currentPage++;
+			} else if (window.scrollY === 0) {
+				this.currentPage = 1;
 			}
 		},
 	},
