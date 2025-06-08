@@ -4,23 +4,19 @@
 	<div class="container mt-5">
 		<div class="columns is-multiline">
 			<template v-for="(g, j) in demosPaginated" :key="j">
-				<div class="column is-2 is-flex is-flex-direction-column is-justify-content-space-between">
-					<div class="is-relative">
-						<Carousel :items-to-show="itemsToShow" :mouse-drag="false">
-							<Slide v-for="image in g.image.src" :key="image.id">
-								<figure class="image" @click="openGameModal(g.image)">
-									<img :src="image" :alt="g.image.alt" />
-								</figure>
-							</Slide>
+				<div class="column is-2 is-flex is-flex-direction-column is-justify-content-space-between is-relative">
+					<Carousel :items-to-show="itemsToShow" :mouse-drag="false">
+						<Slide v-for="image in g.image.src" :key="image.id">
+							<figure class="image is-3by4" @click="openGameModal(g.image)">
+								<img :src="image" :alt="g.image.alt" class="is-relative" />
+							</figure>
+						</Slide>
 
-							<template #addons>
-								<Navigation />
-							</template>
-						</Carousel>
-						<owned-or-not :owned="g.own"></owned-or-not>
-					</div>
-
-					<div class="content">{{ g.title }}</div>
+						<template #addons>
+							<Navigation />
+						</template>
+					</Carousel>
+					<owned-or-not :owned="g.own"></owned-or-not>
 				</div>
 			</template>
 		</div>
@@ -68,8 +64,6 @@ export default {
 	},
 	methods: {
 		filterDemosByCountry(c) {
-			console.log(c);
-
 			this.filteredDemos = c !== '' ? this.demos.filter((g) => g.country.includes(c.toLowerCase())) : this.demos;
 		},
 		openGameModal(g) {
@@ -83,6 +77,8 @@ export default {
 		},
 	},
 	created() {
+		console.log(this.demos.length);
+
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	unmounted() {
@@ -90,3 +86,14 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+.column {
+	background-color: #57462e;
+	background-clip: content-box;
+}
+.image img {
+	object-fit: cover !important;
+	object-position: center !important;
+}
+</style>
