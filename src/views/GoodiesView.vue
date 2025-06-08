@@ -1,6 +1,14 @@
 <template>
-	<item-filter :items="types" @filteredByItem="filterGoodiesByType"></item-filter>
-
+	<div class="container my-5">
+		<div class="columns is-multiline is-justify-content-center">
+			<template v-for="(c, i) in types" :key="i">
+				<div class="column is-1 game-flag" @click="filterGoodiesByType(c.name)" :class="selectedItem === c.name ? 'active' : ''">
+					<div class="game-name">{{ c.name }}</div>
+				</div>
+			</template>
+		</div>
+	</div>
+	<br />
 	<div class="container mt-5">
 		<div class="columns is-multiline">
 			<template v-for="(g, j) in goodiesPaginated" :key="j">
@@ -29,14 +37,13 @@
 <script>
 import GOODIES from '@/goodies.js';
 import GameModal from '@/components/GameModal.vue';
-import ItemFilter from '@/components/ItemFilter.vue';
 import EmptyHero from '@/components/EmptyHero.vue';
 import OwnedOrNot from '@/components/OwnedOrNot.vue';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 export default {
 	name: 'GoodiesView',
 	props: ['ownFilter'],
-	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
+	components: { Carousel, Slide, Navigation, GameModal, EmptyHero, OwnedOrNot },
 	data() {
 		return {
 			goodies: GOODIES,
@@ -54,6 +61,7 @@ export default {
 			itemsToShow: 1,
 			currentPage: 1,
 			perPage: 18,
+			selectedItem: '',
 		};
 	},
 	computed: {
@@ -64,7 +72,12 @@ export default {
 	},
 	methods: {
 		filterGoodiesByType(g) {
-			this.filteredGoodies = g !== '' ? this.goodies.filter((good) => good.type.includes(g)) : this.goodies;
+			if (this.selectedItem === g) {
+				this.selectedItem = '';
+			} else {
+				this.selectedItem = g;
+			}
+			this.filteredGoodies = this.selectedItem ? this.goodies.filter((good) => good.type.includes(g)) : this.goodies;
 		},
 		openGameModal(g) {
 			this.gameModalContent = g;
@@ -93,5 +106,22 @@ export default {
 .image img {
 	object-fit: cover !important;
 	object-position: center !important;
+}
+.game-flag {
+	background-color: rgb(7, 7, 7);
+	height: 75px;
+	width: 150px;
+	border-radius: 15px;
+	position: relative;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.game-flag:hover .game-name,
+.game-flag.active .game-name {
+	color: rgb(72, 199, 142);
+	font-weight: bold;
 }
 </style>
