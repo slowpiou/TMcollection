@@ -1,8 +1,8 @@
 <template>
-	<span class="icon" v-if="owned">
+	<span class="icon" v-if="owned" :class="$route.name === 'goodies' ? 'goodies' : ''">
 		<i class="fas fa-check has-text-white own"></i>
 	</span>
-	<span class="icon not" v-else>
+	<span class="icon not" v-else :class="$route.name === 'goodies' ? 'goodies' : ''">
 		<i class="fas fa-times has-text-white own"></i>
 	</span>
 </template>
@@ -24,6 +24,10 @@ export default {
 	height: 0;
 	border-bottom: 40px solid rgb(5, 139, 39);
 	border-left: 40px solid transparent;
+}
+.icon.goodies {
+	right: 12px;
+	bottom: 12px;
 }
 .icon.not {
 	border-bottom: 40px solid rgb(170, 11, 11);

@@ -56,7 +56,7 @@ export default {
 	components: { Carousel, Slide, Navigation, GameModal, ItemFilter, EmptyHero, OwnedOrNot },
 	data() {
 		return {
-			countries: COUNTRIES,
+			countries: COUNTRIES.filter((c) => !['India'].includes(c.name)),
 			games: GAMES,
 			filteredGames: GAMES,
 			itemsToShow: 1,

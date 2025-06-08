@@ -46,7 +46,9 @@ export default {
 		return {
 			demos: DEMOS,
 			countries: COUNTRIES.filter((c) =>
-				['France', 'Germany', 'India', 'Italy', 'Spain', 'Portugal', 'UK', 'Ukraine', 'Russia', 'USA', 'Poland', 'Brazil', 'Czech'].includes(c.name)
+				['France', 'Germany', 'India', 'Italy', 'Spain', 'Portugal', 'UK', 'Ukraine', 'Russia', 'USA', 'Poland', 'Brazil', 'Czech'].includes(
+					c.name
+				)
 			),
 			filteredDemos: DEMOS,
 			itemsToShow: 1,
@@ -66,7 +68,9 @@ export default {
 	},
 	methods: {
 		filterDemosByCountry(c) {
-			this.filteredDemos = c !== '' ? this.demos.filter((g) => g.country.includes(c)) : this.demos;
+			console.log(c);
+
+			this.filteredDemos = c !== '' ? this.demos.filter((g) => g.country.includes(c.toLowerCase())) : this.demos;
 		},
 		openGameModal(g) {
 			this.gameModalContent = g;
