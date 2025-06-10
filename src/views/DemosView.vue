@@ -80,12 +80,17 @@ export default {
 				this.currentPage++;
 			} else if (window.scrollY === 0) {
 				this.currentPage = 1;
+				if (window.innerHeight > 1080) {
+					this.currentPage = 2;
+				}
 			}
 		},
 	},
 	created() {
 		this.currentPage = 1;
-
+		if (window.innerHeight > 1080) {
+			this.currentPage = 2;
+		}
 		window.addEventListener('scroll', this.handleScroll);
 	},
 	unmounted() {
