@@ -87,7 +87,7 @@ const GOODIES = [
 			alt: 'Mousepad Stadium2',
 		},
 		type: 'TM1-2',
-		own: false,
+		own: true,
 	},
 	{
 		title: 'green hat',
@@ -286,7 +286,7 @@ const GOODIES = [
 			alt: 'Pins Crime',
 		},
 		type: 'TM1-2',
-		own: false,
+		own: true,
 	},
 	{
 		title: 'lot 2',
@@ -374,7 +374,7 @@ const GOODIES = [
 			alt: 'Circle Lagoon',
 		},
 		type: 'TM1-2',
-		own: false,
+		own: true,
 	},
 	{
 		title: 'Circle Valley',
@@ -562,6 +562,106 @@ const GOODIES = [
 		},
 		type: 'TM1-2',
 		own: true,
+	},
+	{
+		title: 'bag vallet',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/0ea4ffa1-c1db-4564-8641-538df808cb02.webp'),
+			],
+			alt: 'bag vallet',
+		},
+		type: 'TM1-2',
+		own: false,
+	},
+	{
+		title: 'tshirt 15 years',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/20860fa4-0208-49e9-8bb1-d347a74c53dc.webp'),
+			],
+			alt: 'tshirt 15 years',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt 10 years',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/bb2c5bd7-6db2-4ad7-9cc8-c35802ec3963.webp'),
+			],
+			alt: 'tshirt 10 years',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt vallet',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/c89ed3a1-3c91-4ed5-b32d-aa0ab89b6457.webp'),
+			],
+			alt: 'tshirt vallet',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt united bigbox',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/ca6d56c6-139b-44d1-989b-073831ef3686.webp'),
+			],
+			alt: 'tshirt united bigbox',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt white original',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/cadb0702-5b41-4354-bd52-efac1048835b.webp'),
+			],
+			alt: 'tshirt white original',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt trackmania green',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/d7ca5093-a7db-4f6f-a7a5-f9e7c2a937ff.webp'),
+			],
+			alt: 'tshirt trackmania green',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'tshirt maniaplanet',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/e21e84a0-56b4-44dc-9594-f5036914bcbd.webp'),
+				require('@/assets/goodies/TM1-2/e21e84a0-56b4-44dc-9594-f5036914bcbd_1.webp'),
+			],
+			alt: 'tshirt maniaplanet',
+		},
+		type: 'TM1-2',
+		own: true,
+	},
+	{
+		title: 'poster canyon',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/fb54669d-86f2-4c54-9d13-3e14af9952ca.webp'),
+			],
+			alt: 'poster canyon',
+		},
+		type: 'TM1-2',
+		own: false,
 	},
 	{
 		title: 'Tshirt Shootmania Black',
@@ -996,6 +1096,39 @@ const GOODIES = [
 		own: false,
 	},
 	{
+		title: 'tshirt green TM20',
+		image: {
+			src: [
+				require('@/assets/goodies/TM20/49b1bce7-d7ac-4a2e-8cfb-7a64016bb199.webp'),
+			],
+			alt: 'tshirt green TM20',
+		},
+		type: 'TM20',
+		own: true,
+	},
+	{
+		title: 'sticker champion TM20',
+		image: {
+			src: [
+				require('@/assets/goodies/TM20/d4b2c13c-cd34-4e3f-b9c2-42028dcaa3f6.webp'),
+			],
+			alt: 'sticker champion TM20',
+		},
+		type: 'TM20',
+		own: false,
+	},
+	{
+		title: 'ad xpevo TM20',
+		image: {
+			src: [
+				require('@/assets/goodies/TM20/c519a6c1-087a-4486-8b98-57180cf348fc.webp'),
+			],
+			alt: 'ad xpevo TM20',
+		},
+		type: 'TM20',
+		own: false,
+	},
+	{
 		title: 'Sticker 1 Turbo',
 		image: {
 			src: [
@@ -1092,6 +1225,61 @@ const GOODIES = [
 				require('@/assets/goodies/TM-Turbo/f45fd253-9b8b-422b-9495-7ff357862691.webp'),
 			],
 			alt: 'poster turbo',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
+		title: 'tshirt double driver',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/3e070600-5d70-4348-9694-c7e1f21ec110.webp'),
+			],
+			alt: 'tshirt double driver',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
+		title: 'tshirt laggon',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/6d779134-df3e-4c27-96a6-248b4b8958aa.webp'),
+			],
+			alt: 'tshirt laggon',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
+		title: 'tshirt track master',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/3797d6bc-5441-4448-860b-59a042802475.webp'),
+			],
+			alt: 'tshirt track master',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
+		title: 'tshirt try hard',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/85892bcf-2bc9-4bd8-81e9-7bf647238054.webp'),
+			],
+			alt: 'tshirt try hard',
+		},
+		type: 'TM-Turbo',
+		own: true,
+	},
+	{
+		title: 'tshirt live fast',
+		image: {
+			src: [
+				require('@/assets/goodies/TM-Turbo/aa9f7835-fca7-4daa-9a79-7c190cc532e9.webp'),
+			],
+			alt: 'tshirt live fast',
 		},
 		type: 'TM-Turbo',
 		own: true,
@@ -1272,6 +1460,39 @@ const GOODIES = [
 				require('@/assets/goodies/Zerator/c916ca74-e0be-4fca-8a04-5036525ea987.webp'),
 			],
 			alt: 'bag Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'tshirt zeppelin Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/38310bf3-8af6-4735-ae4e-1d7f0bb24ce9.webp'),
+			],
+			alt: 'tshirt zeppelin Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'pontalon Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/92fde6b0-ad3c-4517-9c0f-a40f7290e463.webp'),
+			],
+			alt: 'pontalon Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'tshirt blister Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/86da702f-c667-4b1e-90a7-a2ecdea12e48.webp'),
+			],
+			alt: 'tshirt blister Zerator',
 		},
 		type: 'Zerator',
 		own: true,
@@ -1470,6 +1691,50 @@ const GOODIES = [
 				require('@/assets/goodies/Others/fe3ed7ba-d48f-42bf-b83a-5c3316ae2351.webp'),
 			],
 			alt: 'Tshirt signature',
+		},
+		type: 'Others',
+		own: false,
+	},
+	{
+		title: 'pass xpevo',
+		image: {
+			src: [
+				require('@/assets/goodies/Others/1fa3630a-09c0-4e48-a89c-9acdc5155769.webp'),
+			],
+			alt: 'pass xpevo',
+		},
+		type: 'Others',
+		own: false,
+	},
+	{
+		title: 'pass xpevo staff',
+		image: {
+			src: [
+				require('@/assets/goodies/Others/98594201-3922-440c-adbc-9b353fb79644.webp'),
+			],
+			alt: 'pass xpevo staff',
+		},
+		type: 'Others',
+		own: false,
+	},
+	{
+		title: 'pass lyon riolu',
+		image: {
+			src: [
+				require('@/assets/goodies/Others/2cebd72b-75f2-43e3-9449-e7e3509f0aa1.webp'),
+			],
+			alt: 'pass lyon riolu',
+		},
+		type: 'Others',
+		own: false,
+	},
+	{
+		title: 'pass stade france',
+		image: {
+			src: [
+				require('@/assets/goodies/Others/f501bc4d-e7d7-4725-affa-1eb31a616114.webp'),
+			],
+			alt: 'pass stade france',
 		},
 		type: 'Others',
 		own: false,

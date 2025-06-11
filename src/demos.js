@@ -756,6 +756,66 @@ const DEMOS = [
 		title: 'Missing',
 		image: {
 			src: [
+				require('@/assets/demos/russia/79e5990a-cd81-4c2a-8f6d-63c68306c7bf.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/ab7ae97f-66c1-491d-803e-e7569acf4f07.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/dc332064-139e-4dac-81d3-5a1b666c0d13.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/e2f1e379-3086-4c92-b1a9-431ab5433b2a.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/e50389ca-3c35-4ece-9f2e-0b2b2b4921f7.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/russia/c2cf3672-0170-40c7-a248-18b9ddb10f18.webp'),
+			],
+		},
+		country: 'russia',
+		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
 				require('@/assets/demos/spain/3854b03e-790e-4d86-b465-892170f02956.webp'),
 				require('@/assets/demos/spain/3854b03e-790e-4d86-b465-892170f02956_1.webp'),
 			],

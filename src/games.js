@@ -1185,6 +1185,42 @@ const GAMES = [
 		own: true,
 	},
 	{
+		ean: '3307215913710',
+		title: 'Trackmania turbo',
+		publisher: 'Ubisoft',
+		country: 'USA',
+		release: '',
+		bigbox: 'no',
+		rarity: 'Common',
+		image: {
+			src: [
+				require('@/assets/games/usa/37b431e4-7150-423f-a53f-01adedc2fb79.webp'),
+				require('@/assets/games/usa/37b431e4-7150-423f-a53f-01adedc2fb79_1.webp'),
+			],
+			alt: 'PS4 Turbo common 3307215913710 USA',
+		},
+		support: 'PS4',
+		own: true,
+	},
+	{
+		ean: '887256015701',
+		title: 'Trackmania turbo',
+		publisher: 'Ubisoft',
+		country: 'USA',
+		release: '',
+		bigbox: 'no',
+		rarity: 'Common',
+		image: {
+			src: [
+				require('@/assets/games/usa/7811eb86-919f-444d-b146-cebfb7b414c9.webp'),
+				require('@/assets/games/usa/7811eb86-919f-444d-b146-cebfb7b414c9_1.webp'),
+			],
+			alt: 'Xbox Turbo common 887256015701 USA',
+		},
+		support: 'Xbox',
+		own: true,
+	},
+	{
 		ean: '',
 		title: 'Xbox Promotional',
 		publisher: 'Ubisoft',
