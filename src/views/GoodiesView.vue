@@ -92,18 +92,12 @@ export default {
 			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
 				this.currentPage++;
 			} else if (window.scrollY === 0) {
-				this.currentPage = 1;
-				if (window.innerHeight > 1080) {
-					this.currentPage = 2;
-				}
+				this.currentPage = window.innerHeight > 1080 ? 2 : 1;
 			}
 		},
 	},
 	created() {
-		this.currentPage = 1;
-		if (window.innerHeight > 1080) {
-			this.currentPage = 2;
-		}
+		this.currentPage = window.innerHeight > 1080 ? 2 : 1;
 
 		window.addEventListener('scroll', this.handleScroll);
 	},
