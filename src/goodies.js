@@ -131,7 +131,7 @@ const GOODIES = [
 			alt: 'Canyon circle',
 		},
 		type: 'TM1-2',
-		own: true,
+		own: false,
 	},
 	{
 		title: 'Wii wheel',

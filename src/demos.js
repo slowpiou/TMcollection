@@ -29,10 +29,24 @@ const DEMOS = [
 	{
 		title: 'Missing',
 		image: {
-			src: [require('@/assets/demos/czech/43a2c0cd-8810-493a-baf9-c72a3383f97f.webp')],
+			src: [
+				require('@/assets/demos/czech/43a2c0cd-8810-493a-baf9-c72a3383f97f.webp'),
+				require('@/assets/demos/czech/43a2c0cd-8810-493a-baf9-c72a3383f97f_1.webp'),
+			],
 		},
 		country: 'czech',
-		own: false,
+		own: true,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/czech/65b2675e-49a6-4893-80f2-1b82f7b6202d.webp'),
+				require('@/assets/demos/czech/65b2675e-49a6-4893-80f2-1b82f7b6202d_1.webp'),
+			],
+		},
+		country: 'czech',
+		own: true,
 	},
 	{
 		title: 'Missing',
@@ -451,6 +465,14 @@ const DEMOS = [
 		},
 		country: 'poland',
 		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [require('@/assets/demos/poland/974a199c-2dd9-4b04-9970-154104bc4bc5.webp')],
+		},
+		country: 'poland',
+		own: true,
 	},
 	{
 		title: 'Missing',
@@ -908,6 +930,17 @@ const DEMOS = [
 		},
 		country: 'china',
 		own: false,
+	},
+	{
+		title: 'Missing',
+		image: {
+			src: [
+				require('@/assets/demos/finland/1a6c9683-8889-434a-a3a0-46adfa955a08.webp'),
+				require('@/assets/demos/finland/1a6c9683-8889-434a-a3a0-46adfa955a08_1.webp'),
+			],
+		},
+		country: 'finland',
+		own: true,
 	},
 ];
 

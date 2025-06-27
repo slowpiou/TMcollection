@@ -2375,11 +2375,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/poland/5f8dfb07-849a-4ab6-831d-9c2600fe3073.webp')],
-			alt: 'PC Power Up ! 5907577271398 Common False Poland',
+			src: [
+				require('@/assets/games/poland/5f8dfb07-849a-4ab6-831d-9c2600fe3073.webp'),
+				require('@/assets/games/poland/5f8dfb07-849a-4ab6-831d-9c2600fe3073_1.webp'),
+			],
+			alt: 'PC Power Up ! 5907577271398 Common true Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577271398',
@@ -2394,10 +2397,10 @@ const GAMES = [
 				require('@/assets/games/poland/5637b615-fb00-4c44-aed6-65e1ee87d0fd.webp'),
 				require('@/assets/games/poland/5637b615-fb00-4c44-aed6-65e1ee87d0fd_1.webp'),
 			],
-			alt: 'PC Power Up ! 5907577271398 Common False Poland',
+			alt: 'PC Power Up ! 5907577271398 Common true Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: 'ISSN1640307X',
@@ -2480,11 +2483,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/poland/98662f55-3015-41d5-8e3a-1d7a1985937a.webp')],
+			src: [
+				require('@/assets/games/poland/98662f55-3015-41d5-8e3a-1d7a1985937a.webp'),
+				require('@/assets/games/poland/98662f55-3015-41d5-8e3a-1d7a1985937a_1.webp'),
+			],
 			alt: 'PC Sunrise Extreme 5907577272982 Common False Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577272975',
@@ -2787,10 +2793,10 @@ const GAMES = [
 				require('@/assets/games/spain/9f5a5c7b-1723-4e54-b21f-59237a792c66.webp'),
 				require('@/assets/games/spain/9f5a5c7b-1723-4e54-b21f-59237a792c66_1.webp'),
 			],
-			alt: 'Xbox Turbo Common False 3307215913895 Spain',
+			alt: 'Xbox Turbo Common true 3307215913895 Spain',
 		},
 		support: 'Xbox',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '0887256107475',
@@ -3257,11 +3263,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [require('@/assets/games/czech/0a875b71-9acc-4589-a8a8-2e7fcf2342fb.webp')],
-			alt: 'PC Sunrise 8595228101698 / 4033756001263 Very Rare False 3512289017336 Czech',
+			src: [
+				require('@/assets/games/czech/0a875b71-9acc-4589-a8a8-2e7fcf2342fb.webp'),
+				require('@/assets/games/czech/0a875b71-9acc-4589-a8a8-2e7fcf2342fb_1.webp'),
+			],
+			alt: 'PC Sunrise 8595228101698 / 4033756001263 Very Rare true 3512289017336 Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8594037371308',
@@ -3272,11 +3281,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [require('@/assets/games/czech/d6a11439-a57e-4292-82a6-0301f0cf2fa9.webp')],
-			alt: 'PC United Forever Very Rare False 8594037371308 Czech',
+			src: [
+				require('@/assets/games/czech/d6a11439-a57e-4292-82a6-0301f0cf2fa9.webp'),
+				require('@/assets/games/czech/d6a11439-a57e-4292-82a6-0301f0cf2fa9_1.webp'),
+			],
+			alt: 'PC United Forever Very Rare true 8594037371308 Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8594037371001',
@@ -3287,11 +3299,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [require('@/assets/games/czech/c8c5ef0e-e9f8-414a-bde9-9dca7974f3ad.webp')],
-			alt: 'PC United Very Rare False 8594037371001 Czech',
+			src: [
+				require('@/assets/games/czech/c8c5ef0e-e9f8-414a-bde9-9dca7974f3ad.webp'),
+				require('@/assets/games/czech/c8c5ef0e-e9f8-414a-bde9-9dca7974f3ad_1.webp'),
+			],
+			alt: 'PC United Very Rare true 8594037371001 Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '9770322958006',
@@ -3302,11 +3317,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/czech/5b10d5ed-acc4-418d-a9ca-93005bb47f15.webp')],
-			alt: 'PC Sunrise Extreme Common False 9770322958006 Czech',
+			src: [
+				require('@/assets/games/czech/5b10d5ed-acc4-418d-a9ca-93005bb47f15.webp'),
+				require('@/assets/games/czech/5b10d5ed-acc4-418d-a9ca-93005bb47f15_1.webp'),
+			],
+			alt: 'PC Sunrise Extreme Common true 9770322958006 Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8594037370615',
@@ -3317,11 +3335,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [require('@/assets/games/czech/65171092-fdea-4046-9958-41ca10b20ad5.webp')],
-			alt: 'PC Sunrise Very Rare False 8594037370615 Czech',
+			src: [
+				require('@/assets/games/czech/65171092-fdea-4046-9958-41ca10b20ad5.webp'),
+				require('@/assets/games/czech/65171092-fdea-4046-9958-41ca10b20ad5_1.webp'),
+			],
+			alt: 'PC Sunrise Very Rare true 8594037370615 Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8590349001308 / 8590349001131 / 4033756001263 ',
@@ -3332,11 +3353,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Very Rare',
 		image: {
-			src: [require('@/assets/games/czech/28d6c48c-666e-431b-9b87-c389bb74f90a.webp')],
-			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare False Czech',
+			src: [
+				require('@/assets/games/czech/28d6c48c-666e-431b-9b87-c389bb74f90a.webp'),
+				require('@/assets/games/czech/28d6c48c-666e-431b-9b87-c389bb74f90a_1.webp'),
+			],
+			alt: 'PC Power Up ! 8590349001308 / 8590349001131 / 4033756001263 Very Rare true Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8590349001308 / 4033756001263',
@@ -3347,11 +3371,14 @@ const GAMES = [
 		bigbox: 'Yes',
 		rarity: 'Gem',
 		image: {
-			src: [require('@/assets/games/czech/2fca63a4-b9a4-415a-98c6-dba0e2f6aaa1.webp')],
-			alt: 'PC 8590349001308 / 4033756001263 Gem Big Box BigBox False Czech',
+			src: [
+				require('@/assets/games/czech/2fca63a4-b9a4-415a-98c6-dba0e2f6aaa1.webp'),
+				require('@/assets/games/czech/2fca63a4-b9a4-415a-98c6-dba0e2f6aaa1_1.webp'),
+			],
+			alt: 'PC 8590349001308 / 4033756001263 Gem Big Box BigBox true Czech',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577270391',
@@ -3362,11 +3389,14 @@ const GAMES = [
 		bigbox: 'Yes',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/poland/c74a25c7-38db-4201-ba00-dea53eae9405.webp')],
+			src: [
+				require('@/assets/games/poland/c74a25c7-38db-4201-ba00-dea53eae9405.webp'),
+				require('@/assets/games/poland/c74a25c7-38db-4201-ba00-dea53eae9405_1.webp'),
+			],
 			alt: 'PC Original 5907577270391 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577270629',
@@ -3377,11 +3407,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/poland/c3366109-c1c1-4dd7-a1a0-837d380e8e75.webp')],
+			src: [
+				require('@/assets/games/poland/c3366109-c1c1-4dd7-a1a0-837d380e8e75.webp'),
+				require('@/assets/games/poland/c3366109-c1c1-4dd7-a1a0-837d380e8e75_1.webp'),
+			],
 			alt: 'PC Sunrise Extreme 5907577270629 Common Big Box BigBox False Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5907577272371',
