@@ -465,7 +465,7 @@ const GAMES = [
 			alt: 'PC Original Very Rare False 8717278827629 Netherlands',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '8717278828299',
@@ -1188,7 +1188,7 @@ const GAMES = [
 		ean: '3307215913710',
 		title: 'Trackmania turbo',
 		publisher: 'Ubisoft',
-		country: 'USA',
+		country: 'Switzerland',
 		release: '',
 		bigbox: 'no',
 		rarity: 'Common',
@@ -1197,7 +1197,7 @@ const GAMES = [
 				require('@/assets/games/usa/37b431e4-7150-423f-a53f-01adedc2fb79.webp'),
 				require('@/assets/games/usa/37b431e4-7150-423f-a53f-01adedc2fb79_1.webp'),
 			],
-			alt: 'PS4 Turbo common 3307215913710 USA',
+			alt: 'PS4 Turbo common 3307215913710 Switzerland',
 		},
 		support: 'PS4',
 		own: true,
@@ -2847,7 +2847,7 @@ const GAMES = [
 			alt: 'PC Turbo Common False 3307215913598 Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '3307215913864',
@@ -2978,11 +2978,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Rare',
 		image: {
-			src: [require('@/assets/games/germany/50955bed-258a-4ab0-adbc-080f09d725f4.webp')],
+			src: [
+				require('@/assets/games/germany/50955bed-258a-4ab0-adbc-080f09d725f4.webp'),
+				require('@/assets/games/germany/50955bed-258a-4ab0-adbc-080f09d725f4_1.webp'),
+			],
 			alt: 'PC False Rare 9783833106446 Germany',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '5998237107430',
@@ -3015,7 +3018,7 @@ const GAMES = [
 			alt: 'PC Sunrise False Rare 5999545971980 Hungary',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '4582174810303',
@@ -3026,11 +3029,14 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/japan/d1e55cc0-067c-4122-9e93-d57c0c74086c.webp')],
+			src: [
+				require('@/assets/games/japan/d1e55cc0-067c-4122-9e93-d57c0c74086c.webp'),
+				require('@/assets/games/japan/d1e55cc0-067c-4122-9e93-d57c0c74086c_1.webp'),
+			],
 			alt: 'PC United Forever Common False 4582174810303 Japan',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '4949244003858',
@@ -3041,11 +3047,13 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Common',
 		image: {
-			src: [require('@/assets/games/japan/7f123391-bf75-4645-be26-9b2fef5f1c1e.webp')],
+			src: [require('@/assets/games/japan/7f123391-bf75-4645-be26-9b2fef5f1c1e.webp'),
+				require('@/assets/games/japan/7f123391-bf75-4645-be26-9b2fef5f1c1e_1.webp'),
+			],
 			alt: 'PS4 Turbo Common False 4949244003858 Japan',
 		},
 		support: 'PS4',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '3512289010719',
@@ -3425,11 +3433,13 @@ const GAMES = [
 		bigbox: 'No',
 		rarity: 'Gem',
 		image: {
-			src: [require('@/assets/games/poland/f190420a-9538-4107-84ea-9abe6a6b233f.webp')],
+			src: [
+				require('@/assets/games/poland/f190420a-9538-4107-84ea-9abe6a6b233f.webp'),
+				require('@/assets/games/poland/f190420a-9538-4107-84ea-9abe6a6b233f_1.webp'),],
 			alt: 'PC Sunrise Extreme 5907577272371 Gem Big Box BigBox False Poland',
 		},
 		support: 'PC',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '     ',

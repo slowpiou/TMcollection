@@ -664,6 +664,28 @@ const GOODIES = [
 		own: false,
 	},
 	{
+		title: 'Circle canyon',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/131e94e7-f080-42a0-b5bc-791dcdca6413.webp'),
+			],
+			alt: 'Circle canyon',
+		},
+		type: 'TM1-2',
+		own: false,
+	},
+		{
+		title: 'Tatouage 10 Years',
+		image: {
+			src: [
+				require('@/assets/goodies/TM1-2/44daa84a-60eb-40e8-ba14-b9dc9c106565.webp'),
+			],
+			alt: 'Tatouage 10 Years',
+		},
+		type: 'TM1-2',
+		own: false,
+	},
+	{
 		title: 'Tshirt Shootmania Black',
 		image: {
 			src: [
@@ -1493,6 +1515,28 @@ const GOODIES = [
 				require('@/assets/goodies/Zerator/86da702f-c667-4b1e-90a7-a2ecdea12e48.webp'),
 			],
 			alt: 'tshirt blister Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'tshirt Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/5d36f92d-06e4-470d-a308-08279104f887.webp'),
+			],
+			alt: 'tshirt Zerator',
+		},
+		type: 'Zerator',
+		own: true,
+	},
+	{
+		title: 'ascension Zerator',
+		image: {
+			src: [
+				require('@/assets/goodies/Zerator/e6b69fba-f4c2-466f-b6d2-d613bab545de.webp'),
+			],
+			alt: 'ascension Zerator',
 		},
 		type: 'Zerator',
 		own: true,
