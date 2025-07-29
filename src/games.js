@@ -2865,7 +2865,7 @@ const GAMES = [
 			alt: 'Xbox Turbo Common False 3307215913864 Poland',
 		},
 		support: 'Xbox',
-		own: false,
+		own: true,
 	},
 	{
 		ean: '887256015695',
