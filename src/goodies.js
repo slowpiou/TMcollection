@@ -683,7 +683,7 @@ const GOODIES = [
 			alt: 'Tatouage 10 Years',
 		},
 		type: 'TM1-2',
-		own: false,
+		own: true,
 	},
 	{
 		title: 'Tshirt Shootmania Black',
